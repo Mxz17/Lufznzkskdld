@@ -65,9 +65,9 @@ const defaultMenu = {
 
 乂 _\`ᴄ\` \`ᴏ\` \`ᴍ\` \`ᴀ\` \`ɴ\` \`ᴅ\` \`ᴏ\` \`ꜱ\`_ 乂
 `.trimStart(),
-  header: '╭─(❀)❝┊ *_`%category`_* ┊❝(❀)',
-  body: '┊➧ %cmd\n',
-  footer: '╰───────────── –\n',
+  header: '╭• •꒰─• *`%category`* ·ٜ۬･',
+  body: '│ %cmd\n',
+  footer: '╰• •───• •───• •───•\n',
   after: `> BY GENESISBOT-MD X Angel-OFC`,
 }
 let ppp = 'https://iili.io/ds8Qx9f.md.png'
