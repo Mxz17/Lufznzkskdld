@@ -51,24 +51,24 @@ let tags = {
 }
 
 const defaultMenu = {
-  before: `Hola \`%name\` soy GenesisBot-MD, %greeting
+   ٭  before: `Hola \`%name\` soy GenesisBot-MD, %greeting
 
-乂 _\`ᴜ\` \`ꜱ\` \`ᴜ\` \`ᴀ\` \`ʀ\` \`ɪ\` \`ᴏ\`_ 乂
+❀ۣۜۜ _\`ᴜ\` \`ꜱ\` \`ᴜ\` \`ᴀ\` \`ʀ\` \`ɪ\` \`ᴏ\`_ ❀ۣۜۜ
 
-• _\`ɴᴏᴍʙʀᴇ\`_ :: %name
-• _\`ʙᴏᴛ\`_ :: GenesisBot-MD
-• _\`ᴍᴏᴅᴏ\`_ :: Público
-• _\`ᴀᴄᴛɪᴠᴏ\`_ :: %muptime
-• _\`ᴜꜱᴜᴀʀɪᴏꜱ\`_ :: %totalreg
-• _\`ᴄᴏʀᴀᴢᴏɴᴇꜱ\`_ :: %corazones
-• _\`ɴɪᴠᴇʟ\`_ :: %level
+⍣ _\`ɴᴏᴍʙʀᴇ\`_ :: %name
+⍣ _\`ʙᴏᴛ\`_ :: GenesisBot-MD
+⍣ _\`ᴍᴏᴅᴏ\`_ :: Público
+⍣ _\`ᴀᴄᴛɪᴠᴏ\`_ :: %muptime
+⍣ _\`ᴜꜱᴜᴀʀɪᴏꜱ\`_ :: %totalreg
+⍣ _\`ᴄᴏʀᴀᴢᴏɴᴇꜱ\`_ :: %corazones
+⍣ _\`ɴɪᴠᴇʟ\`_ :: %level
 
-乂 _\`ᴄ\` \`ᴏ\` \`ᴍ\` \`ᴀ\` \`ɴ\` \`ᴅ\` \`ᴏ\` \`ꜱ\`_ 乂
+❀ۣۜۜ _\`ᴄ\` \`ᴏ\` \`ᴍ\` \`ᴀ\` \`ɴ\` \`ᴅ\` \`ᴏ\` \`ꜱ\`_ ❀ۣۜۜ
 `.trimStart(),
-  header: '╭• •꒰─• *`%category`* ·ٜ۬･',
-  body: '│ %cmd\n',
-  footer: '╰• •───• •───• •───•\n',
-  after: `> BY GENESISBOT-MD X Angel-OFC`,
+  header: '╓─━ • *`%category`* ·ٜ۬･',
+  body: '╟⛮ %cmd\n',
+  footer: '╙─━ • ─━ • •───•\n',
+  after: `> ࣭݊ျ֘▹ BY GENESISBOT-MD X Angel-OFC`,
 }
 let ppp = 'https://iili.io/ds8Qx9f.md.png'
 let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
