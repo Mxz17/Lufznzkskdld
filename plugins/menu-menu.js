@@ -51,7 +51,7 @@ let tags = {
 }
 
 const defaultMenu = {
-   ٭  before: `Hola \`%name\` soy GenesisBot-MD, %greeting
+     before: `Hola \`%name\` soy GenesisBot-MD, %greeting
 
 ❀ۣۜۜ _\`ᴜ\` \`ꜱ\` \`ᴜ\` \`ᴀ\` \`ʀ\` \`ɪ\` \`ᴏ\`_ ❀ۣۜۜ
 
