@@ -38,7 +38,7 @@ else return m.reply(`> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🤍᪶۫۫྆•≭ El *
 console.error(e)
 if (!stiker) stiker = e
 } finally {
-if (stiker) conn.sendFile(m.chat, stiker, 'sticker.webp', '',m, true, { contextInfo: { 'forwardingScore': 200, 'isForwarded': false, externalAdReply:{ showAdAttribution: false, title: packname, body: `La Bot mas bonita͜🤍᭄۫۫۫۫۫۫۫۫۫۫ ͓⃕ꪶ·࣭࣪̇`, mediaType: 2, sourceUrl: redes, thumbnail: icons}}}, { quoted: m })
+if (stiker) conn.sendFile(m.chat, stiker, 'sticker.webp', '',m, true, { contextInfo: { 'forwardingScore': 200, 'isForwarded': false, externalAdReply:{ showAdAttribution: false, title: packname, body: `La Bot mas bonita 🤍۪྆۫ˑ݈∙ۣۣ۬ۜ≭`, mediaType: 2, sourceUrl: redes, thumbnail: icons}}}, { quoted: m })
 
 else return conn.reply(m.chat, '> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🤍᪶۫۫྆•≭ La conversión ha *fallado*, intenta *enviar* primero *imagen*/*video*/*gif* y luego responde con el *comando.*', m, rcanal)
 
