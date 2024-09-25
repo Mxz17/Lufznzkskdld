@@ -9,9 +9,9 @@ if (isQuotedImage) {
 const q = m.quoted
 const img = await q.download?.()
 if (!img) {
-console.error('🤍 Error: No image buffer available')
-return conn.reply(m.chat, '🤍 Error: No se pudo descargar la imagen.', m, fake)}
-const content = '🤍 ¿Qué se observa en la imagen?'
+console.error('> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🤍᪶۫۫྆•≭ Error: No image buffer available')
+return conn.reply(m.chat, '> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🤍᪶۫۫྆•≭ *Error:* No se pudo *descargar* la *imagen.*', m, fake)}
+const content = '> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🤍᪶۫۫྆•≭ ¿Qué se *observa* en la *imagen?*'
 try {
 const imageAnalysis = await fetchImageBuffer(content, img)
 const query = '😊 Descríbeme la imagen y detalla por qué actúan así. También dime quién eres'
@@ -19,10 +19,10 @@ const prompt = `${basePrompt}. La imagen que se analiza es: ${imageAnalysis.resu
 const description = await luminsesi(query, username, prompt)
 await conn.reply(m.chat, description, m, fake)
 } catch (error) {
-console.error('🤍 Error al analizar la imagen:', error)
+console.error('> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🤍᪶۫۫྆•≭ *Error* al *analizar* la *imagen*:', error)
 await conn.reply(m.chat, '🤍 Error al analizar la imagen.', m, fake)}
 } else {
-if (!text) { return conn.reply(m.chat, `🤍 *Ingrese su petición*\n🤍 *Ejemplo de uso:* ${usedPrefix + command} Como hacer un avión de papel`, m, rcanal)}
+if (!text) { return conn.reply(m.chat, `> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🤍᪶۫۫྆•≭ *Ingrese su petición*\n *Ejemplo de uso:* ${usedPrefix + command} Porque las mujeres son todas iguales`, m, rcanal)}
 await m.react('💬')
 try {
 const query = text
