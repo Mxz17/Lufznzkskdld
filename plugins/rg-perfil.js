@@ -13,7 +13,7 @@ let noprem = `
 ✯ Tᴀɢ :: @${who.replace(/@.+/, '')}
 ✯ Rᴇɢɪsᴛʀᴀᴅᴏ :: ${registered ? '✅': '❌'}
 
-🧰 *RECURSOS*
+╰៚ Rᴇᴄᴜʀsᴏs ᴅᴇʟ ᴜsᴜᴀʀɪᴏ
 🤍 *Corazones:* ${corazones}
 💥 *Nivel:* ${level}
 💫 *Experiencia:* ${exp}
