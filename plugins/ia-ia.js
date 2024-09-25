@@ -20,7 +20,7 @@ const description = await luminsesi(query, username, prompt)
 await conn.reply(m.chat, description, m, fake)
 } catch (error) {
 console.error('> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🤍᪶۫۫྆•≭ *Error* al *analizar* la *imagen*:', error)
-await conn.reply(m.chat, '🤍 Error al analizar la imagen.', m, fake)}
+await conn.reply(m.chat, '> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🤍᪶۫۫྆•≭ *Error* al *analizar* la *imagen.*', m, fake)}
 } else {
 if (!text) { return conn.reply(m.chat, `> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🤍᪶۫۫྆•≭ *Ingrese su petición*\n *Ejemplo de uso:* ${usedPrefix + command} Porque las mujeres son todas iguales`, m, rcanal)}
 await m.react('💬')
@@ -30,7 +30,7 @@ const prompt = `${basePrompt}. Responde lo siguiente: ${query}`
 const response = await luminsesi(query, username, prompt)
 await conn.reply(m.chat, response, m, fake)
 } catch (error) {
-console.error('🤍 Error al obtener la respuesta:', error)
+console.error('> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🤍᪶۫۫྆•≭ *Error* al *obtener* la *respuesta:*', error)
 await conn.reply(m.chat, 'Error: intenta más tarde.', m, fake)}}}
 
 handler.help = ['chatgpt <texto>', 'ia <texto>']
@@ -67,5 +67,5 @@ webSearchMode: false
 })
 return response.data.result
 } catch (error) {
-console.error('🤍 Error al obtener:', error)
+console.error('> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🤍᪶۫۫྆•≭ *Error* al *obtener:*', error)
 throw error }}
