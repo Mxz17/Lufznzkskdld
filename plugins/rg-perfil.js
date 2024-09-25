@@ -7,19 +7,17 @@ let { premium, level, corazones, exp, lastclaim, registered, regTime, age, role 
 let username = conn.getName(who)
 let noprem = `
 `╰៚݈݇ Pᴇʀғɪʟ ᴅᴇʟ ᴜsᴜᴀʀɪᴏ`
-        ︶ּ⏝ׅ︶    ᧔ ᰔ᧓  ︶ּ⏝ׅ︶
-
+︶ּ⏝ׅ︶  ᧔ ᰔ᧓  ︶ּ⏝ׅ︶
 ✯ `Nᴏᴍʙʀᴇ ::` ${username} 
 ✯ `Tᴀɢ ::` @${who.replace(/@.+/, '')} 
 ✯ `Rᴇɢɪsᴛʀᴀᴅᴏ ::` ${registered ? '✅': '❌'} 
 
    `╰៚݈݇ Rᴇᴄᴜʀsᴏs ᴅᴇʟ ᴜsᴜᴀʀɪᴏ`
-             ︶ּ⏝ׅ︶    ᧔ ᰔ᧓  ︶ּ⏝ׅ︶
-
+       ︶ּ⏝ׅ︶  ᧔ ᰔ᧓  ︶ּ⏝ׅ︶
 ✯ `Cᴏʀᴀᴢᴏɴᴇs ::` ${corazones}
 ✯ `Nɪᴠᴇʟ ::` ${level}
 ✯ `Exᴘ ::` ${exp}
- ✯ `Rᴀɴɢᴏ::` ${role}
+✯ `Rᴀɴɢᴏ::` ${role}
 ✯ `Pʀᴇᴍɪᴜᴍ::` ${premium ? '✅': '❌'}
     ͡⏜͡︵  
  `꒰͜͡Gᴇɴᴇsɪs᭄`   ͡⏜︵͡
