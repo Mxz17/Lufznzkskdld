@@ -8,7 +8,7 @@ let username = conn.getName(who)
 let noprem = `
 ៚ Pᴇʀғɪʟ ᴅᴇʟ ᴜsᴜᴀʀɪᴏ
  ︶ּ⏝ׅ︶    ᧔ ᰔ᧓  ︶ּ⏝ׅ︶
-✯ `Nᴏᴍʙʀᴇ ::` ${username}
+✯ Nᴏᴍʙʀᴇ :: ${username}
 🤍 *Tag:* @${who.replace(/@.+/, '')}
 🪼 *Registrado:* ${registered ? '✅': '❌'}
 
