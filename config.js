@@ -56,7 +56,7 @@ global.logo6 = fs.readFileSync('./src/logo6.png')
 //• ↳ ◜𝑭𝑨𝑲𝑬 𝑬𝑺𝑻𝑰𝑳𝑶◞ • 🪩
 global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: '𝗚𝗲𝗻𝗲𝘀𝗶𝘀𝗕𝗼𝘁-𝗠𝗗', orderTitle: 'packname', thumbnail: logo7, sellerJid: '0@s.whatsapp.net'}}}
 
-global.fakegif2 = { key: { participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { videoMessage: { title: 'GenesisBot-MD', h: `Hmm`, seconds: '99999', gifPlayback: true, caption: '︵᷼࿙ʙɪᴇɴᴠᴇɴɪᴅᴏs৴࣭͘᭢ㅤ፝֟🤍༢ྏྀ༷̣̣̥࿔', jpegThumbnail: logo7 }}};
+global.fakegif2 = { key: { participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { videoMessage: { title: ' ᨏ͟͟⎼ ꦿ⃟ۜGᴇɴᴇsɪsBᴏᴛ̸̷̨̼̱̱̬  ≛̷︦͟◄̸̤̿', h: `Hmm`, seconds: '99999', gifPlayback: true, caption: '︵᷼࿙ʙɪᴇɴᴠᴇɴɪᴅᴏs৴࣭͘᭢ㅤ፝֟🤍༢ྏྀ༷̣̣̥࿔', jpegThumbnail: logo7 }}};
 
 global.fakegif3 = { key: { participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { videoMessage: { title: 'GenesisBot-MD', h: `Hmm`, seconds: '99999', gifPlayback: true, caption: '︵᷼࿙ɢᴇɴᴇsɪs:৴࣭͘᭢ㅤ፝֟🤍༢ྏྀ༷̣̣̥࿔', jpegThumbnail: logo8 }}};
 
