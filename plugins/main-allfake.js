@@ -106,6 +106,6 @@ global.icono = [
 'https://iili.io/ds8fK92.md.png',
 ].getRandom()
 
-global.rcanal = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: "120363220939514640@newsletter", serverMessageId: 100, newsletterName: '⊱🤍۪-▹ ɢᴇɴᴇsɪsBᴏᴛ ⃖-ᴄʜᴀɴɴᴇʟ !   ̼  ☆⃝ ۪.۫୧੭۪.۫', }, externalAdReply: { showAdAttribution: true, title: packname, body: '🤍 ¡Génesis Super Bot!', mediaUrl: null, description: null, previewType: "PHOTO", thumbnailUrl: icono, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false }, }, }}
+global.rcanal = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: "120363220939514640@newsletter", serverMessageId: 100, newsletterName: '⊱🤍۪-▹ ɢᴇɴᴇsɪsBᴏᴛ ⃖-ᴄʜᴀɴɴᴇʟ !   ̼  ☆⃝ ۪.۫୧੭۪.۫', }, externalAdReply: { showAdAttribution: true, title: packname, body: 'ꉹꠥ۪۪۪፝֟͡🤍۪۪۪፝֟۫͡ꉹꠥ ¡ ━─꯭᪶Gᴇɴᴇsɪs ͝┊ Sᴜᴘᴇʀ ͝┊Bᴏᴛ !', mediaUrl: null, description: null, previewType: "PHOTO", thumbnailUrl: icono, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false }, }, }}
 
 export default handler
