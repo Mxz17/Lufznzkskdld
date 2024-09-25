@@ -6,20 +6,23 @@ let pp = 'https://iili.io/ds8bWmJ.md.png'
 let { premium, level, corazones, exp, lastclaim, registered, regTime, age, role } = global.db.data.users[m.sender]
 let username = conn.getName(who)
 let noprem = `
-៚ Pᴇʀғɪʟ ᴅᴇʟ ᴜsᴜᴀʀɪᴏ
- ︶ּ⏝ׅ︶ ᧔ ᰔ᧓  ︶ּ⏝ׅ︶
+╰៚ Pᴇʀғɪʟ ᴅᴇʟ ᴜsᴜᴀʀɪᴏ
+  ︶ּ⏝ׅ︶ ᧔ ᰔ᧓  ︶ּ⏝ׅ︶
 
 ✯ Nᴏᴍʙʀᴇ :: ${username}
 ✯ Tᴀɢ :: @${who.replace(/@.+/, '')}
 ✯ Rᴇɢɪsᴛʀᴀᴅᴏ :: ${registered ? '✅': '❌'}
 
 ╰៚ Rᴇᴄᴜʀsᴏs ᴅᴇʟ ᴜsᴜᴀʀɪᴏ
-🤍 *Corazones:* ${corazones}
-💥 *Nivel:* ${level}
-💫 *Experiencia:* ${exp}
-✨️ *Rango:* ${role}
+   ︶ּ⏝ׅ︶ ᧔ ᰔ᧓  ︶ּ⏝ׅ︶
+✯ Cᴏʀᴀᴢᴏɴᴇs :: ${corazones}
+✯ Nɪᴠᴇʟ :: ${level}
+✯ Exᴘ :: ${exp}
+✯ Rᴀɴɢᴏ:: ${role}
+✯ Pʀᴇᴍɪᴜᴍ:: ${premium ? '✅': '❌'}
+  ͡⏜͡︵  
+ `꒰͜͡Gᴇɴᴇsɪs᭄`   ͡⏜︵͡
 
-💖 *Premium:* ${premium ? '✅': '❌'}
 `.trim()
 let prem = `╭──⪩ 𝐔𝐒𝐔𝐀𝐑𝐈𝐎 𝐏𝐑𝐄𝐌𝐈𝐔𝐌 ⪨
 │⧼👤⧽ *ᴜsᴜᴀʀɪᴏ:* 「${username}」
