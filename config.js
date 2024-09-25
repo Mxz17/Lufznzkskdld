@@ -39,7 +39,7 @@ global.igfg = '@usxr_angelito0'
 global.botname = '𝗚𝗲𝗻𝗲𝘀𝗶𝘀𝗕𝗼𝘁 🤍'
 global.dev = '`𝗚𝗲𝗻𝗲𝘀𝗶𝘀𝗕𝗼𝘁 🤍`\n*By • Titanium Team 💥*'
 global.titu = '*[ BY: Genesis x Angel-OFC ]*'
-global.textbot = 'ɢᴇɴᴇꜱɪꜱʙᴏᴛ x ᴀɴɢᴇʟ-ᴏꜰᴄ 🤍'
+global.textbot = '〈এ̲ۣۜBY̶: Gĕ̈nesi̾s x A̸ngel-O͎F͎C͎ ﹗ǃ  ׂ  ۣۜ∙۬🤍۪۫◦ᮀ྆≭〉'
 global.vs = '1.5.1'
 
 
