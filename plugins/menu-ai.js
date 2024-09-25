@@ -25,7 +25,7 @@ const defaultMenu = {
   header: '╓─━ • *`%category`* ·ٜ۬･',
   body: '╟⛮ %cmd\n',
   footer: '╙─━ • ─━ • •───•\n',
-  after: `> ࣭݊ျ֘▹ BY GENESISBOT-MD X Angel-OFC`,
+  after: `> ࣭݊ျ֘▹ ʙʏ ɢᴇɴᴇꜱɪꜱʙᴏᴛ-ᴍᴅ x ᴀɴɢᴇʟ-ᴏꜰᴄ`,
 }
 let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
 let tags = {
