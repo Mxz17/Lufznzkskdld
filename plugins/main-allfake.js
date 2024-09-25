@@ -93,7 +93,7 @@ global.readMore = more.repeat(850)
 //Fakes
 global.fkontak = { key: { participants:"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 
-global.fake = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363220939514640@newsletter', newsletterName: "𝑮𝒆𝒏𝒆𝒔𝒊𝒔-𝑩𝒐𝒕 - 𝑪𝒉𝒂𝒏𝒏𝒆𝒍", serverMessageId: -1 }
+global.fake = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363220939514640@newsletter', newsletterName: "⊱🤍۪-▹ ɢᴇɴᴇsɪsBᴏᴛ ⃖-ᴄʜᴀɴɴᴇʟ !   ̼  ☆⃝ ۪.۫୧੭۪.۫", serverMessageId: -1 }
 }}, { quoted: m }
 
 global.icono = [ 
@@ -106,6 +106,6 @@ global.icono = [
 'https://iili.io/ds8fK92.md.png',
 ].getRandom()
 
-global.rcanal = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: "120363220939514640@newsletter", serverMessageId: 100, newsletterName: '𝑮𝒆𝒏𝒆𝒔𝒊𝒔-𝑩𝒐𝒕 - 𝑪𝒉𝒂𝒏𝒏𝒆𝒍', }, externalAdReply: { showAdAttribution: true, title: packname, body: '🤍 ¡Génesis Super Bot!', mediaUrl: null, description: null, previewType: "PHOTO", thumbnailUrl: icono, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false }, }, }}
+global.rcanal = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: "120363220939514640@newsletter", serverMessageId: 100, newsletterName: '⊱🤍۪-▹ ɢᴇɴᴇsɪsBᴏᴛ ⃖-ᴄʜᴀɴɴᴇʟ !   ̼  ☆⃝ ۪.۫୧੭۪.۫', }, externalAdReply: { showAdAttribution: true, title: packname, body: '🤍 ¡Génesis Super Bot!', mediaUrl: null, description: null, previewType: "PHOTO", thumbnailUrl: icono, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false }, }, }}
 
 export default handler
