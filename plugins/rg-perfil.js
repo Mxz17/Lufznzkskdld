@@ -6,7 +6,8 @@ let pp = 'https://iili.io/ds8bWmJ.md.png'
 let { premium, level, corazones, exp, lastclaim, registered, regTime, age, role } = global.db.data.users[m.sender]
 let username = conn.getName(who)
 let noprem = `
-៚ `Pᴇʀғɪʟ ᴅᴇʟ ᴜsᴜᴀʀɪᴏ`
+៚ Pᴇʀғɪʟ ᴅᴇʟ ᴜsᴜᴀʀɪᴏ
+ ︶ּ⏝ׅ︶    ᧔ ᰔ᧓  ︶ּ⏝ׅ︶
 ☁️ *Nombre:* ${username}
 🤍 *Tag:* @${who.replace(/@.+/, '')}
 🪼 *Registrado:* ${registered ? '✅': '❌'}
