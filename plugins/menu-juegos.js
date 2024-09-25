@@ -10,20 +10,20 @@ const { generateWAMessageFromContent, proto } = (await import('@whiskeysockets/b
 const defaultMenu = {
   before: `“ʜᴏʟᴀ *%name* ꜱᴏʏ ɢᴇɴᴇꜱɪꜱ ʙᴏᴛ, ᴛᴇɴ ᴜɴ ʟɪɴᴅᴏ ᴅɪᴀ"
 
-\`ᴄʟɪᴇɴᴛᴇ:\` %name
-\`ʙᴏᴛ:\` Génesis Bot
-\`ᴍᴏᴅᴏ:\` Público
-\`ꜰᴇᴄʜᴀ:\` ${fecha}
-\`ᴜꜱᴜᴀʀɪᴏꜱ:\` %totalreg
-\`ɴɪᴠᴇʟ:\` %level
+⍣ \`ᴄʟɪᴇɴᴛᴇ:\` %name
+⍣ \`ʙᴏᴛ:\` Génesis Bot
+⍣ \`ᴍᴏᴅᴏ:\` Público
+⍣ \`ꜰᴇᴄʜᴀ:\` ${fecha}
+⍣ \`ᴜꜱᴜᴀʀɪᴏꜱ:\` %totalreg
+⍣ \`ɴɪᴠᴇʟ:\` %level
 
 ✦•······················•✧•······················•✦
 %readmore
 `.trimStart(),
-  header: '╭─(❀)❝┊ *_`%category`_* ┊❝(❀)',
-  body: '┊➧ %cmd\n',
-  footer: '╰───────────── –\n',
-  after: `> ʙʏ : ᴀɴɢᴇʟ ᴏꜰᴄ ʏ ɢᴇɴᴇꜱɪꜱ ʙᴏᴛ`,
+  header: '╓─━ • *`%category`* ·ٜ۬･',
+  body: '╟⛮ %cmd\n',
+  footer: '╙─━ • ─━ • •───•\n',
+  after: `> ࣭݊ျ֘▹ BY GENESISBOT-MD X Angel-OFC`,
 }
 let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
 let tags = {
