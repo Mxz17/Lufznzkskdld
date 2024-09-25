@@ -5,7 +5,8 @@ let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? c
 let pp = 'https://iili.io/ds8bWmJ.md.png'
 let { premium, level, corazones, exp, lastclaim, registered, regTime, age, role } = global.db.data.users[m.sender]
 let username = conn.getName(who)
-let noprem = `៚݈݇ `Pᴇʀғɪʟ ᴅᴇʟ ᴜsᴜᴀʀɪᴏ`
+let noprem = `
+៚݈ Pᴇʀғɪʟ ᴅᴇʟ ᴜsᴜᴀʀɪᴏ
 ☁️ *Nombre:* ${username}
 🤍 *Tag:* @${who.replace(/@.+/, '')}
 🪼 *Registrado:* ${registered ? '✅': '❌'}
