@@ -57,10 +57,10 @@ global.emoji4 = '🤍'
 global.emojis = [emoji, emoji2, emoji3, emoji4].getRandom()
 
 //mensaje en espera
-global.wait = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼, 𝗦𝗼𝘆 𝗟𝗲𝗻𝘁𝗮 ...*';
-global.waitt = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼, 𝗦𝗼𝘆 𝗟𝗲𝗻𝘁𝗮 ...*';
-global.waittt = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼, 𝗦𝗼𝘆 𝗟𝗲𝗻𝘁𝗮 ...*';
-global.waitttt = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼, 𝗦𝗼𝘆 𝗟𝗲𝗻𝘁𝗮 ...*';
+global.wait = '५🕒 ᰰུ︩᷒ ㅤ፝֟᷼ᴇsᴘᴇʀᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ 〢sᴏʏ ʟᴇɴᴛᴀ̷̸⃟͞𓁢̷̸͟͞';
+global.waitt = '५🕒 ᰰུ︩᷒ ㅤ፝֟᷼ᴇsᴘᴇʀᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ 〢sᴏʏ ʟᴇɴᴛᴀ̷̸⃟͞𓁢̷̸͟͞';
+global.waittt = '५🕒 ᰰུ︩᷒ ㅤ፝֟᷼ᴇsᴘᴇʀᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ 〢sᴏʏ ʟᴇɴᴛᴀ̷̸⃟͞𓁢̷̸͟͞';
+global.waitttt = '५🕒 ᰰུ︩᷒ ㅤ፝֟᷼ᴇsᴘᴇʀᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ 〢sᴏʏ ʟᴇɴᴛᴀ̷̸⃟͞𓁢̷̸͟͞';
 
 //Enlaces
 var canal = 'https://whatsapp.com/channel/0029VaJxgcB0bIdvuOwKTM2Y'  
