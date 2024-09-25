@@ -7,10 +7,11 @@ let { premium, level, corazones, exp, lastclaim, registered, regTime, age, role 
 let username = conn.getName(who)
 let noprem = `
 ៚ Pᴇʀғɪʟ ᴅᴇʟ ᴜsᴜᴀʀɪᴏ
- ︶ּ⏝ׅ︶    ᧔ ᰔ᧓  ︶ּ⏝ׅ︶
+ ︶ּ⏝ׅ︶ ᧔ ᰔ᧓  ︶ּ⏝ׅ︶
+
 ✯ Nᴏᴍʙʀᴇ :: ${username}
-🤍 *Tag:* @${who.replace(/@.+/, '')}
-🪼 *Registrado:* ${registered ? '✅': '❌'}
+✯ Tᴀɢ :: @${who.replace(/@.+/, '')}
+✯ Rᴇɢɪsᴛʀᴀᴅᴏ :: ${registered ? '✅': '❌'}
 
 🧰 *RECURSOS*
 🤍 *Corazones:* ${corazones}
