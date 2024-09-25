@@ -50,17 +50,17 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
     let menu = ``;
 
     let txt = ""
-    txt += '`ᴄʀᴇᴀᴅᴏʀ ::`' + ` Angel-OFC\n`;
-    txt += '`ʙᴏᴛ ::`' + ` GenesisBot-MD\n`;
-    txt += '`ꜰᴇᴄʜᴀ ::`' + ` ${fecha}\n`;
-    txt += '`ᴠᴇʀꜱɪᴏɴ ::`' + ` ${vs}\n`;
-//    txt += `${sbot}\n`;
-    txt += '`ᴘʀᴇꜰɪᴊᴏ ::`' + ` [  ${usedPrefix}  ]\n`;
-    txt += '`ᴜꜱᴜᴀʀɪᴏꜱ ::`' + ` ${rtotal}\n`;
-    txt += '`ᴠᴇʀɪꜰɪᴄᴀᴅᴏꜱ ::`' + ` ${rtotalreg}\n`;
-    txt += '`ᴀᴄᴛɪᴠᴏ ::`' + ` ${uptime}\n`;
-    txt += '`ᴄᴏɴᴛᴀᴄᴛᴏ ::` #owner\n\n';
-    txt += "> ʙʏ : ᴀɴɢᴇʟ ᴏꜰᴄ ʏ ᴛɪᴛᴀɴɪᴜᴍ ᴛᴇᴀᴍ";
+    txt += '⍣ `ᴄʀᴇᴀᴅᴏʀ ::`' + ` Angel-OFC\n`;
+    txt += '⍣ `ʙᴏᴛ ::`' + ` GenesisBot-MD\n`;
+    txt += '⍣ `ꜰᴇᴄʜᴀ ::`' + ` ${fecha}\n`;
+    txt += '⍣ `ᴠᴇʀꜱɪᴏɴ ::`' + ` ${vs}\n`;
+//    txt += ⍣ `${sbot}\n`;
+    txt += '⍣ `ᴘʀᴇꜰɪᴊᴏ ::`' + ` [  ${usedPrefix}  ]\n`;
+    txt += '⍣ `ᴜꜱᴜᴀʀɪᴏꜱ ::`' + ` ${rtotal}\n`;
+    txt += '⍣ `ᴠᴇʀɪꜰɪᴄᴀᴅᴏꜱ ::`' + ` ${rtotalreg}\n`;
+    txt += '⍣ `ᴀᴄᴛɪᴠᴏ ::`' + ` ${uptime}\n`;
+    txt += '⍣ `ᴄᴏɴᴛᴀᴄᴛᴏ ::` #owner\n\n';
+    txt += "> ࣭݊ျ֘▹ ʙʏ ɢᴇɴᴇꜱɪꜱʙᴏᴛ-ᴍᴅ x ᴀɴɢᴇʟ-ᴏꜰᴄ";
 
     let listSections = [];
 
@@ -68,61 +68,61 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
         title: `🔖 SELECCIÓNA LO QUE NECESITES`, highlight_label: `Popular Génesis`,
         rows: [
             {
-                header: "𝗔𝗨𝗧𝗢 𝗩𝗘𝗥𝗜𝗙𝗜𝗖𝗔𝗥 ✅",
+                header: "፝͡ৎ𝘼𝙐𝙏𝙊 𝙑𝙀𝙍𝙄𝙁𝙄𝘾𝘼𝙍 ╎✅",
                 title: "",
                 description: `Verificacion Automáticamente`,
-                id: `.reg ⿴⃟ٍࣽGenesϟs ︧ཾ✾▹ .18`,
+                id: `.reg ꪶ͢ɢᴇɴᴇs᭨s ꫂ❅ۣ .18`,
             },
             {
-                header: "𝗠𝗘𝗡𝗨 𝗖𝗢𝗠𝗣𝗟𝗘𝗧𝗢 🤍",
+                header: "፝͡ৎ𝙈𝙀𝙉𝙐 𝘾𝙊𝙈𝙋𝙇𝙀𝙏𝙊 ╎🤍",
                 title: "",
                 description: `𝘮𝘶𝘦𝘴𝘵𝘳𝘢 𝘦𝘭 𝘮𝘦𝘯𝘶 𝘤𝘰𝘮𝘱𝘭𝘦𝘵𝘰`,
                 id: `.allmenu`,
             },
             {
-                header: "𝗠𝗘𝗡𝗨 𝗔𝗨𝗗𝗜𝗢𝗦 🔊",
+                header: "፝͡ৎ𝙈𝙀𝙉𝙐 𝘼𝙐𝘿𝙄𝙊𝙎 ╎🔊",
                 title: "",
                 description: `𝘔𝘶𝘦𝘴𝘵𝘳𝘢 𝘦𝘭 𝘮𝘦𝘯𝘶 𝘥𝘦 𝘢𝘶𝘥𝘪𝘰𝘴`,
                 id: `${usedPrefix}menuaudios`,
             },
             {
-                header: "𝗠𝗘𝗡𝗨 𝗡𝗦𝗙𝗪 🔞",
+                header: "፝͡ৎ𝙈𝙀𝙉𝙐𝙎 𝙉𝙎𝙁𝙒 ╎🔞",
                 title: "",
                 description: `𝘔𝘶𝘦𝘴𝘵𝘳𝘢 𝘦𝘭 𝘮𝘦𝘯𝘶 𝘤𝘢𝘭𝘪𝘦𝘯𝘵𝘦`,
                 id: `${usedPrefix}labiblia`,
             },
             {
-                header: "𝗠𝗘𝗡𝗨 𝗝𝗨𝗘𝗚𝗢𝗦 🎮",
+                header: "፝͡ৎ𝙈𝙀𝙉𝙐 𝙅𝙐𝙀𝙂𝙊𝙎 ╎🎮",
                 title: "",
                 description: `𝘔𝘶𝘦𝘴𝘵𝘳𝘢 𝘦𝘭 𝘮𝘦𝘯𝘶 𝘥𝘦 𝘫𝘶𝘦𝘨𝘰𝘴`,
                 id: `${usedPrefix}menugame`,
             },
             {
-                header: "𝗠𝗘𝗡𝗨 𝗔𝗡𝗜𝗠𝗘 🌸",
+                header: "፝͡ৎ𝙈𝙀𝙉𝙐 𝘼𝙉𝙄𝙈𝙀 ╎🌸",
                 title: "",
                 description: `𝘮𝘶𝘦𝘴𝘵𝘳𝘢 𝘦𝘭 𝘮𝘦𝘯𝘶 𝘢𝘯𝘪𝘮𝘦`,
                 id: `${usedPrefix}menugame`,
             },
             {
-                header: "𝗠𝗘𝗡𝗨 𝗗𝗘𝗦𝗖𝗔𝗥𝗚𝗔𝗦 📥",
+                header: "፝͡ৎ𝙈𝙀𝙉𝙐 𝘿𝙀𝙎𝘾𝘼𝙍𝙂𝘼𝙎 ╎📥",
                 title: "",
                 description: `𝘔𝘶𝘦𝘴𝘵𝘳𝘢 𝘦𝘭 𝘮𝘦𝘯𝘶 𝘥𝘦 𝘥𝘦𝘴𝘤𝘢𝘳𝘨𝘢𝘴`,
                 id: `${usedPrefix}menudl`,
             },
             {
-                header: "𝗠𝗘𝗡𝗨 𝗔𝗜 🤖",
+                header: "፝͡ৎ𝙈𝙀𝙉𝙐 𝙄𝘼𝙎 ╎🤖",
                 title: "",
                 description: `𝘔𝘶𝘦𝘴𝘵𝘳𝘢 𝘦𝘭 𝘮𝘦𝘯𝘶 𝘥𝘦 𝘐𝘈-𝘉𝘰𝘵`,
                 id: `${usedPrefix}menuai`,
             },
             {
-                header: "𝗥𝗘𝗗𝗘𝗦 🍄",
+                header: "፝͡ৎ𝙍𝙀𝘿𝙀𝙎 ╎🍄",
                 title: "",
                 description: `𝘔𝘶𝘦𝘴𝘵𝘳𝘢 𝘭𝘢𝘴 𝘳𝘦𝘥𝘦𝘴 𝘥𝘦𝘭 𝘣𝘰𝘵`,
                 id: `${usedPrefix}redes`,
             },
             {
-                header: "𝗚𝗥𝗨𝗣𝗢𝗦 ☁️",
+                header: "፝͡ৎ𝙂𝙍𝙐𝙋𝙊𝙎 ☁️",
                 title: "",
                 description: `𝘔𝘶𝘦𝘴𝘵𝘳𝘢 𝘭𝘰𝘴 𝘨𝘳𝘶𝘱𝘰𝘴 𝘥𝘦𝘭 𝘣𝘰𝘵`,
                 id: `${usedPrefix}grupos`,
@@ -130,19 +130,19 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
         ],
     });
 
-    let vid = "https://iili.io/ds8UrPf.md.png";
-    let img = "https://iili.io/ds82dmX.md.png";
-    let img2 = "https://iili.io/ds8r8EG.md.png";
-    let img3 = "https://iili.io/ds8UrPf.md.png";
-    let img4 = "https://iili.io/ds82dmX.md.png";
-    let img5 = "https://iili.io/ds8r8EG.md.png";
-    let img6 = "https://iili.io/ds8UrPf.md.png";
-    let img8 = "https://iili.io/ds82dmX.md.png";
-    let img9 = "https://iili.io/ds8r8EG.md.png";
-    let img10 = "https://iili.io/ds8UrPf.md.png";
-    let img11 = "https://iili.io/ds82dmX.md.png";
+    let vid = "https://i.ibb.co/JjVKpg5/file.jpg";
+    let img = "https://i.ibb.co/KKSxbtb/file.jpg";
+    let img2 = "https://i.ibb.co/QHYqqk7/file.jpg";
+    let img3 = "https://i.ibb.co/JjVKpg5/file.jpg";
+    let img4 = "https://i.ibb.co/KKSxbtb/file.jpg";
+    let img5 = "https://i.ibb.co/QHYqqk7/file.jpg";
+    let img6 = "https://i.ibb.co/JjVKpg5/file.jpg";
+    let img8 = "https://i.ibb.co/KKSxbtb/file.jpg";
+    let img9 = "https://i.ibb.co/QHYqqk7/file.jpg";
+    let img10 = "https://i.ibb.co/JjVKpg5/file.jpg";
+    let img11 = "https://i.ibb.co/KKSxbtb/file.jpg";
 
-    await conn.sendListB(m.chat, menu, txt, ` 𓏲୭᳟🤍̸̷̸̷᮫᮫໋໋݂݂ׄׄ.𝐌𝐄𝐍𝐔𝐒 𝐋𝐈𝐒𝐓𓏲᭔᷼⁩`, [vid, img, img2, img3, img4, img5, img6, img8, img9, img10, img11].getRandom(), listSections, estilo);
+    await conn.sendListB(m.chat, menu, txt, ` 𓏲᭨ ̤̤֟✧⏤͟͞ू⃪٭ۣۜ ፝͜⁞M͢ᴇɴᴜs۫۫۫۫۫۫۫۫ ᭄፝🤍𑜟꙲𒁑⁩`, [vid, img, img2, img3, img4, img5, img6, img8, img9, img10, img11].getRandom(), listSections, estilo);
 };
 
 handler.command = ["menu", "help", "menú"];
