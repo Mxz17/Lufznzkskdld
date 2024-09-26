@@ -20,8 +20,8 @@ const handler = async (m, {conn, isAdmin, isOwner, args, usedPrefix, command}) =
 *• Ejemplo:*
 *${usedPrefix + command} open 1*
 *${usedPrefix + command} close 1*
-📌 *𝙴𝙹𝙴𝙼𝙿𝙻𝙾 𝙳𝙴 𝚄𝚂𝙾:* *${usedPrefix + command} close 1* 
-*⭐𝙿𝙰𝚁𝙰 𝚀𝚄𝙴 𝙴𝙻 𝙶𝚁𝚄𝙿𝙾 𝙴𝚂𝚃𝙴 𝙲𝙴𝚁𝚁𝙰𝙳𝙾.𝚄𝙽𝙰.𝙷𝙾𝚁𝙰.*
+ᯢ❁⃪◗ *Ejemplo de uso ::* *${usedPrefix + command} close 1* 
+ᯢ❁⃪◗ *Para que el grupo este cerrado una {hora}.*
 `;
     m.reply(caption);
 	  throw false;
