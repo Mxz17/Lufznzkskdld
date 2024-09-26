@@ -17,11 +17,11 @@ const handler = async (m, {conn, isAdmin, isOwner, args, usedPrefix, command}) =
   }[(args[0] || '')];
   if (isClose === undefined) {
 	  const caption = `
-*⟨Ejemplo:⟩*
-ᯢ❁⃪◗ *${usedPrefix + command} open 1*
-ᯢ❁⃪◗ *${usedPrefix + command} close 1*
+ *⟨Ejemplo:⟩*
+*${usedPrefix + command} open 1*
+*${usedPrefix + command} close 1*
 ♕ *Ejemplo de uso ::* *${usedPrefix + command} close 1* 
-♕ *Para que el grupo este cerrado {una hora}*
+♕ *Para que el grupo este cerrado una hora*
 `;
     m.reply(caption);
 	  throw false;
