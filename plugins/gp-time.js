@@ -17,7 +17,7 @@ const handler = async (m, {conn, isAdmin, isOwner, args, usedPrefix, command}) =
   }[(args[0] || '')];
   if (isClose === undefined) {
 	  const caption = `
-*• Ejemplo:*
+> *• Ejemplo:*
 *${usedPrefix + command} open 1*
 *${usedPrefix + command} close 1*
 ᯢ❁⃪◗ *Ejemplo de uso ::* *${usedPrefix + command} close 1* 
@@ -28,7 +28,7 @@ const handler = async (m, {conn, isAdmin, isOwner, args, usedPrefix, command}) =
   }
   const timeoutset = 86400000 * args[1] / 24;
   await conn.groupSettingUpdate(m.chat, isClose).then(async (_)=> {
-	  m.reply(`⚠️ *_Grupo ${isClose == 'announcement' ? 'cerrado' : 'abierto'} ${args[1] ? `durante *${clockString(timeoutset)}_*` : ''}`);
+	  m.reply(`> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🤍᪶۫۫྆•≭ Grupo ${isClose == 'announcement' ? 'cerrado' : 'abierto'} ${args[1] ? `durante *${clockString(timeoutset)}_*` : ''}`);
   });
   if (args[1]) {
 	 setTimeout(async () => {
