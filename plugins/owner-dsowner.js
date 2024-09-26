@@ -42,7 +42,7 @@ await conn.reply(m.chat, '> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🤍᪶۫۫྆•≭
 }
 handler.help = ['dsowner']
 handler.tags = ['fix', 'owner']
-handler.command = ['delai', 'delgenesis', 'dsowner', 'clearallsession']
+handler.command = ['delai', 'delgenesis', 'dsm', 'clearallsession']
 
 handler.rowner = true
 
