@@ -30,7 +30,7 @@ global.prems = []
 global.isBaileysFail = false
 
 //• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 💌
-global.packname = 'ۜ͡ஓீ͜͡GᴇɴᴇsɪsBᴏᴛ ☦︎ᴍᴅ ̤̤፝፝֟͡͡٭ۣ̤ۜ፝፝፝፝֟͜͡͡͡🤍͢⃟̤፝͜ ᜴⃕'
+global.packname = '⊹ G𝙴ᩘ᪸ɴ𝙴ᩚ͜sɪsBᴏᴛ ᴍᴅ 𐎦᷐ᩙ᭄᭢ᩡ'
 global.author = '@usxr_angelito0'
 global.wm = '𝗚𝗲𝗻𝗲𝘀𝗶𝘀 𝗜𝗔'
 global.titulowm = '̤֟✧̤ GenesisBot-Pro ∙۬🤍۪۫◦ᮀ྆'
