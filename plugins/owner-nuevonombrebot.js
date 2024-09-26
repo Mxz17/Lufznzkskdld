@@ -10,7 +10,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 }
 handler.help = ['nuevonombrebot <teks>']
 handler.tags = ['owner']
-handler.command = ['nuevonombrebot','nuevonombre','cambianombre']
+handler.command = ['nuevonombrebot','nuevon','cambianombre']
 
 handler.owner = true
 export default handler
