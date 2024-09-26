@@ -71,7 +71,7 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
                 header: "፝͡ৎ𝘼𝙐𝙏𝙊 𝙑𝙀𝙍𝙄𝙁𝙄𝘾𝘼𝙍 ╎✅",
                 title: "",
                 description: `Verificacion Automáticamente`,
-                id: `.reg ꪶ͢ɢᴇɴᴇs᭨s ꫂ❅ۣ .18`,
+                id: `.reg 🤍 ᰰ̸̷̸̷᮫᮫໋໋ུ︩݂݂᷒ׄׄGᴇɴᴇsꪶ͢s𓏲᭔᷼⁩᭨.18`,
             },
             {
                 header: "፝͡ৎ𝙈𝙀𝙉𝙐 𝘾𝙊𝙈𝙋𝙇𝙀𝙏𝙊 ╎🤍",
