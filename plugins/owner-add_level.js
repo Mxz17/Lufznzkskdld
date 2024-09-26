@@ -17,8 +17,8 @@ const handler = async (m, {conn, text}) => {
   users[who].level += dmt;
   m.reply(`> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🤍᪶۫۫྆•≭ *AGREGADOS᭄*
 
-⋆ͦ TOTAL :: ${dmt} 🆙
-⋆ͦ FECHA :: ${fecha} 📆`);
+⋆ͦ *TOTAL ::* ${dmt} 🆙
+⋆ͦ *FECHA ::* ${fecha} 📆`);
 };
 handler.command = ['addlevel'];
 handler.rowner = true;
