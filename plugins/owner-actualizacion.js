@@ -22,7 +22,7 @@ try {
       }
     } catch (error) {
       console.error(error)
-      m.reply('*🤍 Error Al Verificar El Repositorio*');
+      m.reply('> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🤍᪶۫۫྆•≭ *Error Al Verificar El Repositorio*');
     }
   }
   setInterval(checkRepoUpdates, 6000);
