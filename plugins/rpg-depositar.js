@@ -17,7 +17,7 @@ if (!user.corazones) return m.reply('> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🤍۫۫�
 if (user.corazones < count) return m.reply(`> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🤍᪶۫۫྆•≭Solo tienes *${user.corazones} Corazones 🤍* en la Cartera.`)
 user.cookies -= count * 1
 user.bank += count * 1
-await m.reply(`Depositaste *${count} Corazones 🤍* al Banco.`)}
+await m.reply(`> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🤍᪶۫۫྆•≭ Depositaste *${count} Corazones 🤍* al Banco.`)}
 
 handler.help = ['depositar']
 handler.tags = ['rpg']
