@@ -2,7 +2,7 @@ let handler = async (m, { usedPrefix, command }) => {
 let uptime = await process.uptime()
 let runtime = `${global.packname}
 
-✰ 𝗧𝗶𝗲𝗺𝗽𝗼 𝗔𝗰𝘁𝗶𝘃𝗮: ${rTime(uptime)}`
+> ̤֟   ᪶᪶᪶۫۫۫۫۫۫͜͜⏦  𝗧𝗶𝗲𝗺𝗽𝗼 𝗔𝗰𝘁𝗶𝘃𝗮: ${rTime(uptime)}`
 conn.reply(m.chat, runtime, m, { contextInfo: { externalAdReply: { mediaUrl: false, mediaType: 1, description: false, title: packname, body: '𓂅̸̸̸̶̶⃨࠘̿̈⃜  ¡᭸̶꛱̄͟͟͟ Gᴇɴᴇsɪs Bᴏᴛ ʟᴀ ᴍᴇᴊᴏʀ!◄̸̤̿🤍̸̷̨̼̱̱̬', previewType: 0, thumbnail: icons, sourceUrl: canal}}})
 }
 handler.help = ['runtime']
