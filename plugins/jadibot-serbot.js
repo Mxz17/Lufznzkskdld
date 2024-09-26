@@ -12,12 +12,12 @@ global.conns = []
 }
 let handler = async (m, { conn, args, usedPrefix, command, isOwner, isPrems, isROwner }) => {
 if (!global.db.data.settings[conn.user.jid].jadibotmd && !isROwner) {
-conn.reply(m.chat, '🤍 Este Comando está deshabilitado por mi creador.', m, rcanal)
+conn.reply(m.chat, '> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🤍᪶۫۫྆•≭ *Este Comando está deshabilitado por mi creador.*', m, rcanal)
 return
 }
 let parentw = args[0] && args[0] == "plz" ? conn : await global.conn
 if (!(args[0] && args[0] == 'plz' || (await global.conn).user.jid == conn.user.jid)) {
-return conn.reply(m.chat, `「💭」Solo puedes usar este comando en el bot principal.\n\n• Wa.me/${global.conn.user.jid.split`@`[0]}?text=${usedPrefix + command}`, m, rcanal)
+return conn.reply(m.chat, `💭᭄ *Solo puedes usar este comando en el bot principal.*\n\n• Wa.me/${global.conn.user.jid.split`@`[0]}?text=${usedPrefix + command}`, m, rcanal)
 }
 async function serbot() {
 let serbotFolder = crypto.randomBytes(10).toString('hex').slice(0, 8)
@@ -58,7 +58,7 @@ if (isNewLogin) {
 conn.isInit = true
 }
 if (qr) {
-let txt = '🤍 S E R B O T - S U B B O T 🤍\n\n*Escanea este QR para ser un Sub Bot*\n\n🤍 Pasos para escanear:\n\n`1` : Haga click en los 3 puntos\n\n`2` : Toque dispositivos vinculados\n\n`3` : Escanea este QR\n\n> *Nota:* Este código QR expira en 30 segundos.'
+let txt = '> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🤍᪶۫۫྆•≭ S E R B O T - S U B B O T᭄\n\n*Escanea este QR para ser un Sub Bot*\n\n🤍 Pasos para escanear:\n\n`1` : Haga click en los 3 puntos\n\n`2` : Toque dispositivos vinculados\n\n`3` : Escanea este QR\n\n> *Nota:* Este código QR expira en 30 segundos.'
 
 let sendQR = await parentw.sendFile(m.chat, await qrcode.toDataURL(qr, { scale: 8 }), "qrcode.png", txt, m, null, rcanal)
 setTimeout(() => {
@@ -88,7 +88,7 @@ await sleep(5000)
 if (args[0]) {
 return
 }
-await parentw.reply(conn.user.jid, `🤍 *Para volver a vincular un sub Bot use su token*`, m, rcanal)
+await parentw.reply(conn.user.jid, `> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🤍᪶۫۫྆•≭*Para volver a vincular un sub Bot use su token*`, m, rcanal)
 }
 }
 const timeoutId = setTimeout(() => {
