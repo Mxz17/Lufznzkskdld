@@ -17,7 +17,8 @@ const handler = async (m, {conn, isAdmin, isOwner, args, usedPrefix, command}) =
   }[(args[0] || '')];
   if (isClose === undefined) {
 	  const caption = `
-> *• Ejemplo:*
+> *• Ejemplo ::↷*
+
 *${usedPrefix + command} open 1*
 *${usedPrefix + command} close 1*
 ᯢ❁⃪◗ *Ejemplo de uso ::* *${usedPrefix + command} close 1* 
