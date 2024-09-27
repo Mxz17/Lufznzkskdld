@@ -30,14 +30,14 @@ global.prems = []
 global.isBaileysFail = false
 
 //• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 💌
-global.packname = '⊹ G𝙴ᩘ᪸ɴ𝙴ᩚ͜sɪsBᴏᴛ ᴍᴅ 𐎦᷐ᩙ᭄᭢ᩡ'
-global.author = '@usxr_angelito0'
-global.wm = '𝗚𝗲𝗻𝗲𝘀𝗶𝘀 𝗜𝗔'
-global.titulowm = '̤֟✧̤ GenesisBot-Pro ∙۬🤍۪۫◦ᮀ྆'
-global.titulowm2 = '̤֟✧̤ ɢᴇɴᴇꜱɪꜱʙᴏᴛ-ᴍᴅ ∙۬🤍۪۫◦ᮀ྆'
-global.igfg = '@usxr_angelito0'
-global.botname = '⃕᭥ꩌ゚໋🤍݉ᐧ݉ꦷ ⃕Gᴇɴᴇsϟsʙᴏᴛ·࣭࣪̇˖݈݇ ﭢ𝀑'
-global.dev = '`⃕᭥ꩌ゚໋🤍݉ᐧ݉ꦷ ⃕Gᴇɴᴇsϟsʙᴏᴛ·࣭࣪̇˖݈݇ ﭢ𝀑`\n*By • Titanium Team 💥*'
+global.packname = '⊹L̶𝚄᪲ғғ᪶۫۫ע۫ 𐎦᷐ᩙ᭄᭢ᩡ'
+global.author = '@mxz.18l'
+global.wm = 'L͎𝚞𝚏𝚏𝚢 ᵃⁱ'
+global.titulowm = '̤֟✧̤ ʟᴜғғʏ ᴀɪ ∙۬🍿۪۫◦ᮀ྆'
+global.titulowm2 = '̤֟✧̤ ʟᴜғғʏ ᴀɪ ∙۬🍿۪۫◦ᮀ྆'
+global.igfg = '@mxz.18l'
+global.botname = '⃕᭥ꩌ゚໋🍿݉ᐧ݉ꦷ ⃕ʟᴜғғϟ ʙᴏᴛ·࣭࣪̇˖݈݇ ﭢ𝀑'
+global.dev = '`⃕᭥ꩌ゚໋🍿݉ᐧ݉ꦷ ⃕ʟᴜғғϟ ʙᴏᴛ·࣭࣪̇˖݈݇ ﭢ𝀑`\n*By • Titanium Team 💥*'
 global.titu = '*[ BY: Genesis x Angel-OFC ]*'
 global.textbot = '〈এ̲ۣۜBY̶: Gĕ̈nesi̾s x A̸ngel-O͎F͎C͎ ﹗ǃ  ׂ  ۣۜ∙۬🤍۪۫◦ᮀ྆≭〉'
 global.vs = '1.5.1'
@@ -54,13 +54,13 @@ global.logo5 = fs.readFileSync('./src/logo5.jpg')
 global.logo6 = fs.readFileSync('./src/logo6.png')
 
 //• ↳ ◜𝑭𝑨𝑲𝑬 𝑬𝑺𝑻𝑰𝑳𝑶◞ • 🪩
-global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: 'ᨏ͟͟⎼ ꦿ⃟ۜGᴇɴᴇsɪsBᴏᴛ̸̷̨̼̱̱̬  ≛̷︦͟◄̸̤̿', orderTitle: 'packname', thumbnail: logo7, sellerJid: '0@s.whatsapp.net'}}}
+global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: 'ᨏ͟͟⎼ ꦿ⃟ۜʟᴜғғʏʙᴏᴛ̸̷̨̼̱̱̬  ≛̷︦͟◄̸̤̿', orderTitle: 'packname', thumbnail: logo7, sellerJid: '0@s.whatsapp.net'}}}
 
-global.fakegif2 = { key: { participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { videoMessage: { title: 'ᨏ͟͟⎼ ꦿ⃟ۜGᴇɴᴇsɪsBᴏᴛ̸̷̨̼̱̱̬  ≛̷︦͟◄̸̤̿', h: `Hmm`, seconds: '99999', gifPlayback: true, caption: '︵᷼࿙ʙɪᴇɴᴠᴇɴɪᴅᴏs৴࣭͘᭢ㅤ፝֟🤍༢ྏྀ༷̣̣̥࿔', jpegThumbnail: logo7 }}};
+global.fakegif2 = { key: { participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { videoMessage: { title: 'ᨏ͟͟⎼ ꦿ⃟ۜʟᴜғғʏʙᴏᴛ̸̷̨̼̱̱̬  ≛̷︦͟◄̸̤̿', h: `Hmm`, seconds: '99999', gifPlayback: true, caption: '︵᷼࿙ʙɪᴇɴᴠᴇɴɪᴅᴏs৴࣭͘᭢ㅤ፝֟🍿༢ྏྀ༷̣̣̥࿔', jpegThumbnail: logo7 }}};
 
-global.fakegif3 = { key: { participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { videoMessage: { title: 'GenesisBot-MD', h: `Hmm`, seconds: '99999', gifPlayback: true, caption: '︵᷼࿙ɢᴇɴᴇsɪs:৴࣭͘᭢ㅤ፝֟🤍༢ྏྀ༷̣̣̥࿔', jpegThumbnail: logo8 }}};
+global.fakegif3 = { key: { participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { videoMessage: { title: 'GenesisBot-MD', h: `Hmm`, seconds: '99999', gifPlayback: true, caption: '︵᷼࿙ʟᴜғғʏ ᴀɪ:৴࣭͘᭢ㅤ፝֟🍿༢ྏྀ༷̣̣̥࿔', jpegThumbnail: logo8 }}};
 
-global.fakegif4 = { key: { participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { videoMessage: { title: 'GenesisBot-MD', h: `Hmm`, seconds: '99999', gifPlayback: true, caption: '︵᷼࿙sᴛɪᴄᴋᴇʀs৴࣭͘᭢ㅤ፝֟🤍༢ྏྀ༷̣̣̥࿔', jpegThumbnail: logo8 }}};
+global.fakegif4 = { key: { participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { videoMessage: { title: 'GenesisBot-MD', h: `Hmm`, seconds: '99999', gifPlayback: true, caption: '︵᷼࿙sᴛɪᴄᴋᴇʀs৴࣭͘᭢ㅤ፝֟🍿༢ྏྀ༷̣̣̥࿔', jpegThumbnail: logo8 }}};
 
 global.estilox = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: 'GenesisBot-MD', orderTitle: 'packname', thumbnail: logo7, sellerJid: '0@s.whatsapp.net'}}}
 
