@@ -6,7 +6,7 @@ import FormData from "form-data";
 import Jimp from "jimp";
 
 let handler = async (m, { conn, text, usedPrefix, command }) => {
-    if (!text) return m.reply(`> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🤍᪶۫۫྆•≭ *Ejemplo:* ${usedPrefix + command} Genesis AI`);
+    if (!text) return m.reply(`> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *Ejemplo:* ${usedPrefix + command} Genesis AI`);
 
     await m.react('🕒');
 
@@ -39,7 +39,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
       let pr = await remini(imageB, "enhance")
         push.push({
             body: proto.Message.InteractiveMessage.Body.fromObject({
-                text: `\n> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🤍᪶۫۫྆•≭ *\`Título :\`* ${video.title}\n> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🤍᪶۫۫྆•≭ *\`Duración :\`* ${video.timestamp}\n> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🤍᪶۫۫྆•≭ *\`Vistas :\`* ${video.views}\n> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🤍᪶۫۫྆•≭ *\`link :\`* ${video.url}`
+                text: `\n> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *\`Título :\`* ${video.title}\n> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *\`Duración :\`* ${video.timestamp}\n> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *\`Vistas :\`* ${video.views}\n> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *\`link :\`* ${video.url}`
             }),
             footer: proto.Message.InteractiveMessage.Footer.fromObject({
                 text: '*[ GenesisBot By Angel-OFC ]*' // Sesuaikan dengan watermark Anda
