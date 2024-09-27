@@ -1,116 +1,28 @@
-<img src="https://readme-typing-svg.herokuapp.com/?font=mono&size=30&duration=4000&color=836FFF&center=falso&vCenter=falso&lines=𝑺𝒆𝒑𝒆𝒓𝒕𝒊𝒏𝒚𝒂-𝑴𝒅+✿;𝐁𝐎𝐓+𝐌𝐔𝐋𝐓𝐈+𝐃𝐄𝐕𝐈𝐂𝐄;✯✯✯✯✯">      
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=1877F2&height=120&section=header"/>
 
-<h1 align="center">
-<p>
-<img src= "https://telegra.ph/file/9995a29f1d349be4495a0.jpg" alt="SEPERTINYA-BOT" width="720">
-</p>
+## 🌟 **`WILLZEK-OFC`**
 
-<p align="center">
-<a href="#"><img title="BOT-MULTI-DEVICE" src="https://img.shields.io/badge/BOT•MULTI•DEVICE-blue?&style=for-the-badge"></a>
-</p>
+![Menú Principal](https://f.uguu.se/drxoRbfm.jpg)
 
-<p align="center">
-<img title="Autor" src="https://img.shields.io/badge/Autor-Mxz 👻-blak.svg?style=for-the-badge&logo=github"></a>
-<img title="Vercion" src="https://img.shields.io/badge/Beta-pink.svg?style=for-the-badge&logo=github"></a>
-</p>
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ninopina10@gmail.com)
 
-<div align="center">
-  
-[![WhatsApp](https://img.shields.io/badge/Suporte-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://whatsapp.com/channel/0029ValMlRS6buMFL9d0iQ0S)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/Mxz.18l)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/pina_dzn)
+
+[![tiktok](https://img.shields.io/badge/tiktok-0029V?style=for-the-badge&logo=tiktok&logoColor=white)](https://www.tiktok.com/@the_crow_legendario_bs?_t=8pyjAicoTcE&_r=1)
+
+## <img src="https://static.wikia.nocookie.net/nyancat/images/d/d3/Nyan-cat.gif/revision/latest/scale-to-width-down/400?cb=20131231222500&path-prefix=es" alt="Grupo" width="45" height="43"> Bot Oficial ☄️
+
+<a href="https://wa.me/5492945409599?text=.menu"><img alt="Bot Oficial ☄️" src="https://img.shields.io/badge/Bot - Oficial-00FFFF?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
+
+## <img src="https://i.pinimg.com/originals/19/80/6e/19806e91932e6054965fc83b85241270.gif" alt="Grupo" width="45" height="43"> Canal Oficial 💛
+
+<a href="https://whatsapp.com/channel/0029VakfOZfHFxP7rNrUQk2d?text=.menu"><img alt="Canal Oficial 💛" src="https://img.shields.io/badge/Canal - Oficial-00FFFF?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
+
+<h2 align="center"> ESTADÍSTICAS </h2>
 </div>
-
-> ɪɴsᴛᴀʟᴀᴄɪᴏɴ x ᴛᴇʀᴍᴜx
-
-**Caso de no tenga termux instalado**
-
-[Instale aqui](https://www.mediafire.com/file/0npdmv51pnttps0/com.termux_0.119.1-119_minAPI21(arm64-v8a,armeabi-v7a,x86,x86_64)(nodpi)_apkmirror.com.apk/file).
-
-## Executando comandos básicos: ✨
-
-**Después de instalar la apk, ejecute los siguientes comandos a continuación:**
-
-> Copie y pegue solo 1 comando a la vez y presione Intro o salte línea en su teclado. Espere a que finalice el comando antes de iniciar otro.
-------------------
-1 - COMANDO: 🌸
-````bash
-termux-change-repo
-````
-> **Advertencia** Presione OK, elija la opción "Espejos de Grimler" y presione OK nuevamente.
-------------------
-2 - COMANDO: 🌸
-````bash
-pkg upgrade-y && pkg update -y
-````
-> **Atención**!!! Si aparece "(Y/I/N/O/D/Z) [predeterminado=N]?", use Y y luego Ingrese u omita la línea en su teclado.
-------------------
-3 - COMANDO: 🌸
-````bash
-pkg install -y ffmpeg nodejs-lts wget tesseract git && termux-setup-storage
-````
-4 - COMANDO: 🌸
-````bash
-cd /sdcard && git clone https://github.com/Mxz17/Sepertinya.git
-````
-5 - COMANDO: 🌸
-````bash
-cd /sdcard/Sepertinya && npm start
-````
-> ¡Úsalo cada vez que enciendas el bot!
-------------------
-
-[![Click Aquí](https://img.shields.io/badge/Grupo-Genesis-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/EVl0wxlCww74HV3vvZq83a)
-
-### **`SUPERIORITY PRO HOSTING 🤖`**
-<a href="https://dash.superiority.pro/login"><img src="https://qu.ax/TiBm.jpg" height="125px"></a>
-
-<details>
- <summary><b>:paperclip: Enlaces Importantes</b></summary>
-
-- **Dashboard:** [`Aquí`](https://store.azuraultra-host.pro)
-- **Grupo - Soporte:** [`Aquí`](https://chat.whatsapp.com/LbjpDV0KmZ48iHFSy6n1Gz)
-- **Canal - Oficial:** [`Aquí`](https://whatsapp.com/channel/0029VaoRzN0KmCPMFNe3TD1b)
-
-</details>
-
-### **`AZURA ULTRA HOSTING 👾`**
-<a href="https://store.azuraultra-host.pro/login"><img src="https://qu.ax/lgUn.jpg" height="125px"></a>
-
-<details>
- <summary><b>:paperclip: Enlaces Importantes</b></summary>
-
-- **Dashboard:** [`Aquí`](https://control.azuraultra-host.pro/)
-- **Panel:** [`Aquí`](https://control.azuraultra-host.pro/)
-- **Canal de WhatsApp:** [`Aquí`](https://whatsapp.com/channel/0029VaWABAMG8l5K8K9PAB3v)
-
-<a href="https://store.azuraultra-host.pro/login"><img src="https://i.ibb.co/MS4dCJy/File.jpg" height="200px"></a>
-
-</details>
-
-### **`TK HOST 📲`**
-<a href="https://dash.tk-joanhost.com"><img src="https://i.ibb.co/pr8TnWJ/SAVE-20240915-183758.jpg" height="125px"></a>
-
-<details>
- <summary><b>:paperclip: Enlaces Importantes</b></summary>
-
-- **Dashboard:** [`Aquí`](https://dash.tk-joanhost.com)
-- **Panel:** [`Aquí`](https://panel.tk-joanhost.com)
-- **Canal de WhatsApp:** [`Aquí`](https://whatsapp.com/channel/0029VaoZXbk6RGJNYQVP8r27)
-
-</details>
-
-
----
-
-### ☁️ COLABORADORES
-
-<a href="https://github.com/ale-rmz"><img src="https://github.com/ale-rmz.png" width="100" height="100" alt="ale-rmz"/></a>
-<a href="https://github.com/Maxz-on"><img 
-
-### 🤍 CREADOR 
-<a
-href="https://github.com/Angelito-OFC"><img src="https://github.com/Angelito-OFC.png" width="130" height="130" alt="Angelito"/></a>
-
-> Copyright (c) 2024 **[Angelito-OFC](https://whatsapp.com/channel/0029VaJxgcB0bIdvuOwKTM2Y)**.
-
-**`¡GRACIAS POR PREFERIRNOS!` ☕**
+<div align="center">
+<a href="https://github.com/will-BOT-MD/">
+<img src="https://github-readme-stats.vercel.app/api?username=will-BOT-MD&include_all_commits=true&count_private=true&show_icons=true&line_height=20&title_color=C372F2&icon_color=EE6FF4&text_color=D3D3D3&bg_color=0,000000,130F40&locale=es" width="450"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs?username=will-BOT-MD&show_icons=true&locale=es&layout=compact&line_height=20&title_color=C372F2&icon_color=EE6FF4&text_color=D3D3D3&bg_color=0,000000,130F40" width="290"  alt="will-BOT-MD"/>
+<br><br>
+</a>
