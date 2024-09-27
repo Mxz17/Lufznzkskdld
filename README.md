@@ -1,32 +1,63 @@
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=000000&lines=Versión+Actual+1.5.1;By+Angelito-OFC;Deja+tu+estrellita+al+repositorio)](https://git.io/typing-svg)
+<img src="https://readme-typing-svg.herokuapp.com/?font=mono&size=30&duration=4000&color=836FFF&center=falso&vCenter=falso&lines=𝑺𝒆𝒑𝒆𝒓𝒕𝒊𝒏𝒚𝒂-𝑴𝒅+✿;𝐁𝐎𝐓+𝐌𝐔𝐋𝐓𝐈+𝐃𝐄𝐕𝐈𝐂𝐄;✯✯✯✯✯">      
 
-## 🤍 **`G E N E S I S - M D`**
+<h1 align="center">
+<p>
+<img src= "https://telegra.ph/file/9995a29f1d349be4495a0.jpg" alt="SEPERTINYA-BOT" width="720">
+</p>
 
-![Genesis](https://iili.io/dsSjX07.md.png)
+<p align="center">
+<a href="#"><img title="BOT-MULTI-DEVICE" src="https://img.shields.io/badge/BOT•MULTI•DEVICE-blue?&style=for-the-badge"></a>
+</p>
+
+<p align="center">
+<img title="Autor" src="https://img.shields.io/badge/Autor-Mxz 👻-blak.svg?style=for-the-badge&logo=github"></a>
+<img title="Vercion" src="https://img.shields.io/badge/Beta-pink.svg?style=for-the-badge&logo=github"></a>
+</p>
+
 <div align="center">
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Oswald&weight=300&size=37&duration=3000&pause=100&color=000000&background=601D6E00&center=true&vCenter=true&repeat=true&random=FALSO&width=660&height=90&lines=Angel-OFC+lanzó+la mejor+versión;De+Genesis Bot - 1.5.1;Con+nuevos+comandos+y+mejoras;GenesisBot-MD+El+Mejor Bot+De+WhatsApp" alt="Typing SVG"/></a>
+  
+[![WhatsApp](https://img.shields.io/badge/Suporte-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://whatsapp.com/channel/0029ValMlRS6buMFL9d0iQ0S)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/Mxz.18l)
 </div>
 
-### CONTACTOS 💻
-<p>
+> ɪɴsᴛᴀʟᴀᴄɪᴏɴ x ᴛᴇʀᴍᴜx
 
+**Caso de no tenga termux instalado**
 
+[Instale aqui](https://www.mediafire.com/file/0npdmv51pnttps0/com.termux_0.119.1-119_minAPI21(arm64-v8a,armeabi-v7a,x86,x86_64)(nodpi)_apkmirror.com.apk/file).
 
-<a href="https://api.whatsapp.com/send/?phone=+59897246324&text=Hola 👋 soporte de Génesis Bot &type=phone_number&app_absent=0" target="blank"><img src="https://img.shields.io/badge/Whatsapp-30302f?style=flat&logo=whatsapp" /></a>
- <a href="http://www.instagram.com/usxr_angelito0" target="blank"><img src="https://img.shields.io/badge/Instagram-30302f?style=flat&logo=instagram" /></a>
-<a href="https://www.threads.net/@usxr_angelito0" target="blank"><img src="https://img.shields.io/badge/Threads-30302f?style=flat&logo=threads" /></a>
-<a href="https://x.com/usxr_angelito0" target="blank"><img src="https://img.shields.io/badge/Twitter-30302f?style=flat&logo=x" /></a>
+## Executando comandos básicos: ✨
 
-> [!NOTE]
-> **Este Bot recibe soporte 24/7 diariamente si presenta fallos solo repórtelo para que lo solucionemos**
+**Después de instalar la apk, ejecute los siguientes comandos a continuación:**
 
-
-> [!IMPORTANT]
-> **Si vas a instalar el Bot, o extraerlo toma en cuenta que está totalmente prohibida su venta en cualquier sentido xfavor toma en cuenta y respeta el trabajo del creador..**
-
-### <img src="https://i.pinimg.com/originals/19/80/6e/19806e91932e6054965fc83b85241270.gif" alt="Prueba La Bot Aqui" width="42" height="42"> Prueba La Bot Aqui
-
-> Si Deseas Probar La Bot Antes De Instalarlo, Click Abajo.🟢
+> Copie y pegue solo 1 comando a la vez y presione Intro o salte línea en su teclado. Espere a que finalice el comando antes de iniciar otro.
+------------------
+1 - COMANDO: 🌸
+````bash
+termux-change-repo
+````
+> **Advertencia** Presione OK, elija la opción "Espejos de Grimler" y presione OK nuevamente.
+------------------
+2 - COMANDO: 🌸
+````bash
+pkg upgrade-y && pkg update -y
+````
+> **Atención**!!! Si aparece "(Y/I/N/O/D/Z) [predeterminado=N]?", use Y y luego Ingrese u omita la línea en su teclado.
+------------------
+3 - COMANDO: 🌸
+````bash
+pkg install -y ffmpeg nodejs-lts wget tesseract git && termux-setup-storage
+````
+4 - COMANDO: 🌸
+````bash
+cd /sdcard && git clone https://github.com/Mxz17/Sepertinya.git
+````
+5 - COMANDO: 🌸
+````bash
+cd /sdcard/Sepertinya && npm start
+````
+> ¡Úsalo cada vez que enciendas el bot!
+------------------
 
 [![Click Aquí](https://img.shields.io/badge/Grupo-Genesis-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/EVl0wxlCww74HV3vvZq83a)
 
