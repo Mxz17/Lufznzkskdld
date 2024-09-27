@@ -100,19 +100,12 @@ cd /sdcard/Sepertinya && npm start
 </details>
 
 
-
-#### 🟢 ACTIVAR EN CODES SPACES 
-[`CREAR SERVIDOR`](https://github.com/codespaces/new?skip_quickstart=true&machine=basicLinux32gb&repo=OfcDiego/YaemoriBot-MD&ref=main&geo=UsEast)
-
 ---
 
 ### ☁️ COLABORADORES
 
 <a href="https://github.com/ale-rmz"><img src="https://github.com/ale-rmz.png" width="100" height="100" alt="ale-rmz"/></a>
-<a href="https://github.com/Maxz-on"><img src="https://github.com/Maxz-on.png" width="100" height="100" alt="Maxz-on"/></a>
-<a href="https://github.com/AkiraaX2"><img src="https://github.com/AkiraaX2.png" width="100" height="100" alt="AkiraaX2"/></a>
-<a href="https://github.com/Jostin-444"><img src="https://github.com/Jostin-444.png" width="100" height="100" alt="Jostin-444"/></a>
-<a href="https://github.com/MauroAzcurra"><img src="https://github.com/MauroAzcurra.png" width="100" height="100" alt="MauroAzcurra"/></a>
+<a href="https://github.com/Maxz-on"><img 
 
 ### 🤍 CREADOR 
 <a
