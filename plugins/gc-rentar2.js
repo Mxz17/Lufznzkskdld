@@ -2,16 +2,16 @@ import db from '../lib/database.js';
 let linkRegex = /chat.whatsapp.com\/([0-9A-Za-z]{20,24})( [0-9]{1,3})?/i;
 
 let handler = async (m, { conn, text, isOwner }) => {
-  if (!text) return m.reply(`> _📝 Ingresa el link del grupo para rentar el bot._`);
+  if (!text) return m.reply(`> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *Ingresa el link del grupo para rentar el bot.*`);
 
   let [_, code] = text.match(linkRegex) || [];
-  if (!code) return m.reply('🚩 Enlace inválido.');
+  if (!code) return m.reply('> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *Enlace inválido.*');
 
   global.db.data.groupRents = global.db.data.groupRents || {};
   let userRents = global.db.data.userRents[m.sender];
   
   if (!userRents || userRents.tokens <= 0) {
-    return m.reply('❎ No tienes tokens disponibles para rentar el bot. Compra más tokens con /rentar.');
+    return m.reply('> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *No tienes tokens disponibles para rentar el bot. Compra más tokens con /rentar.*');
   }
 
   let groupMetadata;
@@ -19,9 +19,9 @@ let handler = async (m, { conn, text, isOwner }) => {
     groupMetadata = await conn.groupAcceptInvite(code);
   } catch (e) {
     if (e.message === 'already-exists') {
-      return m.reply('❗ El bot ya está en este grupo.');
+      return m.reply('> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *El bot ya está en este grupo.*');
     }
-    return m.reply(`❗ Error al unirse al grupo: ${e.message}`);
+    return m.reply(`> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *Error al unirse al grupo:* ${e.message}`);
   }
 
   let groupId = groupMetadata.id;
@@ -36,7 +36,7 @@ let handler = async (m, { conn, text, isOwner }) => {
   userRents.tokens = 0;
   userRents.groups.push(groupId);
 
-  conn.reply(m.chat, `> _📝 Me uní correctamente al grupo_ *${groupId}* por ${global.db.data.groupRents[groupId].tokenCount} día(s).`);
+  conn.reply(m.chat, `>  ⃕🍿*Me uní correctamente al grupo* *${groupId}* por ${global.db.data.groupRents[groupId].tokenCount} día(s).`);
 
   let chats = global.db.data.chats[groupId] || {};
   chats.expired = global.db.data.groupRents[groupId].startTime + global.db.data.groupRents[groupId].duration;
