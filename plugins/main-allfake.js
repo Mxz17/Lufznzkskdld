@@ -93,7 +93,7 @@ global.readMore = more.repeat(850)
 //Fakes
 global.fkontak = { key: { participants:"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 
-global.fake = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363220939514640@newsletter', newsletterName: "⊱۪-▹ ʟᴜғғʏ ⃖-ᴄʜᴀɴɴᴇʟ !   ̼  ☆⃝ ۪.۫୧੭۪.۫", serverMessageId: -1 }
+global.fake = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363323775906071@newsletter', newsletterName: "⊱۪-▹ ʟᴜғғʏ ⃖-ᴄʜᴀɴɴᴇʟ !   ̼  ☆⃝ ۪.۫୧੭۪.۫", serverMessageId: -1 }
 }}, { quoted: m }
 
 global.icono = [ 
