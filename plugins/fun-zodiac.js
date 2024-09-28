@@ -12,7 +12,7 @@ let handler = (m, { usedPrefix, command, text }) => {
     const age = ageD.getFullYear() - new Date(1970, 0, 1).getFullYear()
 
     const birthday = [tahun + (birth[1] < bulan), ...birth.slice(1)]
-    const cekusia = bulan === birth[1] && tanggal === birth[2] ? `${age} - Feliz cumpleaños ☁️` : age
+    const cekusia = bulan === birth[1] && tanggal === birth[2] ? `> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ ${age} - *Feliz cumpleaños ☁️᭄*` : age
 
     const teks = `
 Fecha de nacimiento: : ${birth.join('-')}
@@ -22,7 +22,7 @@ Signo zodical : ${zodiac}
 `.trim()
     m.reply(teks)
 }
-handler.help = ['zodiac *2002 02 25*']
+handler.help = ['zodiac *2006 02 1*']
 handler.tags = ['fun']
 handler.register = true
 handler.command = ['zodia','zodiakc']
