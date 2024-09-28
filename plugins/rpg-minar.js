@@ -5,11 +5,11 @@ let dinero = Math.floor(Math.random() * 5000)
 let tiempo = 5 * 60
 if (cooldowns[m.sender] && Date.now() - cooldowns[m.sender] < tiempo * 1000) {
 let tiempo2 = segundosAHMS(Math.ceil((cooldowns[m.sender] + tiempo * 1000 - Date.now()) / 1000))
-conn.reply(m.chat, `> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🤍᪶۫۫྆•≭ Hola ${nombre}, Ya has minado recientemente, espera ⏱️ *${tiempo2}* para regresar a la Mina.`, m, rcanal)
+conn.reply(m.chat, `> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ Hola ${nombre}, Ya has minado recientemente, espera ⏱️ *${tiempo2}* para regresar a la Mina.`, m, rcanal)
 return
 }
 global.db.data.users[m.sender].exp += dinero
-let minar = `> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🤍᪶۫۫྆•≭ Genial! minaste *${dinero} 💫 XP.*`
+let minar = `> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ Genial! minaste *${dinero} 💫 XP.*`
 await m.react('⛏️')
 await conn.reply(m.chat, minar, m, rcanal)
 cooldowns[m.sender] = Date.now()}
@@ -47,7 +47,7 @@ let info = `⛏️ *Te has adentrando en lo profundo de las cuevas*
 🕋 *Carbón*: ${coal}
 🪨 *Piedra*: ${stone}`
 
-conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🤍᪶۫۫྆•≭ *Minando.. - GenesisBot* 💣', 'status@broadcast' )
+conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *Minando.. - GenesisBot* 💣', 'status@broadcast' )
 await m.react('⛏️')
 
 user.health -= 50
