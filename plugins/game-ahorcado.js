@@ -71,9 +71,9 @@ let letrasAdivinadas = []
 let intentos = intentosMaximos
 let mensaje = ocultarPalabra(palabra, letrasAdivinadas)
 gam.set(m.sender, { palabra, letrasAdivinadas, intentos })
-let ejemplo = `᥀·࣭࣪̇˖🎰◗ 𝘽𝙄𝙀𝙉𝙑𝙀𝙉𝙄𝘿𝙊(𝘼) 𝘼𝙇 𝙅𝙐𝙀𝙂𝙊 𝘿𝙀 𝘼𝙃𝙊𝙍𝘾𝘼𝘿𝙊!!!\n\n• 𝙋𝘼𝙇𝘼𝘽𝙍𝘼:\n${mensaje}\n\n• 𝙄𝙉𝙏𝙀𝙉𝙏𝙊𝙎 𝙍𝙀𝙎𝙏𝘼𝙉𝙏𝙀𝙎:\n${intentos}`
-let instrucciones = `᥀·࣭࣪̇˖❕◗ 𝙄𝙣𝙜𝙧𝙚𝙨𝙚 𝙨𝙤𝙡𝙤 𝙪𝙣𝙖 𝙡𝙚𝙩𝙧𝙖 𝙦𝙪𝙚 𝙚𝙨𝙩𝙚𝙨 𝙖𝙙𝙞𝙫𝙞𝙣𝙖𝙣𝙙𝙤...`
-conn.reply(m.chat, ejemplo + "\n\n" + instrucciones, m)
+let ejemplo = `> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *Bienvenida/o al juego del horcado!!!\n\n> ⛥ Palabra :\n${mensaje}\n\n> ⦫ *Intentos restantes :*\n${intentos}`
+let instrucciones = `> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *Ingrese solo una letra que estás adivinado..*`
+conn.reply(m.chat,⸎ ejemplo + "\n\n" + instrucciones, m)
 }
 
 handler.before = async (m, { conn }) => {
