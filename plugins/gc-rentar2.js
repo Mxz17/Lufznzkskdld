@@ -43,7 +43,7 @@ let handler = async (m, { conn, text, isOwner }) => {
   global.db.data.chats[groupId] = chats;
 
   let pp = 'https://telegra.ph/file/32e696946433c03588726.mp4';
-  await conn.sendMessage(groupMetadata, { video: { url: pp }, gifPlayback: true, caption: '> 🍿͢⃟̤᪶፝۫۫྆͜• ⃕ ¡Ya llegué! ↛°᳝ꯥ‧ٓ El bot estará disponible por el tiempo acordado٭ۣ̤ۜ፝፝፝፝֟͜͡͡͡.', mentions: [m.sender] }, { quoted: estilo })
+  await conn.sendMessage(groupMetadata, { video: { url: pp }, gifPlayback: true, caption: '> 🍿͢⃟̤᪶፝۫۫྆͜• ⃕ ¡hola soy nuevo ت︎! ↛°᳝ꯥ‧ٓ El b͟o͟t͟ estará d͟i͟s͟p͟o͟n͟i͟b͟l͟e͟ p͟o͟r͟ el t͟i̾e̾m̾p̾o̾ acordado٭ۣ̤ۜ፝፝፝፝֟͜͡͡͡─.', mentions: [m.sender] }, { quoted: estilo })
 };
 handler.tags = ['grupos']
 handler.help = ['rentar2 *<link>*']
