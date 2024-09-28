@@ -4,7 +4,7 @@ const exec = promisify(_exec).bind(cp);
 const handler = async (m, {conn, isOwner, command, text, usedPrefix, args, isROwner}) => {
   if (!isROwner) return;
   if (global.conn.user.jid != conn.user.jid) return;
-  m.reply('> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🤍᪶۫۫྆•≭ *Cómo vos me pidas mailov.*');
+  m.reply('> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *Cómo vos me pidas mailov.*');
   let o;
   try {
     o = await exec(command.trimStart() + ' ' + text.trimEnd());
