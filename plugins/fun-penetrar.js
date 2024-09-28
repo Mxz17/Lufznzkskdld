@@ -6,7 +6,7 @@ conn.reply(m.chat, `
 
 *le ha metido el pene a ${text}* con todo y condon hasta quedar seco, has dicho "por favor mas duroooooo!, ahhhhhhh, ahhhhhh, hazme un hijo que sea igual de pitudo que tu!" mientras te penetraba y luego te ha dejado en silla de ruedas!
 
-*${text}* 
+※ *${text}* 
 > 🔥᭄ *YA TE HAN PENETRADO!* `, null, { mentions: [user] })
 }
 handler.help = ['penetrar @user']
