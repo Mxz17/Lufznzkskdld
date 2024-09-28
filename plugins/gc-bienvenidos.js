@@ -20,7 +20,7 @@ let handler = async (m, { conn }) => {
     };
 
     let groupMetadata = await conn.groupMetadata(m.chat);
-    let str = `Hola bienvenido/a =\n${groupMetadata.subject}\nEsperemos que lo pases bien y que leas las reglas eh.\n> ᬊׄ•Łน₣₣γᰰུ︩᷒  ✿꫶˔࡙ㅤऻྀㅤ`.trim();
+    let str = `Hola bienvenido/a =\n${groupMetadata.subject}\nEsperemos que lo pases bien y que leas las reglas porfavor᭄.\n> ᬊׄ•Łน₣₣γᰰུ︩᷒  ✿꫶˔࡙ㅤऻྀㅤ`.trim();
 
     if (m.isGroup) {
         let pp = 'https://telegra.ph/file/c62071be335ec9e97a0cf.mp4';
