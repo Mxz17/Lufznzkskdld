@@ -2,7 +2,7 @@ const items = ['corazones', 'exp'];
 const confirmation = {};
 
 async function handler(m, { conn, args, usedPrefix, command }) {
-  if (confirmation[m.sender]) return conn.sendMessage(m.chat, {text: '> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🤍᪶۫۫྆•≭ *Aún hay fondos, en Transferencia, Aguarda un momento.*', mentions: [m.sender]}, {quoted: m});
+  if (confirmation[m.sender]) return conn.sendMessage(m.chat, {text: '> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *Aún hay fondos, en Transferencia, Aguarda un momento.*', mentions: [m.sender]}, {quoted: m});
   const user = global.db.data.users[m.sender];
   const item = items.filter((v) => v in user && typeof user[v] == 'number');
   const lol = `*┏━┅┉┅┄┄┄⟞⟨⟡⟩⟝┄┄┄┉┉┉━┓*
@@ -19,8 +19,8 @@ async function handler(m, { conn, args, usedPrefix, command }) {
   if (!item.includes(type)) return conn.sendMessage(m.chat, {text: lol, mentions: [m.sender]}, {quoted: m});
   const count = Math.min(Number.MAX_SAFE_INTEGER, Math.max(1, (isNumber(args[1]) ? parseInt(args[1]) : 1))) * 1;
   const who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : args[2] ? (args[2].replace(/[@ .+-]/g, '') + '@s.whatsapp.net') : '';
-  if (!who) return conn.sendMessage(m.chat, {text: '> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🤍᪶۫۫྆•≭ *Mensiona al usuario que desee hacerle la transferencia.*', mentions: [m.sender]}, {quoted: m});
-  if (!(who in global.db.data.users)) return conn.sendMessage(m.chat, {text: `> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🤍᪶۫۫྆•≭ *𝑬𝒍 𝒖𝒔𝒖𝒂𝒓𝒊𝒐 ${who} 𝒏𝒐 𝒆𝒔𝒕𝒂 𝒆𝒏 𝒍𝒂 𝒃𝒂𝒔𝒆 𝒅𝒆 𝒅𝒂𝒕𝒐𝒔.*`, mentions: [m.sender]}, {quoted: m});
+  if (!who) return conn.sendMessage(m.chat, {text: '> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *Mensiona al usuario que desee hacerle la transferencia.*', mentions: [m.sender]}, {quoted: m});
+  if (!(who in global.db.data.users)) return conn.sendMessage(m.chat, {text: `> ∙۬∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *𝑬𝒍 𝒖𝒔𝒖𝒂𝒓𝒊𝒐 ${who} 𝒏𝒐 𝒆𝒔𝒕𝒂 𝒆𝒏 𝒍𝒂 𝒃𝒂𝒔𝒆 𝒅𝒆 𝒅𝒂𝒕𝒐𝒔.*`, mentions: [m.sender]}, {quoted: m});
   if (user[type] * 1 < count) return conn.sendMessage(m.chat, {text: `*💥 𝑵𝒐 𝒕𝒊𝒆𝒏𝒆𝒔 𝒔𝒖𝒇𝒊𝒄𝒊𝒆𝒏𝒕𝒆𝒔 ${type} 𝒑𝒂𝒓𝒂 𝒕𝒓𝒂𝒏𝒔𝒇𝒆𝒓𝒊𝒓.*`, mentions: [m.sender]}, {quoted: m});
 const confirm = `*¿𝑬𝒔𝒕𝒂 𝒔𝒆𝒈𝒖𝒓𝒐 𝒅𝒆 𝒒𝒖𝒆 𝒅𝒆𝒔𝒆𝒂 𝒕𝒓𝒂𝒏𝒔𝒇𝒆𝒓𝒊𝒓 ${count} ${type} a @${(who || '').replace(/@s\.whatsapp\.net/g, '')}?* 
 *—◉ 𝑻𝒊𝒆𝒏𝒆𝒔 60 𝒔𝒆𝒈𝒖𝒏𝒅𝒐𝒔 𝒑𝒂𝒓𝒂 𝒄𝒐𝒏𝒇𝒊𝒓𝒎𝒂𝒓*
