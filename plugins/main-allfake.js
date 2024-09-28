@@ -35,7 +35,7 @@ let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? c
 global.creador = 'Wa.me/59897246324'
 global.ofcbot = `${conn.user.jid.split('@')[0]}`
 global.asistencia = 'Wa.me/59897246324'
-global.namechannel = '✿̤֟- 𝐆𝐞𝐧𝐞𝐬𝐢𝐬 - 𝐁𝐨𝐭 𝐂𝐡𝐚𝐧𝐧𝐞𝐥᭄'
+global.namechannel = '✿̤֟- 𝐋𝐮𝐟𝐟𝐲 - 𝐁𝐨𝐭 𝐂𝐡𝐚𝐧𝐧𝐞𝐥᭄'
 global.namechannel2 = '𝗠𝗼𝗼𝗻𝗹𝗶𝗴𝗵𝘁 - 𝗧𝗲𝗮𝗺'
 global.namegrupo = '𝗚𝗿𝗼𝘂𝗽 𝗔𝗶 𝗬𝗮𝗲𝗺𝗼𝗿𝗶'
 global.namecomu = '𝗖𝗼𝗺𝘂𝗻𝗶𝗱𝗮𝗱 𝗔𝗶 𝗬𝗮𝗲𝗺𝗼𝗿𝗶'
@@ -50,10 +50,10 @@ global.done = '✅'
 global.error = '✖️'
 
 //Emojis determinado de Ai Genesis
-global.emoji = '🤍'
-global.emoji2 = '🤍'
-global.emoji3 = '🤍'
-global.emoji4 = '🤍'
+global.emoji = '🍿'
+global.emoji2 = '🍿'
+global.emoji3 = '🍿'
+global.emoji4 = '🍿'
 global.emojis = [emoji, emoji2, emoji3, emoji4].getRandom()
 
 //mensaje en espera
@@ -93,7 +93,7 @@ global.readMore = more.repeat(850)
 //Fakes
 global.fkontak = { key: { participants:"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 
-global.fake = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363220939514640@newsletter', newsletterName: "⊱🤍۪-▹ ɢᴇɴᴇsɪsBᴏᴛ ⃖-ᴄʜᴀɴɴᴇʟ !   ̼  ☆⃝ ۪.۫୧੭۪.۫", serverMessageId: -1 }
+global.fake = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363220939514640@newsletter', newsletterName: "⊱۪-▹ ʟᴜғғʏ ⃖-ᴄʜᴀɴɴᴇʟ !   ̼  ☆⃝ ۪.۫୧੭۪.۫", serverMessageId: -1 }
 }}, { quoted: m }
 
 global.icono = [ 
@@ -106,6 +106,6 @@ global.icono = [
 'https://iili.io/ds8fK92.md.png',
 ].getRandom()
 
-global.rcanal = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: "120363220939514640@newsletter", serverMessageId: 100, newsletterName: '⊱🤍۪-▹ ɢᴇɴᴇsɪsBᴏᴛ ⃖-ᴄʜᴀɴɴᴇʟ !   ̼  ☆⃝ ۪.۫୧੭۪.۫', }, externalAdReply: { showAdAttribution: true, title: packname, body: 'ꉹꠥ۪۪۪፝֟͡🍿۪۪۪፝֟۫͡ꉹꠥ ¡ ━─꯭᪶ʟᴜғғʏ ͝┊ Sᴜᴘᴇʀ ͝┊Bᴏᴛ !', mediaUrl: null, description: null, previewType: "PHOTO", thumbnailUrl: icono, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false }, }, }}
+global.rcanal = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: "120363220939514640@newsletter", serverMessageId: 100, newsletterName: '⊱۪-▹ ʟᴜғғʏ ⃖-ᴄʜᴀɴɴᴇʟ !   ̼  ☆⃝ ۪.۫୧੭۪.۫', }, externalAdReply: { showAdAttribution: true, title: packname, body: 'ꉹꠥ۪۪۪፝֟͡🍿۪۪۪፝֟۫͡ꉹꠥ ¡ ━─꯭᪶ʟᴜғғʏ ͝┊ Sᴜᴘᴇʀ ͝┊Bᴏᴛ !', mediaUrl: null, description: null, previewType: "PHOTO", thumbnailUrl: icono, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false }, }, }}
 
 export default handler
