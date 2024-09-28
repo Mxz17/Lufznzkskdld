@@ -17,7 +17,7 @@ const handler = async (m, {conn, text}) => {
   users[who].corazones += dmt;
   m.reply(`> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *AGREGADOS᭄*
 
-⋆ͦ *TOTAL ::* ${dmt} 🍿
+⋆ͦ *TOTAL ::* ${dmt} 🤍
 ⋆ͦ *FECHA ::* ${fecha} 📆`);
 };
 handler.command = ['añadircorazones', 'addc', 'darc', 'darcorazones'];
