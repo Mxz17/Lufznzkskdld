@@ -17,16 +17,16 @@ let handler = async (m, { conn, command }) => {
 
     let str = `𝖡𝗂𝖾𝗇𝗏𝖾𝗇𝖽𝗂𝗈 𝖠 𝖢𝗎𝖾𝗇𝗍𝖺𝗌 𝖮𝖿𝗂𝖼𝗂𝖺𝗅𝖾𝗌
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-🤍 *Propietario:*
+> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *Propietario:*
 Wa.me/59897246324
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-🤍 *Colaborador 1:*
+> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭*Colaborador 1:*
 Wa.me/56983298345
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-🤍 *Colaborador 2:*
+> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭*Colaborador 2:*
 wa.me/50242073893
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-🤍 *Canal Oficial:*
+> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *Canal Oficial:*
 1) *${canal}*
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈`;
 
