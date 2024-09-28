@@ -18,8 +18,8 @@ let { code, msg } = res.status
 if (code !== 0) throw msg
 let { title, artists, album, genres, release_date } = res.metadata.music[0]
 let txt = `
-𝐍𝐎𝐌𝐁𝐑𝐄: ${title}
-𝐀𝐑𝐓𝐈𝐒𝐓𝐀: ${artists !== undefined ? artists.map(v => v.name).join(', ') : 'No encontrado'}
+> ✯ *Nombre :* ${title}
+> ゑ *Artista :* ${artists !== undefined ? artists.map(v => v.name).join(', ') : 'No encontrado'}
 `.trim()
 fs.unlinkSync(`./tmp/${m.sender}.${ext}`)
 m.reply(txt)
