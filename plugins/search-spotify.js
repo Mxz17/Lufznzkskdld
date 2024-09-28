@@ -82,7 +82,7 @@ _${res.name}_
 ☁️ *LINK*:
 » ${shortURL}
 
-🤍 *Enviando su canción*`
+> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *Enviando su canción*`
 
 let resImg = await fetch(res.imagen)
 let thumbb = await resImg.buffer()
