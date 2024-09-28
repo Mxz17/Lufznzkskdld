@@ -22,9 +22,9 @@ let handler = async (m, { conn, command }) => {
 
         conn.reply(m.chat, `
 
-🗂️ *Tengo ${rtotalreg} Usuarios Registrados*
+> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *Tengo ${rtotalreg} Usuarios Registrados*
 
-📂 *${totalreg} No Están Registrados*`, m, rcanal)
+> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *${totalreg} No Están Registrados*`, m, rcanal)
     }
 
 }
