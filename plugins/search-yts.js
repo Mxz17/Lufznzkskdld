@@ -10,7 +10,7 @@ await m.react('🕒')
 const { all: [bestItem, ...moreItems] } = await ytSearch(text)
 const videoItems = moreItems.filter(item => item.type === 'video')
 const formattedData = {
-title: `\`[ YOUTUBE - SEARCH ]\`\n\n> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🤍᪶۫۫྆•≭ *\`Titulo :\`* ${bestItem.title}\n> 🤍 *\`Duración :\`* ${bestItem.timestamp}\n> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🤍᪶۫۫྆•≭ *\`Visitas :\`* ${bestItem.views}\n> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🤍᪶۫۫྆•≭ *\`Subido :\`* ${bestItem.ago}\n> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🤍᪶۫۫྆•≭ *\`Url :\`* ${bestItem.url}`,
+title: `\`[ YOUTUBE - SEARCH ]\`\n\n> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *\`Titulo :\`* ${bestItem.title}\n> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *\`Duración :\`* ${bestItem.timestamp}\n> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *\`Visitas :\`* ${bestItem.views}\n> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *\`Subido :\`* ${bestItem.ago}\n> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *\`Url :\`* ${bestItem.url}`,
 rows: [{
 title: "Vídeo más Popular 😼",
 highlight_label: "Popular",
@@ -21,7 +21,7 @@ title: bestItem.title,
 description: ""
 }]
 }, {
-title: "Videos Encontrados 🤍",
+title: "Videos Encontrados 🍿",
 rows: videoItems.map(({
 title,
 url,
