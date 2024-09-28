@@ -54,17 +54,17 @@ return dibujo.slice(0, intentosMaximos - intentos).join("\n")
 function juegoTerminado(sender, mensaje, palabra, letrasAdivinadas, intentos) {
 if (intentos === 0) {
 gam.delete(sender)
-return `᥀·࣭࣪̇˖😏◗ 𝙋𝙚𝙧𝙙𝙞𝙨𝙩𝙚!!! 𝙡𝙖 𝙥𝙖𝙡𝙖𝙗𝙧𝙖 𝙚𝙧𝙖: "${palabra}".\n\n${mostrarAhorcado(intentos)}`
+return `> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ Perdiste!!! la palabra era : "${palabra}".\n\n${mostrarAhorcado(intentos)}`
 } else if (!mensaje.includes("_")) {
 gam.delete(sender)
-return `᥀·࣭࣪̇˖✨◗ 𝙂𝙖𝙣𝙖𝙨𝙩𝙚!!! 𝙖𝙙𝙞𝙫𝙞𝙣𝙖𝙨𝙩𝙚 𝙡𝙖 𝙥𝙖𝙡𝙖𝙗𝙧𝙖: "${palabra}".`
+return `> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ Ganaste!!! adivinaste la palabra : "${palabra}".`
 } else {
 return `${mensaje}\n\n${mostrarAhorcado(intentos)}`
 }}
 let handler = async (m, { conn }) => {
 let users = global.db.data.users[m.sender]
 if (gam.has(m.sender)) {
-return conn.reply(m.chat, "᥀·࣭࣪̇˖🎰◗ 𝙀𝙡 𝙟𝙪𝙚𝙜𝙤 𝙩𝙤𝙙𝙖𝙫𝙞𝙖 𝙣𝙤 𝙩𝙚𝙧𝙢𝙞𝙣𝙖, 𝙩𝙚𝙧𝙢𝙞𝙣𝙖𝙡𝙤 𝙥𝙖𝙧𝙖 𝙘𝙤𝙣𝙩𝙞𝙣𝙪𝙖𝙧.", m)
+return conn.reply(m.chat, "> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *El juego no termina todavía idiota, Terminalo para continuar.*", m)
 }
 let palabra = elegirPalabraAleatoria()
 let letrasAdivinadas = []
@@ -95,7 +95,7 @@ if (respuesta.includes("¡Perdiste!") || respuesta.includes("¡Ganaste!")) {
  conn.reply(m.chat, respuesta, m)
 } else {
 gam.set(m.sender, { palabra, letrasAdivinadas, intentos })
-conn.reply(m.chat, respuesta + `\n\n᥀·࣭࣪̇˖🎰◗ 𝙄𝙣𝙩𝙚𝙣𝙩𝙤𝙨 𝙧𝙚𝙨𝙩𝙖𝙣𝙩𝙚𝙨: ${intentos}`, m)
+conn.reply(m.chat, respuesta + `\n\n> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *Intentos restantes : ${intentos}*`, m)
 }
 } else {
 let mensaje = ocultarPalabra(palabra, letrasAdivinadas);
