@@ -4,7 +4,7 @@ let pp2 = 'https://tinyurl.com/294oahv9'
 let who
 if (m.isGroup) who = m.mentionedJid[0]
 else who = m.chat
-if (!who) return conn.reply(m.chat, '🤍 Menciona al usuario con *@user*', m, fake)
+if (!who) return conn.reply(m.chat, '> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ Menciona al usuario con *@user*', m, fake)
 let name2 = conn.getName(who)
 let name = conn.getName(m.sender)
 
