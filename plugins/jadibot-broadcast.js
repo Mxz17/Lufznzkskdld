@@ -9,9 +9,9 @@ const handler = async (m, {conn, usedPrefix, text}) => {
     await delay(1500);
     await conn.copyNForward(id, content, true);
   }
-  conn.reply(m.chat, `*Difusión enviada con éxito a ${users.length} sub bots*
+  conn.reply(m.chat, `> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *Difusión enviada con éxito a ${users.length} sub bots*
     
-  ${users.map((v) => '👉🏻 wa.me/' + v.replace(/[^0-9]/g, '') + `?text=${encodeURIComponent(usedPrefix)}estado`).join('\n')}
+  ${users.map((v) => '👉🏻᭄ wa.me/' + v.replace(/[^0-9]/g, '') + `?text=${encodeURIComponent(usedPrefix)}estado`).join('\n')}
   \n*Se finalizo con el envió en ${users.length * 1.5} segundos aproximadamente*`.trim(), m);
 };
 handler.command = ['bcbot'];
