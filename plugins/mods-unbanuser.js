@@ -6,7 +6,7 @@ const handler = async (m, { conn, args, text, usedPrefix, command }) => {
     } else if (args.length >= 1) {
         user = args[0].replace('@', '') + '@s.whatsapp.net';
     } else {
-        await conn.reply(m.chat, `> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🤍᪶۫۫྆•≭ *Etiqueta o responde al mensaje del usuario que quieras Desbanear, Ejemplo:*\n> → *${usedPrefix}unbanuser <@tag>*`, m);
+        await conn.reply(m.chat, `> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *Etiqueta o responde al mensaje del usuario que quieras Desbanear, Ejemplo:*\n> → *${usedPrefix}unbanuser <@tag>*`, m);
         return;
     }
     if (db[user]) {
@@ -15,9 +15,9 @@ const handler = async (m, { conn, args, text, usedPrefix, command }) => {
         const nametag = await conn.getName(user);
         const nn = conn.getName(m.sender);
         await conn.reply(m.chat, `✅️ El usuario *${nametag}* ha sido desbaneado.`, m, { mentionedJid: [user] });
-        conn.reply('5351524614@s.whatsapp.net', `> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🤍᪶۫۫྆•≭ *El usuario* *${nametag}* ha sido desbaneado por *${nn}*`, m, rcanal, );
+        conn.reply('5351524614@s.whatsapp.net', `> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *El usuario* *${nametag}* ha sido desbaneado por *${nn}*`, m, rcanal, );
     } else {
-        await conn.reply(m.chat, `> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🤍᪶۫۫྆•≭ *El usuario no está registrado.*`, m);
+        await conn.reply(m.chat, `> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *El usuario no está registrado.*`, m);
     }
 };
 handler.help = ['unbanuser <@tag>'];
