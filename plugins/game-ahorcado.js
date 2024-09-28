@@ -91,7 +91,7 @@ intentos--
 }
 let mensaje = ocultarPalabra(palabra, letrasAdivinadas)
 let respuesta = juegoTerminado(m.sender, mensaje, palabra, letrasAdivinadas, intentos)
-if (respuesta.includes("¡Perdiste!") || respuesta.includes("¡Ganaste!")) {
+if (respuesta.includes("✵ ¡Perdiste!") || respuesta.includes("𐅊 ¡Ganaste!")) {
  conn.reply(m.chat, respuesta, m)
 } else {
 gam.set(m.sender, { palabra, letrasAdivinadas, intentos })
