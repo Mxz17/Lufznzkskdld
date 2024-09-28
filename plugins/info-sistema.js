@@ -16,7 +16,7 @@ const getDiskSpace = () => {
         const [ , size, used, available, usePercent ] = stdout.split(/\s+/);
         return { size, used, available, usePercent };
     } catch (error) {
-        console.error('✧ Error al obtener el espacio en disco:', error);
+        console.error('> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *Error al obtener el espacio en disco:*', error);
         return null;
     }
 };
