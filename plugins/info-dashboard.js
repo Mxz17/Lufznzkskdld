@@ -10,7 +10,7 @@ let handler = async (m, { conn, command }) => {
 
         stats = stats.sort((a, b) => b.total - a.total)
         var handlers = stats.slice(0, 10).map(({ name, total }) => {
-            return `⬡ *Comando* : *${name}*\n⬡ *Usos* : ${total}`
+            return `> ✎ *Comando* : *${name}*\n✎ *Usos* : ${total}`
         }).join('\n\n')
 
         conn.reply(m.chat, handlers, m, fake)
