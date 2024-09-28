@@ -4,10 +4,10 @@ const handler = async (m, {conn}) => {
   const datas = global
   const idioma = datas.db.data.users[m.sender].language
 
-  if (!m.quoted) { conn.reply(m.chat, '_*🔥 ᏒᎬᏕᏢᎾᏁᎠᎬ Ꭿ ᏬᏁ ᎷᎬᏁᏕᎯᏠᎬ ᏅᏬᎬ ᎻᎯᎽᎯ ᏕᎨᎠᎾ ᎬᏁᏉᎨᎯᎠᎾ ᎬᏁ ᏉᎨᎬᏯᎾᏁᏨᎬ (ᏉᎬᏒ ᏕᎾᏝᎾ ᏬᏁᎯ ᏉᎬᏃ)*_', m, rcanal);
+  if (!m.quoted) { conn.reply(m.chat, '> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ Responda a un mensaje que haya sido enviado en viewOnce •{Ver 1 sola vez}', m, rcanal);
 return;
 }
-  if (m.quoted.mtype !== 'viewOnceMessageV2') { conn.reply(m.chat, '_*❤‍🔥 ᎬᏝ ᎷᎬᏁᏕᎯᏠᎬ ᏕᎬᏝᎬᏨᏨᎨᎾᏁᎯᎠᎾ ᏁᎾ ᎬᏕ ᏉᎨᎬᏯᎾᏁᏨᎬ (ᏉᎬᏒ ᏕᎾᏝᎾ ᏬᏁᎯ ᏉᎬᏃ)*_', m, rcanal)
+  if (m.quoted.mtype !== 'viewOnceMessageV2') { conn.reply(m.chat, '> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭   El mensaje seleccionado no es viewonce •{Ver 1 sola vez}', m, rcanal)
 return;
 }
   const msg = m.quoted.message;
