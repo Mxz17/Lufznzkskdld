@@ -63,7 +63,7 @@ global.waittt = '५🍿 ᰰུ︩᷒ ㅤ፝֟᷼ᴇsᴘᴇʀᴇ ᴜɴ ᴍᴏᴍ
 global.waitttt = '५🍿 ᰰུ︩᷒ ㅤ፝֟᷼ᴇsᴘᴇʀᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ 〢sᴏʏ ʟᴇɴᴛᴏ𓁢̷̸᭄᭄͟͞';
 
 //Enlaces
-var canal = 'https://whatsapp.com/channel/0029VaJxgcB0bIdvuOwKTM2Y'  
+var canal = 'https://whatsapp.com/channel/0029ValMlRS6buMFL9d0iQ0S'  
 var git = 'https://github.com/Angelito-OFC' 
 var github = 'https://github.com/Angelito-OFC/Genesis-OFC1' 
 var instagram = 'https://www.instagram.com/usxr_angelito0' 
