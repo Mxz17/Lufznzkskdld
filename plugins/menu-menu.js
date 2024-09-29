@@ -51,7 +51,7 @@ let tags = {
 }
 
 const defaultMenu = {
-     before: `Hola \`%name\` soy GenesisBot-MD, %greeting
+     before: `Hola \`%name\` soy Luffy Ai, %greeting
 
 ︵⏝֟ᰯ۪۪۪۪۪፝⏝۪۪۪፝֟ᰯ࿙⃛᷼࿚⃛࿙⃛᷼࿚⃛࿙⃛᷼࿚⃛࿙⃛᷼࿚⃛࿙⃛᷼࿚۪۪۪⃛֟ᰯ፝⏝ᰯ۪۪۪۪۪֟፝⏝︵
     ⃗˚ ༘  𖠵⃕⁖·֗٬̤⃟ꪶ◦━̸̸̸̶ꪴꪾꪸᚖ̷̷𝅾▹ =͟͟͞𝙻֟፝نﾁ۪۪۪۫۫۫۫ﾁצּ 🍿⃞̸̤̤ ̤፝֟͡ᔚ⍣ꪳ۫₎۬۟〬༼ຶཽ۪۪۫۫۫۫،ֶً̊.
