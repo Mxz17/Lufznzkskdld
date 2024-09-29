@@ -33,7 +33,7 @@ global.isBaileysFail = false
 //• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 💌
 global.packname = '⊹ L̶𝚄᪲ғғ᪶۫۫ע۫ 𐎦᷐ᩙ᭄᭢ᩡ'
 global.author = '@mxz.18l'
-global.wm = 'L͎𝚞𝚏𝚏𝚢 ᵃⁱ'
+global.wm = '☁︎✈︎ 𝕷𝖚𝖋𝖋𝖞 𝕬𝖎 (ง'̀-'́)งⁱ'
 global.titulowm = '̤֟✧̤ ʟᴜғғʏ ᴀɪ ∙۬🍿۪۫◦ᮀ྆'
 global.titulowm2 = '̤֟✧̤ ʟᴜғғʏ ᴀɪ ∙۬🍿۪۫◦ᮀ྆'
 global.igfg = '@mxz.18l'
