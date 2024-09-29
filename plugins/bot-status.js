@@ -8,7 +8,7 @@ let handler = m => m
  _muptime = await new Promise(resolve => { process.once('message', resolve)  
  setTimeout(resolve, 2000) }) * 1000} 
  let uptime = clockString(_uptime) 
- let bio = `🤍 𝗚𝗲𝗻𝗲𝘀𝗶𝘀𝗕𝗼𝘁 ⣿ ☁️ 𝗠𝗮𝘅𝗶𝗺𝘂𝗻 𝗽𝗼𝘄𝗲𝗿 𝗢𝗡𝗟𝗜𝗡𝗘 ⣿ ${uptime}` 
+ let bio = `꣣ʹ🍿⸵ࣻ´݈ ĿમϜ₣צּ ┊ Mਜאｪრนи ρσฟє૨ δИŁïŊΣ ┊ ${uptime}` 
  await this.updateProfileStatus(bio).catch(_ => _) 
  setting.status = new Date() * 1 
  }  
@@ -19,5 +19,5 @@ let handler = m => m
    let h = isNaN(ms) ? '--' : Math.floor(ms / 3600000) % 24 
    let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60 
    let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60 
-   return [d, ' » ', h, ' ・ ', m, ' ・ ', s].map(v => v.toString().padStart(2, 0)).join('')  
+   return [d, ' -✧ ', h, ' ｡ ', m, ' ｡ ', s].map(v => v.toString().padStart(2, 0)).join('')  
  } 
