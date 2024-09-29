@@ -40,7 +40,7 @@ global.igfg = '@mxz.18l'
 global.botname = '⃕᭥ꩌ゚໋🍿݉ᐧ݉ꦷ ⃕ʟᴜғғϟ ʙᴏᴛ·࣭࣪̇˖݈݇ ﭢ𝀑'
 global.dev = '`⃕᭥ꩌ゚໋🍿݉ᐧ݉ꦷ ⃕ʟᴜғғϟ ʙᴏᴛ·࣭࣪̇˖݈݇ ﭢ𝀑`\n*By • Titanium Team 💥*'
 global.titu = '*[ BY: Genesis x Angel-OFC ]*'
-global.textbot = '〈এ̲ۣۜBY̶: Gĕ̈nesi̾s x A̸ngel-O͎F͎C͎ ﹗ǃ  ׂ  ۣۜ∙۬🤍۪۫◦ᮀ྆≭〉'
+global.textbot = '｡˚༷➭ এ̲ ßץ ⇌⟬ ʟᴜғғʏ x ᴍxᴢ ⟭﹗ǃ  ۣۜ∙۬🍿۪۫◦ᮀ྆｡۪۪'
 global.vs = '1.5.1'
 
 
