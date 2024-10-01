@@ -38,7 +38,7 @@ handler.tags = ['ai']
 handler.register = true
 
 // handler.estrellas = 1
-handler.command = ['ia', 'chatgpt']
+handler.command = ['luffy', 'chatgpt']
 
 export default handler
 
