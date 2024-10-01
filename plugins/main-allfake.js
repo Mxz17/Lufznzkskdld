@@ -97,13 +97,12 @@ global.fake = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo
 }}, { quoted: m }
 
 global.icono = [ 
-'https://iili.io/dsvLXUJ.md.png',
-'https://iili.io/dsvpB1I.md.png',
-'https://iili.io/dsvyI3P.md.png',
-'https://iili.io/ds8JsVf.md.png',
-'https://iili.io/ds83u8N.md.png',
-'https://iili.io/ds8FYJV.md.png',
-'https://iili.io/ds8fK92.md.png',
+'https://ibb.co/Sy5vBKr',
+'https://ibb.co/HnxCNcM',
+'https://ibb.co/NxbjJ3n',
+'https://ibb.co/JcX7zy5',
+'https://ibb.co/1ntVWBw',
+'https://ibb.co/487C5Pd',
 ].getRandom()
 
 global.rcanal = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: "120363323775906071@newsletter", serverMessageId: 100, newsletterName: '⌜❖-⍣ ŁџՔՔყ ਜⶇ ࣶᭂ °᳝᭨᭄·̣̇͜᭺⌟', }, externalAdReply: { showAdAttribution: true, title: packname, body: 'ꉹꠥ۪۪۪፝֟͡🍿۪۪۪፝֟۫͡ꉹꠥ ¡ ━─꯭᪶ʟᴜғғʏ ͝┊ Sᴜᴘᴇʀ ͝┊Bᴏᴛ !', mediaUrl: null, description: null, previewType: "PHOTO", thumbnailUrl: icono, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false }, }, }}
