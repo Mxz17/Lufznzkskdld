@@ -67,5 +67,5 @@ webSearchMode: false
 })
 return response.data.result
 } catch (error) {
-console.error('> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🤍᪶۫۫྆•≭ *Error* al *obtener:*', error)
+console.error('> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *Error* al *obtener:*', error)
 throw error }}
