@@ -55,7 +55,7 @@ setTimeout(resolve, 1000)
 }
 let timestamp = speed()
 let latensi = speed() - timestamp
-let yaemori = `╭─❖「 *Info De Luffy ai* 」❖\n`
+let yaemori = `╭─❖〘 *Info De Luffy ai* 〙❖\n`
 yaemori += `│-▒⃟ ❊ *Creador* : @${owner[0][0].split('@s.whatsapp.net')[0]}\n`
 yaemori += `│-▒⃟ ❊ *Prefijo* : [  ${usedPrefix}  ]\n`
 yaemori += `│-▒⃟ ❊ *Total Plugins* : ${totalf}\n`
@@ -70,7 +70,7 @@ yaemori += `│- *Comandos Ejecutados* : ${toNum(totalStats)} ( *${totalStats}* 
 yaemori += `│-▒⃟ ❊*Grupos Registrados* : ${toNum(totalchats)} ( *${totalchats}* )\n`
 yaemori += `│-▒⃟ ❊ *Registrados* : ${toNum(totalreg)} ( *${totalreg}* ) Usuarios\n`
 yaemori += `╰─❖\n\n`
-yaemori += `╭─❖「 *Chats De Luffy ai* 」❖\n`
+yaemori += `╭─❖〘 *Chats De Luffy ai* 〙❖\n`
 yaemori += `│--༢⃝࿔ྀ-- *${groupsIn.length}* Chats en Grupos\n`
 yaemori += `│--༢⃝࿔ྀ-- *${groupsIn.length}* Grupos Unidos\n`
 yaemori += `│--༢⃝࿔ྀ-- *${groupsIn.length - groupsIn.length}* Grupos Salidos\n`
