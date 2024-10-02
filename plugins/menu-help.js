@@ -137,10 +137,10 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
     let img4 = "https://i.ibb.co/KKSxbtb/file.jpg";
     let img5 = "https://i.ibb.co/QHYqqk7/file.jpg";
     let img6 = "https://i.ibb.co/JjVKpg5/file.jpg";
-    let img8 = "https://i.ibb.co/KKSxbtb/file.jpg";
-    let img9 = "https://i.ibb.co/QHYqqk7/file.jpg";
-    let img10 = "https://i.ibb.co/JjVKpg5/file.jpg";
-    let img11 = "https://i.ibb.co/KKSxbtb/file.jpg";
+    let img8 = "https://qu.ax/gJSm.jpg";
+    let img9 = "https://qu.ax/oQHi.jpg";
+    let img10 = "https://qu.ax/aHaZ.jpg";
+    let img11 = "https://qu.ax/xiAo.jpg";
 
     await conn.sendListB(m.chat, menu, txt, ` 𓏲᭨ ̤̤֟✧⏤͟͞ू⃪٭ۣۜ ፝͜⁞M͢ᴇɴᴜs۫۫۫۫۫۫۫۫ ᭄፝🤍𑜟꙲𒁑⁩`, [vid, img, img2, img3, img4, img5, img6, img8, img9, img10, img11].getRandom(), listSections, estilo);
 };
