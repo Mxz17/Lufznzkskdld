@@ -14,7 +14,7 @@ handler.before = async (m) => {
      // await m.conn.sendMessage(m.chat, { text: ressimi.resultado.simsimi }, { quoted: m });
         await conn.reply(m.chat, ressimi.resultado.simsimi, m, rcanal)
     } catch {
-      throw '🤍 *Ocurrió un error*';
+      throw '> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *Ocurrió un error*';
     }
     return !0;
   }
@@ -23,7 +23,7 @@ handler.before = async (m) => {
 export default handler;
 
 async function simitalk(ask, apikeyyy = "iJ6FxuA9vxlvz5cKQCt3", language = "es") {
-    if (!ask) return { status: false, resultado: { msg: "Debes ingresar un texto para hablar con simsimi." }};
+    if (!ask) return { status: false, resultado: { msg: "> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *Debes ingresar un texto para hablar con simsimi.*" }};
     try {
         const response1 = await axios.get(`https://deliriusapi-official.vercel.app/tools/simi?text=${encodeURIComponent(ask)}`);
         const trad1 = await translate(`${response1.data.data.message}`, {to: language, autoCorrect: true});
