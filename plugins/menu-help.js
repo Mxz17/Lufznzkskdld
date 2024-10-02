@@ -131,12 +131,12 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
     });
 
     let vid = "https://i.ibb.co/JjVKpg5/file.jpg";
-    let img = "https://i.ibb.co/KKSxbtb/file.jpg";
+    let img = "https://qu.ax/vzhZ.jpg";
     let img2 = "https://i.ibb.co/QHYqqk7/file.jpg";
-    let img3 = "https://i.ibb.co/JjVKpg5/file.jpg";
-    let img4 = "https://i.ibb.co/KKSxbtb/file.jpg";
-    let img5 = "https://i.ibb.co/QHYqqk7/file.jpg";
-    let img6 = "https://i.ibb.co/JjVKpg5/file.jpg";
+    let img3 = "https://qu.ax/vVFq.jpg";
+    let img4 = "https://qu.ax/Ggkk.jpg";
+    let img5 = "https://qu.ax/mMiZ.jpg";
+    let img6 = "https://qu.ax/yjHU.jpg";
     let img8 = "https://qu.ax/gJSm.jpg";
     let img9 = "https://qu.ax/oQHi.jpg";
     let img10 = "https://qu.ax/aHaZ.jpg";
