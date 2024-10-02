@@ -49,18 +49,19 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
     m.react("🐾");
     let menu = ``;
 
-    let txt = ""
-    txt += '⍣ `ᴄʀᴇᴀᴅᴏʀ ::`' + ` Angel-OFC\n`;
-    txt += '⍣ `ʙᴏᴛ ::`' + ` GenesisBot-MD\n`;
-    txt += '⍣ `ꜰᴇᴄʜᴀ ::`' + ` ${fecha}\n`;
-    txt += '⍣ `ᴠᴇʀꜱɪᴏɴ ::`' + ` ${vs}\n`;
-//    txt += ⍣ `${sbot}\n`;
-    txt += '⍣ `ᴘʀᴇꜰɪᴊᴏ ::`' + ` [  ${usedPrefix}  ]\n`;
-    txt += '⍣ `ᴜꜱᴜᴀʀɪᴏꜱ ::`' + ` ${rtotal}\n`;
-    txt += '⍣ `ᴠᴇʀɪꜰɪᴄᴀᴅᴏꜱ ::`' + ` ${rtotalreg}\n`;
-    txt += '⍣ `ᴀᴄᴛɪᴠᴏ ::`' + ` ${uptime}\n`;
-    txt += '⍣ `ᴄᴏɴᴛᴀᴄᴛᴏ ::` #owner\n\n';
-    txt += "> ࣭݊ျ֘▹ ʙʏ ɢᴇɴᴇꜱɪꜱʙᴏᴛ-ᴍᴅ x ᴀɴɢᴇʟ-ᴏꜰᴄ";
+    txt = `િ ฺ࣭࣪͘   p𝖾𝗋᷼𝗌᷼♤𝗇᷼𝗂𝗍α    𝗅𝗂𝗇𝖽α   (⁠◍⁠•⁠ᴗ⁠•⁠◍⁠)⁠✧⁠*⁠。
+ b𝗂𝖾𝗇𝖾𝗇𝗂𝖽𝗈   𝖺    ₰นԲԲץ   ͜ꬅ͜ɨ ꒱㇀  🍿ᨘ‛᩠⋆  ⪦┽  :
+ •ㅤ༚      𝆹ㅤㅤ•ㅤ༚         𝆹ㅤㅤㅤ•ᨘ
+`
+txt+= '.͜°˖ `ᴄʀᴇᴀᴅᴏʀ ::`' + ` ℳꪎʑ\n`;
+txt+= '.͜°˖ `ʙᴏᴛ ::`' + ` Luffy=Ai\n`;
+txt+= '.͜°˖ `ꜰᴇᴄʜᴀ ::`' + ` ${fecha}\n`;
+txt+= '.͜°˖ `ᴠᴇʀꜱɪᴏɴ ::`' + ` ${vs}\n`;
+txt+= '.͜°˖ `ᴘʀᴇꜰɪᴊᴏ ::`' + ` [ ${usedPrefix} ]\n`;
+txt+= '.͜°˖ `ᴜꜱᴜᴀʀɪᴏꜱ ::`' + ` ${rtotal}\n`;
+txt+= '.͜°˖ `ᴄᴏɴᴛᴀᴄᴛᴏ ::` .owner\n\n`;
+txt+= ' .͜°˖ `ᴀᴄᴛɪᴠᴏ ::`' + ` ${uptime}\n`;
+txt+= "✬✭✰✬"
 
     let listSections = [];
 
