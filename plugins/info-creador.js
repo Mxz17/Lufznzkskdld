@@ -10,7 +10,7 @@ let edtr = `@${m.sender.split`@`[0]}`
 
 let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:WhatsApp;  ⏤͟͟͞▸ ⃦𝑴𝒙ꪳ͢𝒛 ꩍꩍꢀ 𓏲᭔۫֟፝֯᷼๑꙰୭᳟⁣᭄₎۬〬\nNICKNAME: ⏤͟͟͞▸ ⃦𝑴𝒙ꪳ͢𝒛 ꩍꩍꢀ 𓏲᭔۫֟፝֯᷼๑꙰୭᳟⁣᭄₎۬〬\nORG: ⏤͟͟͞▸ ⃦𝑴𝒙ꪳ͢𝒛 ꩍꩍꢀ 𓏲᭔۫֟፝֯᷼๑꙰୭᳟⁣᭄₎۬〬\nTITLE:soft\nitem1.TEL;waid=56983298345:+56 9 8329 8345\nitem1.X-ABLabel:📞 WhatsApp Owner\nitem2.URL:https://github.com/karim-off/GenesisBot-Pro1\nitem2.X-ABLabel:💬 More\nitem3.EMAIL;type=INTERNET: agasistencia2@gmail.com\nitem3.X-ABLabel:💌 Correo soporte\nitem4.ADR:;;🇦🇷 Argentina;;;;\nitem4.X-ABADR:💬 More\nitem4.X-ABLabel: Localización 🫧\nBDAY;value=date:🐈‍⬛ 09-12-2007\nEND:VCARD`
 const tag_own = await conn.sendMessage(m.chat, { contacts: { displayName: packname, contacts: [{ vcard }] }}, { quoted: fkontak })
-let caption = `*ꔛ⃟⿻⃕⸵👋 Hola ${edtr}, este es el contacto de mi creador🐈‍⬛᠋᠎᠎ᤧᱸᱹ᠎᠎ᤧᱸᱹ*`
+let caption = ` ʜᴏʟᴀ `${edtr}`, ᴇsᴛᴇ ᴇs ᴇʟ ɴᴜᴍᴇʀᴏ ᴅᴇ ᴍɪ ᴏᴡɴᴇʀ es el contacto de mi creador🍿᠋᠎᠎ᤧᱸᱹ᠎᠎ᤧᱸᱹ*`
     await conn.reply(m.chat, caption, tag_own, { mentions: conn.parseMention(caption) })
 
 }
