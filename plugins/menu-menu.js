@@ -51,27 +51,25 @@ let tags = {
 }
 
 const defaultMenu = {
-     before: `Hola \`%name\` soy Luffy Ai, %greeting
+     before: `Hola \`%name\` soy Luffy Ai, %greeting %readmore
+   ࿙ֹ࡛࿚ֹ֢͜࿙ֹ࡛࿚ֹ֢͜࿙ֹ࡛࿚ֹㅤ᧙ᩳ 🍿ᧆᩳ   ࿙ֹ࡛࿚ֹ֢͜࿙ֹ࡛࿚ֹ֢͜࿙ֹ࡛࿚ֹᩦ
+ᮬ᷼︵᷼⏜ㅤׅㅤ꒰ INFO USER ꒱ㅤׅㅤ⏜︵᷼   𑂳
 
-︵⏝֟ᰯ۪۪۪۪۪፝⏝۪۪۪፝֟ᰯ࿙⃛᷼࿚⃛࿙⃛᷼࿚⃛࿙⃛᷼࿚⃛࿙⃛᷼࿚⃛࿙⃛᷼࿚۪۪۪⃛֟ᰯ፝⏝ᰯ۪۪۪۪۪֟፝⏝︵
- ⃗˚ ༘  𖠵⃕⁖·֗٬̤⃟ꪶ◦━̸̸̸̶ꪴꪾꪸᚖ̷̷𝅾▹ =͟͟͞𝙻֟፝نﾁ۪۪۪۫۫۫۫ﾁצּ 🍿⃞̸̤̤ ̤፝֟͡ᔚ⍣ꪳ۫₎۬۟〬༼ຶཽ۪۪۫۫۫۫،ֶً̊.
- ݁✧ ▬▭▬▭▬ ✦✧✦ ▬▭▬▭▬ ✧ 
+ㅤᩧᩡ🏴‍☠️̣̣̣ᩘ᭢꒰ _*Usuario*_ ꒱ %name
+ㅤᩧᩡ🏴‍☠️̣̣̣ᩘ᭢꒰ _*Corazones*_ ꒱ %corazones
+ㅤᩧᩡ🏴‍☠️̣̣̣ᩘ᭢꒰ _*Nivel*_ ꒱ %level
+ '︶꒦꒷○꒷꒦︶.
+ᮬ᷼︵᷼⏜ㅤׅㅤ꒰ INFO BOT ꒱ㅤׅㅤ⏜︵᷼   𑂳
 
- '︶꒦꒷♡꒷꒦︶.
-┊✶ ᴄʟɪᴇɴᴛᴇ : %name
-┊┊✶ ʙᴏᴛ : Luffy
-┊┊✶ ᴍᴏᴅᴏ : Público
-┊┊✶ ᴛɪᴇᴍᴘᴏ ᴀᴄᴛ : %muptime
-┊┊✶ ᴜsᴇʀs : %totalreg
-┊┊✶ ᴄᴏʀᴀᴢᴏɴᴇs : %corazones
-┊┊✶ ɴɪᴠᴇʟ : %level 
-. .‿̩͙‿̩̩̥͙̽‿̩͙‿̩͙‿̩̩̥͙̽‿̩͙‿̩͙‿̩̩̥͙̽‿̩͙‿̩͙‿̩̩̥͙̽‿̩͙┉ˏ͛ ༝̩̩̥͙　 ҉　
-
-✦•····················•✦•···················•✦
+ㅤᩧᩡ🏴‍☠️̣̣̣ᩘ᭢꒰ _*Bot*_ ꒱ Luffy
+ㅤᩧᩡ🏴‍☠️̣̣̣ᩘ᭢꒰ _*Rutuna*_ ꒱ %muptime
+ㅤᩧᩡ🏴‍☠️̣̣̣ᩘ᭢꒰ _*Users*_ ꒱ %totalreg
+ '︶꒦꒷○꒷꒦︶.
+ㅤㅤ⩁꯭ ͡  ͡ᩚ꯭ ꯭⩁ㅤㅤ𑁯🫧ᰍㅤㅤ⩁꯭ ͡  ͡ᩚ꯭ ꯭⩁
 `.trimStart(),
-  header: '✞͙͙͙͙͙͙͙͙͙͙⏜❟︵ֹ̩̥̩̥̩̥̩̩̥⏜੭*•̩̩͙✩•̩̩͙*˚୧ֹ⏜︵ֹ̩̥̩̥̩̥̩̥̩̥̩̥̩̥❟⏜፞✞͙͙͙͙͙͙͙͙͙͙\n╠ • ˗ˏ✎*ೃ `%category`\n╠ ┈──✦﹀﹀|﹀﹀﹕₊˚ ✧. *. ⋆\n╠ ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈',
-  body: '║✶ %cmd %isdiamond %isPremium\n',
-  footer: '╚════•.·:·.✧ ✦ ✧.·:·.*•════╝\n\n',
+  header: '︵᷼ ⠑     ׅ    ⠃   ׅ  ⠊   ׅ    ׁ  ︵᷼ \n  ꒰ㅤ✿ㅤ꒱ `%category`\n ꒰꒰ᩭ𐇽ׅ᩻𝆅 🫖⃞⃞ ⃞᷒ׄ᷼*  ׄ🍚᮪ᩖᩖֺֺ ִ ࣪❖̸̷̶᷒ׄ᷼ᩡ ׅ\n╠ ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈',
+  body: '୭ ~ ৎ %cmd %isdiamond %isPremium\n',
+  footer: '           - ____  ♡   //  \n\n',
   after: ``,
 }
 let ppp = 'https://iili.io/ds8Qx9f.md.png'
@@ -180,16 +178,33 @@ const pp = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://telegr
   const random = Math.floor(Math.random() * db_.links[category].length)
   const rlink = db_.links[category][random]
   global.vid = rlink
-  const response = await fetch(vid)
+  const response = await fetch(`https://f.uguu.se/ephRWiFx.mp4`)
   const gif = await response.buffer()
  // const img = imagen1
+
+await conn.sendMessage(m.chat, {
+      video: gif,
+      gifPlayback: true,
+      caption: Styles(text.trim()),
+      contextInfo: {
+      externalAdReply: {
+      title: `Luffy Bot`,
+      body: `[<♡>]`,
+      thumbnailUrl: 'https://f.uguu.se/egUStbji.jpg',
+      sourceUrl: `https://whatsapp.com/channel/0029ValMlRS6buMFL9d0iQ0S`,
+      mediaType: 1,
+      renderLargerThumbnail: false
+      }
+      }}, {
+                        quoted: fakegif3
+                    })
 
 await m.react('🤍') 
 // await conn.reply(m.chat, '*ꪹ͜𓂃͡𝗖𝗮𝗿𝗴𝗮𝗻𝗱𝗼 𝗘𝗹 𝗠𝗲𝗻𝘂 𝗗𝗲 𝗹𝗮 𝗕𝗼𝘁...𓏲੭*', fakegif3, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: packname, body: '🤍 ¡Génesis la mejor Bot!', sourceUrl: canal, thumbnail: icons }}})
 
 // await conn.reply(m.chat, '🍟 Enviando el menú.....', m, rcanal)
 let imagen_menu = await getBuffer(ppp);
-await conn.sendFile(m.chat, imagen_menu, 'menu.jpg', Styles(text.trim()), fakegif3, null, fake)
+//await conn.sendFile(m.chat, imagen_menu, 'menu.jpg', Styles(text.trim()), fakegif3, null, fake)
 
 /* await conn.sendButton(m.chat, text, '@usxr_angelito0', ppp, [
 ['', '']], null, [['CANAL 🐈‍⬛', `${canal}`], ['CANAL 2', `wa.me/59168683798`]], m) */
