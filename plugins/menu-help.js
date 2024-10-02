@@ -65,7 +65,7 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
     let listSections = [];
 
         listSections.push({
-        title: `🔖 SELECCIÓNA LO QUE NECESITES`, highlight_label: `Popular Génesis`,
+        title: `✎ SELECCIÓNA LO QUE NECESITES`, highlight_label: `Popular luffy Ai`,
         rows: [
             {
                 header: "𓆩࿔ྀુ⃟🌹⃟𝘼𝙐𝙏𝙊 𝙑𝙀𝙍𝙄𝙁𝙄𝘾𝘼𝙍 ╎✅",
@@ -74,7 +74,7 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
                 id: `.reg 🍿 ᰰ̸̷̸̷᮫᮫໋໋ུ︩݂݂᷒ׄׄ𝐿𝔘ʃʃψꪶ͢𓏲᭔᷼⁩᭨.17`,
             },
             {
-                header: "𓆩࿔ྀુ⃟🌹⃟𝙈𝙀𝙉𝙐 𝘾𝙊𝙈𝙋𝙇𝙀𝙏𝙊 ╎🤍",
+                header: "𓆩࿔ྀુ⃟🌹⃟𝙈𝙀𝙉𝙐 𝘾𝙊𝙈𝙋𝙇𝙀𝙏𝙊 ╎ 🍿ꪳ͢",
                 title: "",
                 description: `𝘮𝘶𝘦𝘴𝘵𝘳𝘢 𝘦𝘭 𝘮𝘦𝘯𝘶 𝘤𝘰𝘮𝘱𝘭𝘦𝘵𝘰`,
                 id: `.allmenu`,
