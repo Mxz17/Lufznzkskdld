@@ -130,9 +130,9 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
         ],
     });
 
-    let vid = "https://i.ibb.co/JjVKpg5/file.jpg";
+    let vid = "https://qu.ax/oANC.jpg";
     let img = "https://qu.ax/vzhZ.jpg";
-    let img2 = "https://i.ibb.co/QHYqqk7/file.jpg";
+    let img2 = "https://qu.ax/tRzc.jpg";
     let img3 = "https://qu.ax/vVFq.jpg";
     let img4 = "https://qu.ax/Ggkk.jpg";
     let img5 = "https://qu.ax/mMiZ.jpg";
