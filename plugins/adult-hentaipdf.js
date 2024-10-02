@@ -6,7 +6,7 @@ const handler = async (m, {conn, text, usedPrefix, command, args}) => {
   const datas = global
 
   if (!db.data.chats[m.chat].modohorny && m.isGroup) throw '> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *Los comandos {+18} están desactivados en este grupo, Si es admin y deseas activarlos usa el comando .on modohorny*';
-  if (!text) throw `> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *Ingresé el nombre de alguna categoría de hentai, ⵘ *Ejemplo :* ${usedPrefix + command} Miku`;
+  if (!text) throw `> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *Ingresé el nombre de alguna categoría de hentai, ⚛ *Ejemplo :* ${usedPrefix + command} Miku`;
   try {
     m.reply(global.wait);
     const res = await fetch(`https://api.lolhuman.xyz/api/nhentaisearch?apikey=${lolkeysapi}&query=${text}`);
