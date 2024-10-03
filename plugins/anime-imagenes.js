@@ -21,7 +21,7 @@ let handler = async (m, { command, conn, usedPrefix }) => {
 
     // Ensure the array contains items
     if (!Array.isArray(res) || res.length === 0) {
-      throw new Error('No se encontraron imágenes');
+      throw new Error('> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *No se encontraron imágenes*');
     }
 
     // Function to shuffle an array
@@ -69,7 +69,7 @@ let handler = async (m, { command, conn, usedPrefix }) => {
           },
           interactiveMessage: proto.Message.InteractiveMessage.fromObject({
             body: proto.Message.InteractiveMessage.Body.create({
-              text: `🤍 \`${command}\` 🤍`
+              text: `> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ \`${command}\` 🌹`
             }),
             footer: proto.Message.InteractiveMessage.Footer.create({
               text: "_\`ᴀ\` \`ɴ\` \`ɪ\` \`ᴍ\` \`ᴇ\` - \`2\` \`0\` \`2\` \`4\`_"
