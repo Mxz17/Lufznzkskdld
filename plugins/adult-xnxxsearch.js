@@ -3,8 +3,8 @@ import fetch from 'node-fetch';
 const handler = async (m, {text, usedPrefix, command}) => {
   const datas = global
 
-if (!db.data.chats[m.chat].modohorny && m.isGroup) throw `*[❗] 𝐋𝐨𝐬 𝐜𝐨𝐦𝐚𝐧𝐝𝐨𝐬 +𝟏𝟖 𝐞𝐬𝐭𝐚́𝐧 𝐝𝐞𝐬𝐚𝐜𝐭𝐢𝐯𝐚𝐝𝐨𝐬 𝐞𝐧 𝐞𝐬𝐭𝐞 𝐠𝐫𝐮𝐩𝐨, 𝐬𝐢 𝐞𝐬 𝐚𝐝𝐦𝐢𝐧 𝐲 𝐝𝐞𝐬𝐞𝐚 𝐚𝐜𝐭𝐢𝐯𝐚𝐫𝐥𝐨𝐬 𝐮𝐬𝐞 ${usedPrefix}enable modohorny*`;   
-  if (!text) throw `*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝙹𝙴𝙼𝙿𝙻𝙾 𝙳𝙴 𝚄𝚂𝙾 𝙳𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 ${usedPrefix + command} Con mi prima*`;
+if (!db.data.chats[m.chat].modohorny && m.isGroup) throw `> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *Los comandos {+18} estan desactivados en este grupo, Si eres admin y deseas activarlos use𝐞 ${usedPrefix} modohorny*`;   
+  if (!text) throw `> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *Ejemplo de uso del comando : ${usedPrefix + command} Con mi prima*`;
   try {
     const vids_ = {
       from: m.sender,
@@ -18,12 +18,12 @@ if (!db.data.chats[m.chat].modohorny && m.isGroup) throw `*[❗] 𝐋𝐨𝐬 �
     }
     const res = await xnxxsearch(text);
     const json = res.result;
-    let cap = `*🔍 𝐑𝐄𝐒𝐔𝐋𝐓𝐀𝐃𝐎𝐒 𝐃𝐄 𝐋𝐀 𝐁𝐔𝐒𝐐𝐔𝐄𝐃𝐀* ${text.toUpperCase()}\n\n`;
+    let cap = `> ꦂ🍑࣭࣪·ฺ *Resultados de la busqueda* ${text.toUpperCase()}\n\n`;
     let count = 1;
     for (const v of json) {
       const linkXXX = v.link;
       vids_.urls.push(linkXXX);
-      cap += `*[${count}]*\n• *🎬 Titulo:* ${v.title}\n• *🔗 Link:* ${v.link}\n• *❗ Info:* ${v.info}`;
+      cap += `*[${count}]*\n• *🎬 Titulo:* ${v.title}\n• *🔗 Link:* ${v.link}\n◍̤￫ *Info:* ${v.info}`;
       cap += '\n\n' + '••••••••••••••••••••••••••••••••' + '\n\n';
       count++;
     }
