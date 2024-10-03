@@ -2,19 +2,19 @@ var handler = async m =>
 
 conn.reply(m.chat, ` 
 ┏━━━━━━━━━━━━━━━━━━━━┅
-┇                   *「 ANIME」*       
+┇        ∘̥⃟λиɨრ૯ᮬ ᭨͜❀-”
 ┣━━━━━━━━━━━━━━━━━━━━┅
-┃ ❖ https://kusonime.com
-┃ ❖ https://huntersekaisub.blogspot.com
-┃ ❖ https://riie.jp
-┃ ❖ https://m.meownime.ai
-┃ ❖ https://meownime.ltd
-┃ ❖ https://nimegami.id
-┃ ❖ https://animekompi.cam
-┃ ❖ https://nontonanimeid.top
-┃ ❖ https://kazefuri.vip
-┃ ❖ https://pendekarsubs.us
-┃ ❖ https://myanimelist.net
+┃ ꕸ▸ https://kusonime.com
+┃ ꕸ▸ https://huntersekaisub.blogspot.com
+┃ ꕸ▹ https://riie.jp
+┃ ꕸ▹ https://m.meownime.ai
+┃ ꕸ▹ https://meownime.ltd
+┃ ꕸ▹ https://nimegami.id
+┃ ꕸ▹ https://animekompi.cam
+┃ ꕸ▹ https://nontonanimeid.top
+╎╎ ꕸ▸ https://kazefuri.vip
+╎╎ ꕸ▸ https://pendekarsubs.us
+╎╎ ꕸ▸ https://myanimelist.net
 ┗━━━━━━━━━━━━━━━━━━━━┅
  `, m, rcanal, )
 
