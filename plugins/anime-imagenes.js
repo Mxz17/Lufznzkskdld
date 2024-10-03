@@ -42,7 +42,7 @@ let handler = async (m, { command, conn, usedPrefix }) => {
     const results = await Promise.all(images.map(async (imageUrl, index) => {
       const imageResponse = await fetch(imageUrl);
       if (!imageResponse.ok) {
-        throw new Error('Error al descargar la imagen');
+        throw new Error('> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *Error al descargar la imagen*');
       }
       const imageBuffer = await imageResponse.buffer();
       let pr = await remini(imageBuffer, "enhance")
