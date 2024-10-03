@@ -86,7 +86,7 @@ let handler = async (m, { command, conn, usedPrefix }) => {
 									isForwarded: true,
 									forwardedNewsletterMessageInfo: {
 										newsletterJid: "120363220939514640@newsletter",
-										newsletterName: "𝑮𝒆𝒏𝒆𝒔𝒊𝒔-𝑩𝒐𝒕 - 𝑪𝒉𝒂𝒏𝒏𝒆𝒍",
+										newsletterName: "⌜❖-⍣ ŁџՔՔყ ਜⶇ ࣶᭂ °᳝᭨᭄·̣̇͜᭺⌟",
 										serverMessageId: 143
 									}
 								}
