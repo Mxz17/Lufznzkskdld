@@ -2,8 +2,8 @@ import uploadImage from '../lib/uploadImage.js';
 const handler = async (m, {conn, text, args, usedPrefix, command}) => {
   const q = m.quoted ? m.quoted : m;
   const mime = (q.msg || q).mimetype || q.mediaType || '';
-  if (!/image/g.test(mime)) throw '🛑 *Responda a una imagen*';
-  m.reply('☄️ *Conviertiendo la imagen en anime, espere un momento...*');
+  if (!/image/g.test(mime)) throw '> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *Responda a una imagen*';
+  m.reply('> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *Conviertiendo la imagen en anime, espere un momento...*');
   const data = await q.download?.();
   const image = await uploadImage(data);
   try {
@@ -18,7 +18,7 @@ const handler = async (m, {conn, text, args, usedPrefix, command}) => {
         const anime3 = `https://api.caliph.biz.id/api/animeai?img=${image}&apikey=caliphkey`;
         await conn.sendFile(m.chat, anime3, 'error.jpg', null, m);
       } catch (e) {
-        throw '🛑 *Ocurrió un error*';
+        throw '> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *Ocurrió un error*';
       }
     }
   }
