@@ -9,7 +9,7 @@ let handler = async (m, { conn: star, args, text, isPrems, isOwner, usedPrefix, 
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 
 if (!args || !args[0]) return star.reply(m.chat, '> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *Ingresa El link Del documento a descargar*', m, rcanal)
-if (!args[0].match(/youtu/gi)) return star.reply(m.chat, `Verifica que el enlace sea de YouTube.`, m, rcanal).then(_ => m.react('✅'))
+if (!args[0].match(/youtu/gi)) return star.reply(m.chat, `> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *Verifica que el enlace sea de YouTube.*`, m, rcanal).then(_ => m.react('✅'))
 let q = '128kbps'
 
 await m.react('🕒')
@@ -34,8 +34,8 @@ let vid = (await yts(text)).all[0]
 let { thumbnail, url } = vid
 
 let img = await (await fetch(`${vid.thumbnail}`)).buffer()  
-if (size.split('MB')[0] >= limit) return star.reply(m.chat, `El archivo pesa mas de ${limit} MB, se cancelÃ³ la Descarga.`, m, rcanal).then(_ => m.react('✅'))
-await star.sendMessage(m.chat, { document: { url: dl_url }, caption: '*By: GenesisBot*', mimetype: 'audio/mpeg', fileName: `${title}.mp3`}, { quoted: fkontak })
+if (size.split('MB')[0] >= limit) return star.reply(m.chat, `> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *El archivo pesa mas de ${limit} MB, se cancelÃ³ la Descarga.*`, m, rcanal).then(_ => m.react('✅'))
+await star.sendMessage(m.chat, { document: { url: dl_url }, caption: '*By: Luffy*', mimetype: 'audio/mpeg', fileName: `${title}.mp3`}, { quoted: fkontak })
 await m.react('✅')
 } catch {
 await m.react('🕒')
@@ -44,8 +44,8 @@ let yt = await fg.ytmp3(args[0], q)
 let { title, dl_url, size, thumb } = yt 
 
 let img = await (await fetch(`${thumb}`)).buffer()
-if (size.split('MB')[0] >= limit) return star.reply(m.chat, `El archivo pesa mas de ${limit} MB, se cancelÃ³ la Descarga.`, m, rcanal).then(_ => m.react('✅'))
-await star.sendMessage(m.chat, { document: { url: dl_url }, caption: '*By: GenesisBot*', mimetype: 'audio/mpeg', fileName: `${title}.mp3`}, { quoted: fkontak })
+if (size.split('MB')[0] >= limit) return star.reply(m.chat, `> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *El archivo pesa mas de ${limit} MB, se cancelÃ³ la Descarga.*`, m, rcanal).then(_ => m.react('✅'))
+await star.sendMessage(m.chat, { document: { url: dl_url }, caption: '*By: /Luffy/*', mimetype: 'audio/mpeg', fileName: `${title}.mp3`}, { quoted: fkontak })
 await m.react('✅')
 } catch {
 await m.react('✖️')
