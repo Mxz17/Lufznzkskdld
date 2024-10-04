@@ -1,9 +1,9 @@
 import {webp2mp4} from '../lib/webp2mp4.js';
 import {ffmpeg} from '../lib/converter.js';
 const handler = async (m, {conn, usedPrefix, command}) => {
-  if (!m.quoted) throw `*🤍 Responda A Un Sticker Que Desee Convertir En  Video Con El Comando ${usedPrefix + command}*`;
+  if (!m.quoted) throw `> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *Responda A Un Sticker Que Desee Convertir En  Video Con El Comando ${usedPrefix + command}*`;
   const mime = m.quoted.mimetype || '';
-  if (!/webp/.test(mime)) throw `*🤍Responda A Un Sticker Que Desee Convertir En  Video Con El Comando ${usedPrefix + command}*`;
+  if (!/webp/.test(mime)) throw `> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *Responda A Un Sticker Que Desee Convertir En  Video Con El Comando ${usedPrefix + command}*`;
   const media = await m.quoted.download();
   let out = Buffer.alloc(0);
   conn.reply(m.chat, wait, m, {
@@ -23,7 +23,7 @@ const handler = async (m, {conn, usedPrefix, command}) => {
       '-shortest',
     ], 'mp3', 'mp4');
   }
-  await conn.sendFile(m.chat, out, 'error.mp4', '*🌳 Su Video*', m, 0, {thumbnail: out});
+  await conn.sendFile(m.chat, out, 'error.mp4', '*🥀᭪ Su Video*', m, 0, {thumbnail: out});
 };
 handler.help = ['tovideo'];
 handler.tags = ['transformador'];
