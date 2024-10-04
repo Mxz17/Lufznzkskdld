@@ -10,7 +10,7 @@ let handler = async (m, { conn }) => {
 
   await m.react('🕒')
   if (!mime.startsWith('image/')) {
-    return m.reply('Responde a una *Imagen.*')
+    return m.reply('> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ Responde a una *Imagen.*')
   }
 
   let media = await q.download()
@@ -25,15 +25,15 @@ let handler = async (m, { conn }) => {
 
   await m.react('✅')
   if (api.data.data) {
-    let txt = '`I B B  -  U P L O A D E R`\n\n'
-        txt += `*🔖 Titulo* : ${q.filename || 'x'}\n`
-        txt += `*🔖 Id* : ${api.data.data.id}\n`
-        txt += `*🔖 Enlace* : ${api.data.data.url}\n`
-        txt += `*🔖 Directo* : ${api.data.data.url_viewer}\n`
-        txt += `*🔖 Mime* : ${mime}\n`
-        txt += `*🔖 File* : ${q.filename || 'x.jpg'}\n`
-        txt += `*🔖 Extension* : ${api.data.data.image.extension}\n`
-        txt += `*🔖 Delete* : ${api.data.data.delete_url}\n\n`
+    let txt = '`✯⏤͟͟͞͞=I B B  -  U P L O A D E R=⏤͟͟͞͞✯`\n\n'
+        txt += `*𖦹҉ २꫶ Titulo* : ${q.filename || 'x'}\n`
+        txt += `*𖦹҉ २꫶ Id* : ${api.data.data.id}\n`
+        txt += `*𖦹҉ २꫶ Enlace* : ${api.data.data.url}\n`
+        txt += `*𖦹҉ २꫶ Directo* : ${api.data.data.url_viewer}\n`
+        txt += `*𖦹҉ २꫶ Mime* : ${mime}\n`
+        txt += `*𖦹҉ २꫶ File* : ${q.filename || 'x.jpg'}\n`
+        txt += `*𖦹҉ २꫶ Extension* : ${api.data.data.image.extension}\n`
+        txt += `*𖦹҉ २꫶ Delete* : ${api.data.data.delete_url}\n\n`
         txt += `© By: Genesis`
     await conn.sendFile(m.chat, api.data.data.url, 'ibb.jpg', txt, m, null, fake)
   } else {
