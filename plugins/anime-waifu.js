@@ -36,11 +36,11 @@ let handler = async (m, { command, conn }) => {
 
     // Enviar el carrusel
     await m.react('✅');
-    await conn.sendCarousel(m.chat, '*\`[ W A I F U - P I C S ]\`*', `"ુ _\`ᴀ᪶۫۫\` \`ɴ᪶۫۫\` \`ɪ᪶۫۫\` \`ᴍ᪶۫۫\` \`ᴇ᪶۫۫\`_ ૂ"`, command, messages, null);
+    await conn.sendCarousel(m.chat, '*\`〘 ਘ  ﾑ  讠ﾁ  い - ア  ቾ  ح  ន〙\`*', `"ુ _\`ᴀ᪶۫۫\` \`ɴ᪶۫۫\` \`ɪ᪶۫۫\` \`ᴍ᪶۫۫\` \`ᴇ᪶۫۫\`_ ૂ"`, command, messages, null);
 
   } catch (error) {
     console.error(error);
-    conn.reply(m.chat, 'Error al procesar la solicitud', m);
+    conn.reply(m.chat, '> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *Error al procesar la solicitud*', m);
   }
 };
 
