@@ -3,7 +3,7 @@ import { fileTypeFromBuffer } from 'file-type';
 const handler = async (m, {
     args
 }) => {
- if (!args[0]) return conn.reply(m.chat"> ͓ ♘ ⃟⇱͓͓*Ejemplo :*\n!notoemoji¡ ⟮ emoji ⟯\n\nUso:\n!notoemoji, m, rcanal)
+ if (!img) return conn.reply(m.chat, `> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ La conversión ha *fallado*, intenta *enviar* primero *imagen*/*video*/*gif* y luego responde con el *comando.*`, m, rcanal)
     try {
         m.reply(wait)
         const unicode = await emojiUnicode(args[0])
