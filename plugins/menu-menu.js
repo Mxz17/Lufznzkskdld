@@ -178,7 +178,7 @@ const pp = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://telegr
   const random = Math.floor(Math.random() * db_.links[category].length)
   const rlink = db_.links[category][random]
   global.vid = rlink
-  const response = await fetch(`https://f.uguu.se/ephRWiFx.mp4`)
+  const response = await fetch(`https://qu.ax/gKAK.mp4`)
   const gif = await response.buffer()
  // const img = imagen1
 
