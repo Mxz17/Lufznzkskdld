@@ -1,6 +1,6 @@
 import { webp2png } from '../lib/webp2mp4.js'
 let handler = async (m, { conn, usedPrefix, command }) => {
-const notStickerMessage = `Hubo un Error *${usedPrefix + command}*`
+const notStickerMessage = `> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ Hubo un Error *${usedPrefix + command}*`
 //if (!m.quoted) return m.reply(notStickerMessage)
 const q = m.quoted || m
 const mime = q.mediaType || ''
