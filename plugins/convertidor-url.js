@@ -16,7 +16,7 @@ let handler = async m => {
       return
     }   
     if (fileSizeInBytes > 1073741824) {
-      await m.reply("El archivo es demasiado grande, el tamaño máximo es 1 GB")
+      await m.reply("> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *El archivo es demasiado grande, el tamaño máximo es 1 GB*")
       await fs.promises.unlink(media)
       return
     }    
