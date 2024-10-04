@@ -190,7 +190,7 @@ await conn.sendMessage(m.chat, {
       externalAdReply: {
       title: `━̸̸̸̶ꪴꪾꪸᚖ̷̷𝅾▹ =͟͟͞𝙻֟፝نﾁ۪۪۪۫۫۫۫ﾁצּ 🍿⃞̸̤̤ ̤፝֟͡ᔚ⍣ꪳ۫₎۬۟〬༼ຶཽ۪۪۫۫۫۫،ֶً̊.`,
       body: `╰<፤и┊ꪑꪎʒ>╯`,
-      thumbnailUrl: 'https://f.uguu.se/ephRWiFx.mp4',
+      thumbnailUrl: 'https://qu.ax/gKAK.mp4',
       sourceUrl: `https://whatsapp.com/channel/0029ValMlRS6buMFL9d0iQ0S`,
       mediaType: 1,
       renderLargerThumbnail: false
