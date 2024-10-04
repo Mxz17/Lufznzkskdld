@@ -10,17 +10,17 @@ const json = await res.json()
 if (res.status !== 200) throw json
 let str = json.items.map((repo, index) => {
 return `
-🍿 *Resultado:* ${1 + index}
-🔗 *Enlace:* ${repo.html_url}
-👑 *Creador:* ${repo.owner.login}
-🍟 *Nombre:* ${repo.name}
-🫂 *Creado:* ${formatDate(repo.created_at)}
-💥 *Actualizado:* ${formatDate(repo.updated_at)}
-👀 *Visitas:* ${repo.watchers}
-✨️ *Bifurcado:* ${repo.forks}
-🌟 *Estrellas:* ${repo.stargazers_count}
-🍂 *Issues:* ${repo.open_issues}
-🍭 *Descripción:* ${repo.description ? `${repo.description}` : 'Sin Descripción'}
+‛᩠⋆🍿‛᩠⋆ *Resultado:* ${1 + index}
+‛᩠⋆🔗‛᩠⋆ *Enlace:* ${repo.html_url}
+‛᩠⋆👑‛᩠⋆  *Creador:* ${repo.owner.login}
+‛᩠⋆🍟‛᩠⋆  *Nombre:* ${repo.name}
+‛᩠⋆🫂‛᩠⋆  *Creado:* ${formatDate(repo.created_at)}
+‛᩠⋆💥‛᩠⋆  *Actualizado:* ${formatDate(repo.updated_at)}
+‛᩠⋆👀‛᩠⋆  *Visitas:* ${repo.watchers}
+‛᩠⋆✨️‛᩠⋆  *Bifurcado:* ${repo.forks}
+‛᩠⋆🌟‛᩠⋆  *Estrellas:* ${repo.stargazers_count}
+‛᩠⋆🍂‛᩠⋆  *Issues:* ${repo.open_issues}
+‛᩠⋆🍭‛᩠⋆  *Descripción:* ${repo.description ? `${repo.description}` : 'Sin Descripción'}
 ⭐️ *Clone:* ${repo.clone_url}
 `.trim()}).join('\n\n─────────────────\n\n') 
 // await m.react(done)
