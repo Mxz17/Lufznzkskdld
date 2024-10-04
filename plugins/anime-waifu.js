@@ -31,12 +31,12 @@ let handler = async (m, { command, conn }) => {
 
       // Preparar el mensaje
       const caption = `Imagen ${i + 1}`;
-      messages.push([caption, '*[ GenesisBot By Angel-OFC ]*', json.url, [[]], [[]], [[]], [[]]]);
+      messages.push([caption, '*｟ 𖠲۪۫ ℒચｷｷ𝔦 Ѧ𝕚 𝕭𝓲 : ʍҳӡ ｠*', json.url, [[]], [[]], [[]], [[]]]);
     }
 
     // Enviar el carrusel
     await m.react('✅');
-    await conn.sendCarousel(m.chat, '*\`[ W A I F U - P I C S ]\`*', `_\`ᴀ\` \`ɴ\` \`ɪ\` \`ᴍ\` \`ᴇ\` - \`2\` \`0\` \`2\` \`4\`_`, command, messages, null);
+    await conn.sendCarousel(m.chat, '*\`[ W A I F U - P I C S ]\`*', `"ુ _\`ᴀ᪶۫۫\` \`ɴ᪶۫۫\` \`ɪ᪶۫۫\` \`ᴍ᪶۫۫\` \`ᴇ᪶۫۫\`_ ૂ"`, command, messages, null);
 
   } catch (error) {
     console.error(error);
