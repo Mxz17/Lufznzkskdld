@@ -17,7 +17,7 @@ async function downloadApk(id) {
 }
 
 let handler = async (m, { conn, usedPrefix, command, text }) => {
-  if (!text) throw `*ACCIÓN MAL USADA\n\n *ESCRIBA EL NOMBRE DEL APK*, `;
+  if (!text) throw `> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *ACCIÓN MAL USADA\n\n°᳝ꯥ‧ٓ➭  *ESCRIBA EL NOMBRE DEL APK*, `;
   try {
     const searchResults = await searchApk(text);
     const apkData = await downloadApk(searchResults[0].id);
@@ -31,12 +31,12 @@ let handler = async (m, { conn, usedPrefix, command, text }) => {
 ┃ 𝘿𝙚𝙨𝙘𝙖𝙧𝙜𝙖𝙣𝙙𝙤 𝘼𝙋𝙆 🚀🚀🚀`;
     await conn.sendMessage(m.chat, { image: { url: apkData.icon }, caption: response }, { quoted: m });
     if (apkData.size.includes('GB') || apkData.size.replace(' MB', '') > 999) {
-      return await conn.sendMessage(m.chat, { text: 'EL APK ES MUY PESADO.',  }, { quoted: m });
+      return await conn.sendMessage(m.chat, { text: '> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *EL APK ES MUY PESADO.*',  }, { quoted: m });
     }
     await conn.sendMessage(m.chat, { document: { url: apkData.dllink }, mimetype: 'application/vnd.android.package-archive', fileName: apkData.name + '.apk', caption: null }, { quoted: m });
   } catch (e) {
-    await conn.reply(m.chat, `𝙊𝙘𝙪𝙧𝙧𝙞𝙤 𝙪𝙣 𝙚𝙧𝙧𝙤𝙧\n\n${e}`, m);
-    console.log(`❗❗𝙀𝙧𝙧𝙤𝙧 ${usedPrefix + command} ❗❗`);
+    await conn.reply(m.chat, `> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *Ocurrio un error*\n\n${e}`, m);
+    console.log(`> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *Error* ${usedPrefix + command}`);
     console.log(e);
     handler.limit = false;
   }
