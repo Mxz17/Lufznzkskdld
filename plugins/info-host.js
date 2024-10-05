@@ -56,6 +56,7 @@ l-░░░░░░░░░░░░░░░░░░-|
 *꒰➥ Canal de respaldo :⇇۪͎꒱ ꣠ ⁺˖`
 
 ⟪ https://whatsapp.com/channel/0029VaoZXbk6RGJNYQVP8r27 ⟫ 
+
 ✰*ૢ✧ ཻུ۪۪⸙︽︽︽︽︽︽︽︽◌ ༉‧₊˚⁺ ˖˚` 
 await conn.sendMessage(m.chat, { text: txt,
 contextInfo:{
