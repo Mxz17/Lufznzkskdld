@@ -1,5 +1,6 @@
 //código editado x Mxz <3
 //▝▞▟▘▙▚▛▜▝▞▟▖▗▘▙▚▛▜▝
+
 let handler = async (m, { conn, command, usedPrefix }) => {
 let txt = `︿︿︿︿︿︿︿︿︿︿︿︿︿︿︿
 〈 ┣•👋 *¡ꪡ𝛯ㄥር〄ʍ玄.*
@@ -17,14 +18,14 @@ La plataforma más rápida y confiable para alojar tus servidores y potenciar tu
 - 
 l-▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓-l
 
-*꒰➥ ¿Quieres recargar coins?* :⇇۪͎꒱ ꣠⁺˖`
+*꒰➥ ¿Quieres recargar coins?*⇇۪͎꒱ ꣠ ༘ : : ⁺˖
 
   ꦿ⃟ۜ💡 *Compra tus coins* con *PayPal* de forma rápida y segura:  
 👉 〖 https://dash.tk-joanhost.com/store 〗
 
 l-▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓-l
 
-*꒰➥ 🌍 *¿No tienes PayPal?* :⇇۪͎꒱ ꣠⁺˖`
+*꒰➥ 🌍 *¿No tienes PayPal?* :⇇۪͎꒱ ꣠ ༘ : : ⁺˖`࿔*
 
 . 　 · ✦ ¡No te preocupes! 🌍 También aceptamos *pagos internacionales*. Solo envía el monto solicitado en la tienda y el comprobante de pago. Activaremos tus *coins* rápidamente. 
 
@@ -36,7 +37,7 @@ l-▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓-l
 - 
 l-░░░░░░░░░░░░░░░░░░-l
 
-*꒰➥ 🌍 Para clientes internacionales :⇇۪͎꒱ ꣠⁺˖`
+*꒰➥ 🌍 Para clientes internacionales :⇇۪͎꒱ ꣠ ༘ : : ⁺˖`࿔*
 . 　 · ✦ *Mercado Pago*: *02JOAN*  
 . 　 · ✦ *Astropay*: *02JOAN*
 - 
@@ -46,13 +47,13 @@ l-░░░░░░░░░░░░░░░░░░-l
 
 l-░░░░░░░░░░░░░░░░░░-l
 
-    *꒰➥ 💥ᮬ Canal Oficial de TK-HOST :⇇۪͎꒱ ꣠⁺˖
+    *꒰➥ 💥ᮬ Canal Oficial de TK-HOST :⇇۪͎꒱ ꣠ ༘ : : ⁺˖`࿔*
 
 ⟪ https://whatsapp.com/channel/0029VaGGynJLY6d43krQYR2g ⟫ 
 
 l-░░░░░░░░░░░░░░░░░░-|
 
-  *꒰➥ Canal de respaldo ⇇۪͎꒱ ꣠ ⁺˖
+  *꒰➥ Canal de respaldo ⇇۪͎꒱ ꣠ ༘ : : ⁺˖`࿔*
 
 ⟪ https://whatsapp.com/channel/0029VaoZXbk6RGJNYQVP8r27 ⟫ 
 ✰*ૢ✧ ཻུ۪۪⸙︽︽︽︽︽︽︽︽◌ ༉‧₊˚⁺ ˖˚` 
