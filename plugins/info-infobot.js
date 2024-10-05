@@ -76,7 +76,7 @@ yaemori += `│--༢⃝࿔ྀ-- *${groupsIn.length}* Grupos Unidos\n`
 yaemori += `│--༢⃝࿔ྀ-- *${groupsIn.length - groupsIn.length}* Grupos Salidos\n`
 yaemori += `│--༢⃝࿔ྀ-- *${chats.length - groupsIn.length}* Chats Privados\n`
 yaemori += `│--༢⃝࿔ྀ-- *${chats.length}* Chats Totales\n`
-yaemori += `╰─⬣\n\n`
+yaemori += `╰─❖\n\n`
 yaemori += `╭─❖〘 *NodeJS Uso de memoria* 〙❖\n`
 yaemori += `${'```' + Object.keys(used).map((key, _, arr) => `│ ${key.padEnd(Math.max(...arr.map(v => v.length)), ' ')}: ${format(used[key])}`).join('\n') + '```'}\n`
 yaemori += `╰─❖`
