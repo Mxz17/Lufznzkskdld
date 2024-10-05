@@ -1,36 +1,41 @@
 let handler = async (m, { conn, command, usedPrefix }) => {
-let txt = `*¿Tu Nokia es muy lento y necesitas que tu bot esté activo 24/7?* 📱⏳
+let txt = `👋 *¡Bienvenido a TK-Host  🚀💻*
+La plataforma más rápida y confiable para alojar tus servidores y potenciar tus proyectos. 🌐
 
-¡Tenemos la solución perfecta para ti! 🎉 Mantén tu bot funcionando sin interrupciones con nuestros servidores, Ofrecemos servidores gratuitos y de pago a precios súper accesibles, al alcance de todos. 💸 
+🔑 *Comienza ahora mismo:*
+- *Regístrate*: [https://dash.tk-joanhost.com]  
+- *Verifica tu cuenta*: revisa spam de Gmail oh que te verifique JoanTK
+- *Crea tu servidor*: [https://dash.tk-joanhost.com/servers]  
+- *Accede a tu servidor*: [https://panel.tk-joanhost.com]
 
-🖥️ *Totalmente compatible con GataBot:* Disfruta al máximo de su potencial en nuestros servidores de alto rendimiento, asegurando una experiencia fluida y de alta calidad. El staff de GataBot y CorinPlus Host se encarga de que disfrutes de todas sus funciones al máximo. 😺✨
+💳 *¿Quieres recargar coins?*
 
-🟢 \`\`\`Información del Host\`\`\`
+💡 *Compra tus coins* con *PayPal* de forma rápida y segura:  
+👉 [https://dash.tk-joanhost.com/store]
 
-💻 *Página:*
-https://dash.corinplus.com
+*¿No tienes PayPal?*  
+¡No te preocupes! 🌍 También aceptamos *pagos internacionales**. Solo envía el monto solicitado en la tienda y el comprobante de pago. Activaremos tus *coins* rápidamente. 
 
-*🟢 Dashboard:*
-https://dash.corinplus.com
+📱 *Para usuarios en Perú*:  
+- *Yape/Agora*: 927803866  
+- *Plin*: 976673519  
 
-⚙️ *Panel*
-https://panel.corinplus.com
+🌍 *Para clientes internacionales*:  
+- *Mercado Pago*: *02JOAN*  
+- *Astropay*: *02JOAN*
 
-💥 *Comunidad de WhatsApp:*
-https://chat.whatsapp.com/HR3OLhsuZPqCMImzuHcuON
 
-*🟣 Discord:*
-https://discord.com/invite/bjKpRBtkHv
+✨ *Gracias por elegir TK-Host.* Estamos comprometidos a brindarte la mejor experiencia en alojamiento de servidores. 🚀 ¡Tu éxito es nuestra prioridad!
 
-🧡 *Canal de WhatsApp:*
-https://whatsapp.com/channel/0029VakUvreFHWpyWUr4Jr0g
+---
 
-🗣📲 *Contacto:*
-• wa.me/5214531287294
-• wa.me/573147616444
-• https://www.facebook.com/elrebelde21
+```💥ᮬ᭄ᮬ᭄ Canal Oficial de TK-HOST:```
+[https://whatsapp.com/channel/0029VaGGynJLY6d43krQYR2g]
 
-No esperes más y lleva tu bot al siguiente nivel con nuestro servicio de alojamiento. ¡Es fácil, rápido y económico! 💪🚀` 
+```📲 Canal de Respaldo:```
+[https://whatsapp.com/channel/0029VaoZXbk6RGJNYQVP8r27]
+
+---` 
 await conn.sendMessage(m.chat, { text: txt,
 contextInfo:{
 forwardingScore: 9999999,
@@ -38,7 +43,7 @@ isForwarded: false,
 "externalAdReply": {
 "showAdAttribution": true,
 "containsAutoReply": true,
-title: `🤖 𝐂O𝐑𝐈𝐍𝐏𝐋𝐔𝐒-𝐇𝐎𝐒𝐓 🤖`,
+title: `👾 ፕ𝐊-𝐇𝐎𝐒𝐓 👾`,
 body: `✅ Hosting de Calidad`,
 "previewType": "PHOTO",
 thumbnailUrl: 'https://telegra.ph/file/551d3d544d7bc607fd337.jpg', 
@@ -47,5 +52,5 @@ sourceUrl: 'https://dash.corinplus.com'}}},
 }
 handler.tags =['main'] 
 handler.help = ['host', 'hosting'] 
-handler.command = ['host', 'corinplus', 'corinplushost', 'hosting']
+handler.command = ['host', 'tkpanel', 'joanhost', 'hosting']
 export default handler
