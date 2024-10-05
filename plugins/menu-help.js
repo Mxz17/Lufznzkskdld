@@ -56,7 +56,6 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
 txt+= '.͜°˖ `ᴄʀᴇᴀᴅᴏʀ ::`' + ` ℳꪎʑ\n`;
 txt+= '.͜°˖ `ʙᴏᴛ ::`' + ` Luffy=Ai\n`;
 txt+= '.͜°˖ `ꜰᴇᴄʜᴀ ::`' + ` ${fecha}\n`;
-txt+= '.͜°˖ `ᴠᴇʀꜱɪᴏɴ ::`' + ` ${vs}\n`;
 txt+= '.͜°˖ `ᴘʀᴇꜰɪᴊᴏ ::`' + ` [ ${usedPrefix} ]\n`;
 txt+= '.͜°˖ `ᴜꜱᴜᴀʀɪᴏꜱ ::`' + ` ${rtotal}\n`;
 txt+= '.͜°˖ `ᴄᴏɴᴛᴀᴄᴛᴏ ::` .owner\n\n';
