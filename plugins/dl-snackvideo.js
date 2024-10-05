@@ -2,11 +2,11 @@ import cheerio from 'cheerio'
 import fetch from 'node-fetch'
 
 let handler = async (m, { conn, usedPrefix, command, text }) => {
-  if (!text) throw `*\`Ingresa El link Del vídeo a descargar 🤍\`*`
+  if (!text) throw `> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *Ingresa El link Del vídeo a descargar*`
   conn.sendMessage(m.chat, { react: { text: '🕐', key: m.key }})
 try {
   let res= await snack(text) 
-  let capt = `Usuario : ${res.author}\nLikes : ${res.like}\nComentarios : ${res.comment}\nCompartidas : ${res.share}`
+  let capt = `⿰ Usuario : ${res.author}\n⿻ Likes : ${res.like}\n⿰ Comentarios : ${res.comment}\n𒄬Compartidas : ${res.share}`
   m.react('✅') 
   conn.sendFile(m.chat, res.media, '', capt, m, null, rcanal)
 } catch (e) {
