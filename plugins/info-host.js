@@ -29,10 +29,10 @@ La plataforma más rápida y confiable para alojar tus servidores y potenciar tu
 
 ---
 
-```💥ᮬ᭄ᮬ᭄ Canal Oficial de TK-HOST:```
+    💥ᮬ᭄ᮬ᭄ Canal Oficial de TK-HOST:
 [https://whatsapp.com/channel/0029VaGGynJLY6d43krQYR2g]
 
-```📲 Canal de Respaldo:```
+      📲 Canal de Respaldo:
 [https://whatsapp.com/channel/0029VaoZXbk6RGJNYQVP8r27]
 
 ---` 
