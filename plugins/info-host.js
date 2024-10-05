@@ -46,7 +46,7 @@ isForwarded: false,
 title: `👾 ፕ𝐊-𝐇𝐎𝐒𝐓 👾`,
 body: `✅ Hosting de Calidad`,
 "previewType": "PHOTO",
-thumbnailUrl: 'https://telegra.ph/file/551d3d544d7bc607fd337.jpg', 
+thumbnailUrl: 'https://qu.ax/hXTXJ.jpg', 
 sourceUrl: 'https://dash.corinplus.com'}}},
 { quoted: fakegif3})
 }
