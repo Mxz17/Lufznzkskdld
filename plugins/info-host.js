@@ -30,7 +30,7 @@ l-▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓-l
 
 l-▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓-l
 
-  ꦿ⃟ۜ📱 *Para usuarios en Perú*:  
+ ꦿ⃟ۜ📱 *Para usuarios en Perú*:  
 . 　 · ✦ *Yape/Agora*: 927803866  
 . 　 · ✦ *Plin*: 976673519  
 - 
@@ -42,17 +42,17 @@ F
 - 
 l-░░░░░░░░░░░░░░░░░░-l
 
-  ꦿ⃟ۜ✨ *Gracias por elegir TK-Host.* Estamos comprometidos a brindarte la mejor experiencia en alojamiento de servidores. 🚀 ¡Tu éxito es nuestra prioridad!
+ ꦿ⃟ۜ✨ *Gracias por elegir TK-Host.* Estamos comprometidos a brindarte la mejor experiencia en alojamiento de servidores. 🚀 ¡Tu éxito es nuestra prioridad!
 
 l-░░░░░░░░░░░░░░░░░░-l
 
-    *꒰➥ 💥ᮬ Canal Oficial de TK-HOST :⇇۪͎꒱ ꣠⁺˖
+ *꒰➥ 💥ᮬ Canal Oficial de TK-HOST :⇇۪͎꒱ ꣠⁺˖
 
 ⟪ https://whatsapp.com/channel/0029VaGGynJLY6d43krQYR2g ⟫ 
 
 l-░░░░░░░░░░░░░░░░░░-|
 
-  *꒰➥ Canal de respaldo ⇇۪͎꒱ ꣠⁺˖
+*꒰➥ Canal de respaldo ⇇۪͎꒱ ꣠⁺˖
 
 ⟪ https://whatsapp.com/channel/0029VaoZXbk6RGJNYQVP8r27 ⟫ 
 ✰*ૢ✧ ཻུ۪۪⸙︽︽︽︽︽︽︽︽◌ ༉‧₊˚⁺ ˖` 
