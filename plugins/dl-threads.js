@@ -26,7 +26,7 @@ let handler = async (m, { args, conn }) => {
     } catch (error) {
         console.error(error);
         await m.react('❌');
-        return conn.reply(m.chat, '*\`Error al descargar la imagen. Asegúrate de que el link sea correcto.\`*', m);
+        return conn.reply(m.chat, '> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *Error al descargar la imagen. Asegúrate de que el link sea correcto.*', m);
     }
 }
 
