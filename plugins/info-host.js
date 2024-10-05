@@ -25,7 +25,7 @@ l-▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓-l
 
 l-▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓-l
 
-*꒰➥ 🌍 *¿No tienes PayPal?* :⇇۪͎꒱ ꣠  : : ⁺˖`
+*꒰➥ 🌍 *¿No tienes PayPal?* :⇇۪͎꒱ ꣠  : : ⁺˖
 . 　 · ✦ ¡No te preocupes! 🌍 También aceptamos *pagos internacionales*. Solo envía el monto solicitado en la tienda y el comprobante de pago. Activaremos tus *coins* rápidamente. 
 
 l-▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓-l
