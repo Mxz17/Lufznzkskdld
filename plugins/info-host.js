@@ -46,13 +46,13 @@ l-░░░░░░░░░░░░░░░░░░-l
 
 l-░░░░░░░░░░░░░░░░░░-l
 
-*꒰➥ Canal Oficial de TK-HOST :⇇۪͎꒱ ꣠ ⁺˖`
+*꒰➥ Canal Oficial de TK-HOST :⇇۪͎꒱ ꣠ ⁺˖
 
 ⟪ https://whatsapp.com/channel/0029VaGGynJLY6d43krQYR2g ⟫ 
 
 l-░░░░░░░░░░░░░░░░░░-|
 
-*꒰➥ Canal de respaldo :⇇۪͎꒱ ꣠ ⁺˖`
+*꒰➥ Canal de respaldo :⇇۪͎꒱ ꣠ ⁺˖
 
 ⟪ https://whatsapp.com/channel/0029VaoZXbk6RGJNYQVP8r27 ⟫ 
 
