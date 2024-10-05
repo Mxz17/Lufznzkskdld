@@ -1,7 +1,7 @@
 import axios from 'axios';
 let enviando = false;
 const handler = async (m, {conn, text, usedPrefix, command}) => {
-if (!text) throw `Ejemplo: *${usedPrefix + command}* https://twitter.com/auronplay/status/1586487664274206720?s=20&t=3snvkvwGUIez5iWYQAehpw`;
+if (!text) throw `> ✥ *Ejemplo :* *${usedPrefix + command}* https://twitter.com/auronplay/status/1586487664274206720?s=20&t=3snvkvwGUIez5iWYQAehpw`;
 if (enviando) return;
     enviando = true;
 try {
@@ -18,7 +18,7 @@ try {
  } else if (res?.result.type == 'photo') {
      const caption =
     m.react('✔️')
-    res?.result.caption ? res.result.caption : '*Aquí tiene su imagen*';
+    res?.result.caption ? res.result.caption : '> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *Aquí tiene su imagen*';
      for (let i = 0; i < res.result.media.length; i++) {
      await conn.sendMessage(m.chat, {image: {url: res.result.media[i].url}, caption: caption}, {quoted: m});
      };
@@ -28,7 +28,7 @@ try {
 } catch {
     m.react('✖️')
     enviando = false;
-    throw '> Error, intente mas tarde.*';
+    throw '> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *Error, intente mas tarde.*';
     return;
   }
 };    
