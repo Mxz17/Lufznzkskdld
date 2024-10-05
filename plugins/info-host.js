@@ -17,7 +17,7 @@ La plataforma más rápida y confiable para alojar tus servidores y potenciar tu
 - 
 l-▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓-l
 
-*꒰➥ ¿No tienes PayPal?⇇۪͎꒱ ꣠⁺˖`
+*꒰➥ *¿Quieres recargar coins?*⇇۪͎꒱ ꣠⁺˖`
 
   ꦿ⃟ۜ💡 *Compra tus coins* con *PayPal* de forma rápida y segura:  
 👉 〖 https://dash.tk-joanhost.com/store 〗
