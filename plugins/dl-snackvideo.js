@@ -6,7 +6,7 @@ let handler = async (m, { conn, usedPrefix, command, text }) => {
   conn.sendMessage(m.chat, { react: { text: '🕐', key: m.key }})
 try {
   let res= await snack(text) 
-  let capt = `⿰ Usuario : ${res.author}\n⿻ Likes : ${res.like}\n⿰ Comentarios : ${res.comment}\n𒄬Compartidas : ${res.share}`
+  let capt = `⿱ Usuario : ${res.author}\n⿻ Likes : ${res.like}\n⿰ Comentarios : ${res.comment}\n𒄬Compartidas : ${res.share}`
   m.react('✅') 
   conn.sendFile(m.chat, res.media, '', capt, m, null, rcanal)
 } catch (e) {
