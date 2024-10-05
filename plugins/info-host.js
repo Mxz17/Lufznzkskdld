@@ -43,7 +43,7 @@ isForwarded: false,
 "externalAdReply": {
 "showAdAttribution": true,
 "containsAutoReply": true,
-title: `👾 ፕ𝐊-𝐇𝐎𝐒𝐓 👾`,
+title: `🔥 亇Ӄ-ん૭ટｲ 🔥`,
 body: `✅ Hosting de Calidad`,
 "previewType": "PHOTO",
 thumbnailUrl: 'https://qu.ax/hXTXJ.jpg', 
