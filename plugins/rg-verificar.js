@@ -8,7 +8,7 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
   let user = global.db.data.users[m.sender]
   let name2 = conn.getName(m.sender)
   if (user.registered === true) return m.reply(`> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *Ya estás registrado.*\n\n*¿Quiere volver a registrarse?*\n\nUse este comando para eliminar su registro.\n*${usedPrefix}unreg* <Número de serie>`)
-  if (!Reg.test(text)) return m.reply(`> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🤍᪶۫۫྆•≭ Formato incorrecto.\n\nUso del comamdo: *${usedPrefix + command} nombre.edad*\nEjemplo : *${usedPrefix + command} ${name2}.18*`)
+  if (!Reg.test(text)) return m.reply(`> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ Formato incorrecto.\n\nUso del comamdo: *${usedPrefix + command} nombre.edad*\nEjemplo : *${usedPrefix + command} ${name2}.18*`)
   let [_, name, splitter, age] = text.match(Reg)
   if (!name) return m.reply('> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *El nombre no puede estar vacío.*')
   if (!age) return m.reply('> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *La edad no puede estar vacía.*')
@@ -22,7 +22,7 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
   user.registered = true
   let sn = createHash('md5').update(m.sender).digest('hex').slice(0, 6)        
   let img = await (await fetch(`https://i.ibb.co/KNj402N/file.jpg`)).buffer()
-  let txt = '*`📄 VERIFICACIÓN ACTUAL 📄`*\n'
+  let txt = '* ೈ📜◠ V͓ER͓IF͓IC͓AC͓IÓN ͓AC͓TU͓AL 🌹ᮬ᭄ᮬ᭄`*\n'
       txt += ` *∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷*\n`
       txt += `┊ *☁️ NOMBRE*\n`
       txt += `┊ ⁘ \`${name}\`\n`
