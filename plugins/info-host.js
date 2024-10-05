@@ -1,3 +1,5 @@
+//código editado x Mxz <3
+
 let handler = async (m, { conn, command, usedPrefix }) => {
 let txt = `👋 *¡Bienvenido a TK-Host  🚀💻*
 La plataforma más rápida y confiable para alojar tus servidores y potenciar tus proyectos. 🌐
