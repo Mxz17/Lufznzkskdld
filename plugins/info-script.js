@@ -1,4 +1,4 @@
-let handler = async (m, { conn, command, usedPrefix }) => {
+*/let handler = async (m, { conn, command, usedPrefix }) => {
 let pp = 'https://iili.io/ds8mmFI.md.png'
 m.react('🤍')
 let name = await conn.getName(m.sender)
@@ -25,4 +25,4 @@ function clockString(ms) {
 let h = isNaN(ms) ? '--' : Math.floor(ms / 3600000)
 let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60
 let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
-return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':')}
+return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':')}/*
