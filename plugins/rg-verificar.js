@@ -23,21 +23,21 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
   let sn = createHash('md5').update(m.sender).digest('hex').slice(0, 6)        
   let img = await (await fetch(`https://i.ibb.co/KNj402N/file.jpg`)).buffer()
   let txt = '* ೈ📜◠ V͓ER͓IF͓IC͓AC͓IÓN ͓AC͓TU͓AL 🌹ᮬ᭄ᮬ᭄`*\n'
-      txt += ` *∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷*\n`
-      txt += `┊ *☁️ NOMBRE*\n`
-      txt += `┊ ⁘ \`${name}\`\n`
-      txt += `┊\n`
-      txt += `┊ *☁️ EDAD* \n`
-      txt += `┊ ⁘ \`${age} años\`\n`
-      txt += `┊\n`
-      txt += `┊ *☁️ FECHA*\n`
-      txt += `┊ ⁘ \`${fecha}\`\n`
-      txt += `┊\n`
-      txt += `┊ *☁️ IDENTIFICADOR SERIAL*\n`
-      txt += `┊ ⁘ \`${sn}\`\n`
-      txt += `╰┈┈┈┈┈┈┈┈┈┈┈┈•\n\n`
-      txt += '☁️ \```Escriba el siguiente comando para ver el menu completo:\```\n'
-      txt += `✪ *.allmenu*`
+      txt += `╓◙◧◨◩◪◫◰◱◲◳*\n`
+      txt += `┝ *💥ᮬ᭄ᮬ᭄ NOMBRE*\n`
+      txt += `┝✸ \`${name}\`\n`
+      txt += `┝\n`
+      txt += `┝ *💥ᮬ᭄ᮬ᭄ EDAD* \n`
+      txt += `┝✸ \`${age} años\`\n`
+      txt += `┝\n`
+      txt += `┝ *💥ᮬ᭄ᮬ᭄ FECHA*\n`
+      txt += `┝✸ \`${fecha}\`\n`
+      txt += `┝\n`
+      txt += `┝ *💥ᮬ᭄ᮬ᭄ IDENTIFICADOR SERIAL*\n`
+      txt += `┝✸ \`${sn}\`\n`
+      txt += `╙╌╍┈╌╍┈┈╌╍┈┈╌╍┈⌫\n\n`
+      txt += '  ે🍿 \```Escriba el siguiente comando para ver el menu completo:\```\n'
+      txt += `⋆ͦ⸙ *.allmenu*`
 await conn.sendMini(m.chat, botname, textbot, txt, img, img, canal, m)
 await m.react('✅')
 }
