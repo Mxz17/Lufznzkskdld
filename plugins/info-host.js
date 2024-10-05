@@ -17,45 +17,45 @@ La plataforma más rápida y confiable para alojar tus servidores y potenciar tu
 - 
 l-▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓-l
 
-*꒰➥ *¿Quieres recargar coins?*⇇۪͎꒱ ꣠⁺˖`
+*꒰➥ ¿Quieres recargar coins?*⇇۪͎꒱ ꣠ ༘ : : ⁺˖
 
   ꦿ⃟ۜ💡 *Compra tus coins* con *PayPal* de forma rápida y segura:  
 👉 〖 https://dash.tk-joanhost.com/store 〗
 
 l-▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓-l
 
-*꒰➥ 🌍 Para clientes internacionales :⇇۪͎꒱ ꣠⁺˖`
+*꒰➥ 🌍 *¿No tienes PayPal?* :⇇۪͎꒱ ꣠ ༘ : : ⁺˖`࿔*
 
-. 　 · ✦ ¡No te preocupes! 🌍 También aceptamos *pagos internacionales*. Solo envía el monto solicitado en la tienda y el comprobante de pago. Activaremos tus *coins* rápidamente.
+. 　 · ✦ ¡No te preocupes! 🌍 También aceptamos *pagos internacionales*. Solo envía el monto solicitado en la tienda y el comprobante de pago. Activaremos tus *coins* rápidamente. 
 
 l-▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓-l
 
- ꦿ⃟ۜ📱 *Para usuarios en Perú*:  
+  ꦿ⃟ۜ📱 *Para usuarios en Perú*:  
 . 　 · ✦ *Yape/Agora*: 927803866  
 . 　 · ✦ *Plin*: 976673519  
 - 
 l-░░░░░░░░░░░░░░░░░░-l
-F
-*꒰➥ 🌍 Para clientes internacionales :⇇۪͎꒱ ꣠⁺˖`
+
+*꒰➥ 🌍 Para clientes internacionales :⇇۪͎꒱ ꣠ ༘ : : ⁺˖`࿔*
 . 　 · ✦ *Mercado Pago*: *02JOAN*  
 . 　 · ✦ *Astropay*: *02JOAN*
 - 
 l-░░░░░░░░░░░░░░░░░░-l
 
- ꦿ⃟ۜ✨ *Gracias por elegir TK-Host.* Estamos comprometidos a brindarte la mejor experiencia en alojamiento de servidores. 🚀 ¡Tu éxito es nuestra prioridad!
+  ꦿ⃟ۜ✨ *Gracias por elegir TK-Host.* Estamos comprometidos a brindarte la mejor experiencia en alojamiento de servidores. 🚀 ¡Tu éxito es nuestra prioridad!
 
 l-░░░░░░░░░░░░░░░░░░-l
 
- *꒰➥ 💥ᮬ Canal Oficial de TK-HOST :⇇۪͎꒱ ꣠⁺˖
+    *꒰➥ 💥ᮬ Canal Oficial de TK-HOST :⇇۪͎꒱ ꣠ ༘ : : ⁺˖`࿔*
 
 ⟪ https://whatsapp.com/channel/0029VaGGynJLY6d43krQYR2g ⟫ 
 
 l-░░░░░░░░░░░░░░░░░░-|
 
-*꒰➥ Canal de respaldo ⇇۪͎꒱ ꣠⁺˖
+  *꒰➥ Canal de respaldo ⇇۪͎꒱ ꣠ ༘ : : ⁺˖`࿔*
 
 ⟪ https://whatsapp.com/channel/0029VaoZXbk6RGJNYQVP8r27 ⟫ 
-✰*ૢ✧ ཻུ۪۪⸙︽︽︽︽︽︽︽︽◌ ༉‧₊˚⁺ ˖` 
+✰*ૢ✧ ཻུ۪۪⸙︽︽︽︽︽︽︽︽◌ ༉‧₊˚⁺ ˖˚` 
 await conn.sendMessage(m.chat, { text: txt,
 contextInfo:{
 forwardingScore: 9999999,
