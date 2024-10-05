@@ -53,7 +53,7 @@ l-░░░░░░░░░░░░░░░░░░-l
 
 l-░░░░░░░░░░░░░░░░░░-|
 
-*꒰➥ Canal de respaldo :⇇۪͎꒱ ⁺˖`
+*꒰➥ Canal de respaldo :⇇۪͎꒱ ⁺˖
 
 ⟪ https://whatsapp.com/channel/0029VaoZXbk6RGJNYQVP8r27 ⟫ 
 
