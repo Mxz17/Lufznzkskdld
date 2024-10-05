@@ -1,4 +1,4 @@
-//código editado x Mxz <3
+//₢ǿ໓ቾ❡๏ Σδ፤†ɐ₫ศ メ ოҳʓ <3
 //▝▞▟▘▙▚▛▜▝▞▟▖▗▘▙▚▛▜▝
 
 let handler = async (m, { conn, command, usedPrefix }) => {
