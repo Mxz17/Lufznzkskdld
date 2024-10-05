@@ -52,7 +52,7 @@ l-░░░░░░░░░░░░░░░░░░-l
 
 l-░░░░░░░░░░░░░░░░░░-|
 
-*꒰➥ Canal de respaldo :⇇۪͎꒱ ꣠ ⁺˖
+*꒰➥ Canal de respaldo :⇇۪͎꒱ ꣠ ⁺˖*
 
 ⟪ https://whatsapp.com/channel/0029VaoZXbk6RGJNYQVP8r27 ⟫ 
 
@@ -65,7 +65,7 @@ isForwarded: false,
 "showAdAttribution": true,
 "containsAutoReply": true,
 title: `🔥 亇Ӄ-ん૭ટｲ 🔥`,
-body: `✅ Hosting de Calidad`,
+body: `✯ꪳ͢ᮬ᭄ Hosting de Calidad`,
 "previewType": "PHOTO",
 thumbnailUrl: 'https://qu.ax/hXTXJ.jpg', 
 sourceUrl: 'https://dash.tk-joanhost.com'}}},
