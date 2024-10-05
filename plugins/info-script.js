@@ -1,4 +1,4 @@
-*/let handler = async (m, { conn, command, usedPrefix }) => {
+/*let handler = async (m, { conn, command, usedPrefix }) => {
 let pp = 'https://iili.io/ds8mmFI.md.png'
 m.react('🤍')
 let name = await conn.getName(m.sender)
