@@ -10,7 +10,7 @@ let yaemori = `> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *Respeta l
 
 ᤤᤣ 𝗡𝗼𝘁𝗮: *Si no cumples con las reglas del bot, seras bloqueado.*
 
-ᤤᤣ 𝗔𝘃𝗶𝘀𝗼: *Puedes apoyarnos dejando una estrellita ⭐ al repositorio oficial de Genesis.*
+ᤤᤣ 𝗔𝘃𝗶𝘀𝗼: *Puedes apoyarnos dejando una estrellita ⭐ al repositorio oficial de Luffy ai.*
 
 ${global.md}`.trim()
 await conn.reply(m.chat, yaemori, m, fake)
