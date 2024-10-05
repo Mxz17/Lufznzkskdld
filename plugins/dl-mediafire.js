@@ -2,7 +2,7 @@ import axios from 'axios'
 import fetch from 'node-fetch'
 import cheerio from 'cheerio'
 let handler = async (m, { conn, args, usedPrefix, command }) => {
-if (!args[0]) throw `🤍 Ingrese un enlace de mediafire.\n*Ejemplo:* ${usedPrefix}mediafire https://www.mediafire.com/file/nb63btgjr0dsn4z/COMDELIGHT_v1.1.apk/file`
+if (!args[0]) throw `> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ Ingrese un enlace de mediafire.\n⸱ೇ *Ejemplo:* ${usedPrefix}mediafire https://www.mediafire.com/file/nb63btgjr0dsn4z/COMDELIGHT_v1.1.apk/file`
 try {  
 let res = await mediafireDl(args[0])
 let { name, size, date, mime, link } = res
@@ -10,7 +10,7 @@ let caption = `*Nombre:* ${name}
 *Peso:* ${size}
 *Tipo:* ${mime}`.trim()
 conn.reply(m.chat, caption, m, {
-contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: wm, body: 'El Bot mas explosivo de WhatsApp', previewType: 0, thumbnail: null, sourceUrl: md}}})
+contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: wm, body: '> °|El Bot mas explosivo de WhatsApp', previewType: 0, thumbnail: null, sourceUrl: md}}})
 await conn.sendFile(m.chat, link, name, '', m, null, { mimetype: mime, asDocument: true })
 } catch (e) {
 await conn.reply(m.chat, `Error, pruebe con ${usedPrefix + command}2`)
