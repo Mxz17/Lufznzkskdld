@@ -47,7 +47,7 @@ title: `👾 ፕ𝐊-𝐇𝐎𝐒𝐓 👾`,
 body: `✅ Hosting de Calidad`,
 "previewType": "PHOTO",
 thumbnailUrl: 'https://qu.ax/hXTXJ.jpg', 
-sourceUrl: 'https://dash.corinplus.com'}}},
+sourceUrl: 'https://dash.tk-joanhost.com'}}},
 { quoted: fakegif3})
 }
 handler.tags =['main'] 
