@@ -2,7 +2,7 @@
 import fetch from 'node-fetch';
 
 let handler = async (m, { conn, args, usedPrefix, command }) => {
-if (!args[0]) return conn.reply(m.chat, '*Ingresa un enlace de spotify*', m, fake);
+if (!args[0]) return conn.reply(m.chat, '> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *Ingresa un enlace de spotify*', m, fake);
 await m.react('🕓');
  
 try {
@@ -11,7 +11,7 @@ let json = await api.json();
 let { title, artist, album, thumbnail, spotify, music } = json
 
 
-let txt = `*Titulo* : ${title}
+let txt = `> ༁ *Titulo* : ${title}
 *Artista* : ${artist}
 *Album* : ${album || ':v'}
 *Link* : ${spotify}`
