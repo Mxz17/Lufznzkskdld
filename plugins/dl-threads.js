@@ -5,7 +5,7 @@ import cheerio from 'cheerio';
 
 let handler = async (m, { args, conn }) => { 
     if (!args[0]) {
-        return conn.reply(m.chat, '*\`Ingresa el link de la imagen a descargar 🤍\`*', m, fake);
+        return conn.reply(m.chat, '> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *Ingresa el link de la imagen a descargar*', m, fake);
     }
 
     try {
@@ -16,7 +16,7 @@ let handler = async (m, { args, conn }) => {
         const imgUrl = $('meta[property="og:image"]').attr('content'); 
 
         if (!imgUrl) {
-            throw new Error('No se encontró la imagen.');
+            throw new Error('> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *No se encontró la imagen.*');
         }
 
         await new Promise(resolve => setTimeout(resolve, 2000));
