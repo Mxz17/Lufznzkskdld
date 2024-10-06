@@ -84,7 +84,6 @@ sourceUrl: 'https://dash.tk-joanhost.com'}),             contextInfo: {
     }, {
       quoted: fakegif3
     });
-}
 handler.tags =['main'] 
 handler.help = ['host', 'hosting'] 
 handler.command = ['host', 'tkpanel', 'joanhost', 'hosting']
