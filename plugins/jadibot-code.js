@@ -22,11 +22,11 @@ return conn.reply(m.chat, `> 💭᭄ Solo puedes usar este comando en el bot pri
 }
 async function serbot() {
 let authFolderB = crypto.randomBytes(10).toString('hex').slice(0, 8);
-if (!fs.existsSync("./GenesisJadiBot/" + authFolderB)) {
-fs.mkdirSync("./GenesisJadiBot/" + authFolderB, { recursive: true });
+if (!fs.existsSync("./LuffyJadiBot/" + authFolderB)) {
+fs.mkdirSync("./LuffyJadiBot/" + authFolderB, { recursive: true });
 }
 if (args[0]) {
-fs.writeFileSync(`GenesisJadiBot/creds.json`, Buffer.from(args[0], 'base64').toString('utf-8'))
+fs.writeFileSync(`LuffyJadiBot/creds.json`, Buffer.from(args[0], 'base64').toString('utf-8'))
 }
 const { state, saveState, saveCreds } = await useMultiFileAuthState(`./GenesisJadiBot/${authFolderB}`);
 const msgRetryCounterMap = (MessageRetryMap) => { };
