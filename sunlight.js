@@ -310,7 +310,7 @@ console.log(chalk.bold.greenBright(`🍿 Luffy ai conectado correctamente.`))
 
 await connectSubBots();
 } catch (error) {
-console.error(chalk.bold.cyanBright(`🍿 Error al iniciar Genesis-Bot: `, error))
+console.error(chalk.bold.cyanBright(`🍿 Error al iniciar Liffy-Ai : `, error))
 }
 })();
 
