@@ -1,5 +1,5 @@
 
-let handler = async (m, { conn, command, usedPrefix }) => {
+/*let handler = async (m, { conn, command, usedPrefix }) => {
 let pp = 'https://i.ibb.co/d0R6T9w/file.jpg'
 let name = await conn.getName(m.sender)
 let _uptime = process.uptime() * 1000
@@ -35,4 +35,4 @@ function clockString(ms) {
 let h = isNaN(ms) ? '--' : Math.floor(ms / 3600000)
 let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60
 let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
-return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':')}
+return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':')}*/
