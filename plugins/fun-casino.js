@@ -1,13 +1,13 @@
-import db from '../lib/database.js'
+//import db from '../lib/database.js'
 
 /*let buatall = 1
 let cooldowns = {}
 
-let handler = async (m, { conn, args, usedPrefix, command, DevMode }) => {
-let user = global.db.data.users[m.sender]
-let randomaku = `${Math.floor(Math.random() * 101)}`.trim()
-let randomkamu = `${Math.floor(Math.random() * 55)}`.trim()
-let Aku = (randomaku * 1)
+//let handler = async (m, { conn, args, usedPrefix, command, DevMode }) => {
+//let user = global.db.data.users[m.sender]
+//let randomaku = `${Math.floor(Math.random() * 101)}`.trim()
+//let randomkamu = `${Math.floor(Math.random() * 55)}`.trim()
+//let Aku = (randomaku * 1)
 let Kamu = (randomkamu * 1)
 let count = args[0]
 let who = m.fromMe ? conn.user.jid : m.sender
