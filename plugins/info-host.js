@@ -68,8 +68,15 @@ title: `🔥 亇Ӄ-ん૭ટｲ 🔥`,
 body: `✯ꪳ͢ᮬ᭄ Hosting de Calidad`,
 "previewType": "PHOTO",
 thumbnailUrl: 'https://qu.ax/hXTXJ.jpg', 
-sourceUrl: 'https://dash.tk-joanhost.com'}}},
-{ quoted: fakegif3})
+sourceUrl: 'https://dash.tk-joanhost.com'}}), contextInfo: { mentionedJid: [m.sender], forwardingScore: 999, isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: "120363220939514640@newsletter", newsletterName: "𝑮𝒆𝒏𝒆𝒔𝒊𝒔-𝑩𝒐𝒕 - 𝑪𝒉𝒂𝒏𝒏𝒆𝒍", serverMessageId: 143
+                                                                        }
+                                                                }
+          })
+        }
+      }
+    }, {
+      quoted: fakegif3
+    });
 }
 handler.tags =['main'] 
 handler.help = ['host', 'hosting'] 
