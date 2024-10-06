@@ -1,4 +1,4 @@
-import { DisconnectReason, useMultiFileAuthState, fetchLatestBaileysVersion, makeCacheableSignalKeyStore, jidNormalizedUser } from '@whiskeysockets/baileys'
+*/import { DisconnectReason, useMultiFileAuthState, fetchLatestBaileysVersion, makeCacheableSignalKeyStore, jidNormalizedUser } from '@whiskeysockets/baileys'
 import qrcode from 'qrcode'
 import fs from 'fs'
 import pino from 'pino'
@@ -148,4 +148,4 @@ handler.command = ["serbotqr"]
 export default handler
 function sleep(ms) {
 return new Promise(resolve => setTimeout(resolve, ms))
-}
+}/*
