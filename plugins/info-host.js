@@ -68,7 +68,7 @@ title: `🔥 亇Ӄ-ん૭ટｲ 🔥`,
 body: `✯ꪳ͢ᮬ᭄ Hosting de Calidad`,
 "previewType": "PHOTO",
 thumbnailUrl: 'https://qu.ax/hXTXJ.jpg', 
-sourceUrl: 'https://dash.tk-joanhost.com'}),             contextInfo: {
+sourceUrl: 'https://dash.tk-joanhost.com'}}),             contextInfo: {
                                                                         mentionedJid: [m.sender],
                                                                         forwardingScore: 999,
                                                                         isForwarded: true,
@@ -82,7 +82,7 @@ sourceUrl: 'https://dash.tk-joanhost.com'}),             contextInfo: {
         }
       }
     }, {
-      quoted: fakegif3
+      quoted: m
     });
 handler.tags =['main'] 
 handler.help = ['host', 'hosting'] 
