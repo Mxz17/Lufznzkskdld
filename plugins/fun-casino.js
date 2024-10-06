@@ -1,4 +1,4 @@
-import db from '../lib/database.js'
+/*import db from '../lib/database.js'
 
 let buatall = 1
 let cooldowns = {}
@@ -15,7 +15,7 @@ let username = conn.getName(who)
 let tiempoEspera = 15
 if (cooldowns[m.sender] && Date.now() - cooldowns[m.sender] < tiempoEspera * 1000) {
 let tiempoRestante = segundosAHMS(Math.ceil((cooldowns[m.sender] + tiempoEspera * 1000 - Date.now()) / 1000))
-conn.reply(m.chat, `💥 Ya has iniciado una apuesta recientemente, espera *⏱️ ${tiempoRestante}* para apostar nuevamente`, m, rcanal)
+conn.reply(m.chat, `💥 Ya has iniciado una apuesta recientemente, espera */⏱️ ${tiempoRestante}* para apostar nuevamente`, m, rcanal)
 return
 }
 cooldowns[m.sender] = Date.now()
@@ -50,4 +50,4 @@ return `${segundosRestantes} segundos`
 }
 function formatNumber(number) {
 return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-}
+}/*
