@@ -1,4 +1,4 @@
-import fetch from 'node-fetch';
+*/import fetch from 'node-fetch';
 import yts from "yt-search";
 import axios from 'axios';
 const { generateWAMessageContent, generateWAMessageFromContent, proto } = (await import('@whiskeysockets/baileys')).default;
@@ -120,4 +120,4 @@ async function remini(imageData, operation) {
       },
     )
   })
-}
+}/*
