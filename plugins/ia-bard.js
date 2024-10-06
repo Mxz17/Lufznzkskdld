@@ -1,7 +1,7 @@
 import fetch from 'node-fetch'
 
 var handler = async (m, { text,  usedPrefix, command }) => {
-if (!text) return conn.reply(m.chat, `🤍 *Ingresé una petición*\n\nEjemplo, ${usedPrefix + command} Conoces a Genesis?`, m, rcanal)
+if (!text) return conn.reply(m.chat, `> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *Ingresé una petición*\n\nEjemplo, ${usedPrefix + command} Conoces a Luffy?`, m, rcanal)
 try {
 await m.react('🕒')
 conn.sendPresenceUpdate('composing', m.chat)
@@ -12,7 +12,7 @@ await m.react('✅️')
 } catch (error) {
 await m.react('✖️')
 console.error(error)
-return conn.reply(m.chat, '🤍 *Ocurrió un fallo*', m, rcanal)
+return conn.reply(m.chat, '> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *Ocurrió un fallo*', m, rcanal)
 }}
 
 handler.command = ['bard']
