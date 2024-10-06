@@ -1,4 +1,4 @@
-import ws from 'ws'
+/*import ws from 'ws'
 
 async function handler(m, { conn: stars, usedPrefix }) {
   let uniqueUsers = new Map()
@@ -25,6 +25,6 @@ await stars.sendFile(m.chat, img, 'thumbnail.jpg', responseMessage, m, null, fak
 
 handler.help = ['bots']
 handler.tags = ['serbot']
-handler.command = ['listjadibot', 'bots']
+handler.command = ['listjadibot', 'bots']*/
 
 export default handler
