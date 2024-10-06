@@ -244,7 +244,7 @@ console.log(chalk.bold.yellow(`\n✅ ESCANEA EL CÓDIGO QR EXPIRA EN 45 SEGUNDOS
 }
 if (connection == 'open') {
 //await conn.groupAcceptInvite('H5bw4MJucS1BBHnZ9wv3vI')  //Grupo
-console.log(chalk.bold.green('\n‧ ୨•━━─────┊ 𓆩 ƈơŋɛƈɬąɖơ  🍿𓆪 ┊─────━━•୧ ‧\n│\n│ 🟢  Se ha conectado con WhatsApp exitosamente.\n│\n‧ ୨•━━─────┊𓆩 ƈơŋɛƈɬąɖơ  🍿𓆪 ┊─────━━•୧ ‧'))}
+console.log(chalk.bold.green('\n‧ ୨•━━─────┊ 𓆩 Conectado  🍿𓆪 ┊─────━━•୧ ‧\n│\n│ 🟢  Se ha conectado con WhatsApp exitosamente.\n│\n‧ ୨•━━─────┊𓆩 Conectado  🍿𓆪 ┊─────━━•୧ ‧'))}
 let reason = new Boom(lastDisconnect?.error)?.output?.statusCode
 if (connection === 'close') {
 if (reason === DisconnectReason.badSession) {
