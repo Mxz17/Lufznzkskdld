@@ -1,6 +1,6 @@
-*/import db from '../lib/database.js'
+import db from '../lib/database.js'
 
-*/let buatall = 1
+/*let buatall = 1
 let cooldowns = {}
 
 let handler = async (m, { conn, args, usedPrefix, command, DevMode }) => {
@@ -50,4 +50,4 @@ return `${segundosRestantes} segundos`
 }
 function formatNumber(number) {
 return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-}*/
+} */
