@@ -8,7 +8,7 @@ import fetch from 'node-fetch'
 const { generateWAMessageFromContent, proto } = (await import('@whiskeysockets/baileys')).default
 
 const defaultMenu = {
-     before: `Hola \`%name\` soy Luffy Ai, %greeting %readmore
+     before: `Hola \`%name\` soy Luffy Ai.
    ࿙ֹ࡛࿚ֹ֢͜࿙ֹ࡛࿚ֹ֢͜࿙ֹ࡛࿚ֹㅤ᧙ᩳ 🍿ᧆᩳ   ࿙ֹ࡛࿚ֹ֢͜࿙ֹ࡛࿚ֹ֢͜࿙ֹ࡛࿚ֹᩦ
 ᮬ᷼︵᷼⏜ㅤׅㅤ꒰ INFO USER ꒱ㅤׅㅤ⏜︵᷼   𑂳
 
