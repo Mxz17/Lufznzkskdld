@@ -70,8 +70,8 @@ await conn.sendMessage(m.chat, {
           title: `🔥 亇Ӄ-ん૭ટｲ 🔥`,
           body: `✯ꪳ͢ᮬ᭄ Hosting de Calidad`,
           "previewType": "PHOTO",
-          thumbnailUrl: '(link unavailable)',
-          sourceUrl: '(link unavailable)'
+          thumbnailUrl: 'https://qu.ax/hXTXJ.jpg',
+          sourceUrl: 'https://dash.tk-joanhost.com'
         }
       }
     }, {
