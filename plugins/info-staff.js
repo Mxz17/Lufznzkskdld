@@ -1,4 +1,4 @@
-let handler = async (m, { conn, command, usedPrefix }) => {
+/*let handler = async (m, { conn, command, usedPrefix }) => {
 let staff = `☁️ *EQUIPO DE AYUDANTES*
 ☕ *Bot:* ${global.botname}
 ☕ *Versión:* ${global.vs}
@@ -45,4 +45,4 @@ handler.command = ['colaboradores', 'staff']
 handler.register = true
 handler.tags = ['main']
 
-export default handler
+export default handler*/
