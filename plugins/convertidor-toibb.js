@@ -9,7 +9,8 @@ let handler = async (m, { conn }) => {
   let mime = (q.msg || q).mimetype || ''
 
   await m.react('🕒')
-conn.reply(m.chat,'> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ Responde a una *Imagen* o *Vídeo.*', m, rcanal)
+  if (!mime.startsWith('image/')) {
+    return m.reply('Responde a una *Imagen.*')
   }
 
   let media = await q.download()
