@@ -3,7 +3,7 @@
 
 let handler = async (m, { conn, command, usedPrefix }) => {
   try {
-    let txt = `let handler = async (m, { conn, command, usedPrefix }) => {
+    let txt = let handler = async (m, { conn, command, usedPrefix }) => {
 let txt = `︿︿︿︿︿︿︿︿︿︿︿︿︿︿︿
 〈 ┣•👋 *¡ꪡ𝛯ㄥር〄ʍ玄.*
 〈 ┣•  *λ কӃ -み𝛩令₮  🚀💻* •••
