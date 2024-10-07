@@ -1,4 +1,4 @@
-let media = 'https://i.ibb.co/jWWZv2T/file.jpg'; // Asegúrate de que imagen10 contenga la ruta de la imagen que deseas enviar
+/*let media = 'https://i.ibb.co/jWWZv2T/file.jpg'; // Asegúrate de que imagen10 contenga la ruta de la imagen que deseas enviar
 let handler = async (m, { conn, command }) => {
     let fkontak = {
         "key": {
@@ -38,4 +38,4 @@ handler.command = ['cuentas','cuentasoficiales'];
 handler.exp = 35;
 handler.register = true;
 
-export default handler;
+export default handler;*/
