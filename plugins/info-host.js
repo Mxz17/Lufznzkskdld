@@ -59,8 +59,7 @@ l-░░░░░░░░░░░░░░░░░░-|
 ⟪ https://whatsapp.com/channel/0029VaoZXbk6RGJNYQVP8r27 ⟫ 
 
 ✰*ૢ✧ ཻུ۪۪⸙︽︽︽︽︽︽︽︽◌ ༉‧₊˚⁺ ˖˚` 
-
-    await conn.sendMessage(m.chat, {
+await conn.sendMessage(m.chat, {
       text: txt,
       contextInfo: {
         forwardingScore: 9999999,
