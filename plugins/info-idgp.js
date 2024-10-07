@@ -1,7 +1,6 @@
 var handler = async (m, {conn, groupMetadata }) => {
 
-conn.reply(m.chat, `${await groupMetadata.id}`, m)
-
+conn.reply(m.chat, `${await groupMetadata.id}`, m,rcanal)
 }
 handler.help = ['idgc']
 handler.tags = ['grupo']
