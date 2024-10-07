@@ -38,4 +38,4 @@ handler.command = ['cuentas','cuentasoficiales'];
 handler.exp = 35;
 handler.register = true;
 
-export default handler;
+export default handler;*/
