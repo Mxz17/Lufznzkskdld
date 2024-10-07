@@ -96,4 +96,4 @@ handler.tags = ['main'];
 handler.help = ['host', 'hosting'];
 handler.command = ['host', 'tkpanel', 'joanhost', 'hosting'];
 
-export default handler
+export default handler;
