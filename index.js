@@ -16,7 +16,7 @@ const rl = createInterface(process.stdin, process.stdout);
 say('Luffy-Ai', {
 font: 'block',
 align: 'center',
-colors: ['white']
+colors: ['red']
 });
 say(`Multi Device`, {
 font: 'chrome',
