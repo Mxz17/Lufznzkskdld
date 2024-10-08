@@ -2,7 +2,7 @@ let handler = async (m, { conn, text, command }) => {
 let id = text ? text : m.chat  
 let chat = global.db.data.chats[m.chat]
 chat.welcome = false
-await conn.reply(m.chat, `> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *Luffy ᵃⁱ* Abandona El Grupo, Fué Genial Estar Aquí 👋᭄`), m,rcanal) 
+await conn.reply(id, `> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *Luffy ᵃⁱ* Abandona El Grupo, Fué Genial Estar Aquí 👋᭄`) 
 await conn.groupLeave(id)
 try {  
 chat.welcome = true
@@ -10,7 +10,7 @@ chat.welcome = true
 await m.reply(`${fg}`) 
 return console.log(e)
 }}
-handler.command = ['salir','leavegc','salirdelgrupo','leave']
+handler.command = ['salir','ªh','salirdelgrupo','leave']
 handler.group = true
 handler.rowner = true
 export default handler
