@@ -7,12 +7,13 @@ m.react('🍿')
     throw false;
   }
   const pesan = args.join` `;
-const oi = `*-▹ INFO :* ${pesan}`;
-  let teks = `*-▹!  MENCION GENERAL  !*\n  *PARA ${participants.length} MIEMBROS* 🗣️᭄\n\n ${oi}\n\n╭  ┄ 𝅄  ۪꒰ ׅ \`${packname}\` ׅ ꒱  ۟  𝅄 ┄\n`;
+const oi = `⇢=͟͟͞͞🄰νίऽ૭ : ${pesan}`;
+  let teks = `(づ｡◕‿◕｡)づ мєη¢ιóη gєηєяαℓ "\n  ⧼P̼⧽= ${participants.length} ℙ𝐀𝔍𝐈ꪀəﻜ\n\n ${oi}\n\n╭•┈┈•┈┈⊰🍿⃪᜔꫶┈•┈┈•◌ᜓ ݊ ᜒ𝅄\n`;
   for (const mem of participants) {
-    teks += `┊🍿 @${mem.id.split('@')[0]}\n`;
+    teks += `│ ❏ᝰ. @${mem.id.split('@')[0]}\n`;
   }
-  teks += `╰⸼ ┄ ┄ ┄ ─  ꒰  ׅ୭ *${vs}* ୧ ׅ ꒱  ┄  ─ ┄ ⸼`;
+  teks += `╰─┐ • •ㅤ•-ˏˋ✿ˊˎ-• •ㅤ•
+        ꒷︶︶꒷︶︶꒷꒦︶✧꒷₊˚`;
   conn.sendMessage(m.chat, {text: teks, mentions: participants.map((a) => a.id)} );
 };
 handler.help = ['todos <mesaje>'];
