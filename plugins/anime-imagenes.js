@@ -104,7 +104,7 @@ let handler = async (m, { command, conn, usedPrefix }) => {
 
   } catch (error) {
     console.error(error);
-    conn.reply(m.chat, `❌️ *OCURRIÓ UN ERROR:* ${error.message}`, m);
+    conn.reply(m.chat, `> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *OCURRIÓ UN ERROR:* ${error.message}`, m);
   }
 };
 
