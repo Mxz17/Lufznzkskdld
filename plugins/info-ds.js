@@ -10,7 +10,7 @@ return conn.reply(m.chat, '> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•�
 }
 
 let chatId = m.isGroup ? [m.chat, m.sender] : [m.sender]
-let sessionPath = './GenesisSession/'
+let sessionPath = './LuffySession/'
 
 try {
 
