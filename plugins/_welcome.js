@@ -8,7 +8,7 @@ export async function before(m, {conn, participants, groupMetadata}) {
   let chat = global.db.data.chats[m.chat]
 
   if (chat.welcome && m.messageStubType == 27) {
-    let welcome = `╔╦══• •✠• 🍿ྀི •✠ • •══╦╗\n┋ 『 нσℓαα  🌹 』٩(˘◡˘)۶\n┖┭▸ 〔 @${m.messageStubParameters[0].split`@`[0]} 〕\n   ┠※  Bienvenido a\n   ┠※  ${groupMetadata.subject}\n    ┗•••••••••••••••••••••••••••••••••••▷݈݇─`
+    let welcome = `╔╦══• •✠• 🍿ྀི •✠ • •══╦╗\n┋ 『 нσℓαα  🌹 』٩(˘◡˘)۶\n┖┭▸ 〔 @${m.messageStubParameters[0].split`@`[0]} 〕\n   ┠※  Bienvenido a\n   ┠※  ${groupMetadata.subject}\n   ┗•••••••••••••••••••••••••••••••••••▷݈݇─`
 await conn.sendMini(m.chat, packname, textbot, welcome, img, img, canal, estilo)
   }
 
