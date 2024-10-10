@@ -13,7 +13,6 @@ const defaultMenu = {
 ᮬ᷼︵᷼⏜ㅤׅㅤ꒰ INFO USER ꒱ㅤׅㅤ⏜︵᷼   𑂳
 
 ㅤᩧᩡ🏴‍☠️̣̣̣ᩘ᭢꒰ _*Usuario*_ ꒱ %name
-//ㅤᩧᩡ🏴‍☠️̣̣̣ᩘ᭢꒰ _*Corazones*_ ꒱ %corazones
 ㅤᩧᩡ🏴‍☠️̣̣̣ᩘ᭢꒰ _*Nivel*_ ꒱ %level
  '︶꒦꒷○꒷꒦︶.
 ᮬ᷼︵᷼⏜ㅤׅㅤ꒰ INFO BOT ꒱ㅤׅㅤ⏜︵᷼   𑂳
