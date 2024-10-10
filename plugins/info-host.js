@@ -6,7 +6,7 @@ let txt = `︿︿︿︿︿︿︿︿︿︿︿︿︿︿︿
 〈 ┣•👋 *¡ꪡ𝛯ㄥር〄ʍ玄.*
 〈 ┣•  *λ কӃ -み𝛩令₮  🚀💻* •••
   ⸤  ╰───╮ ..... ⸥
-La plataforma más rápida y confiable para alojar tus servidores y potenciar tus proyectos. 🌐*
+> *La plataforma más rápida y confiable para alojar tus servidores y potenciar tus proyectos. 🌐*
 
 ⊹█║▌│█│βყ║▌║ქ│Ծ│λ█ர║▌║▌║❜
 
