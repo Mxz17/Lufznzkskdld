@@ -3,35 +3,38 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 
 const miniopcion = `> ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *OPCIONES PARA GRUPOS ↸✧༷*
+                                 ░░︭𝆬░ᅟׄ᧔ 👒᧓ᅟ░░︭𝆬░
+                               ֢  ݁   ݂   ፞  ֢  ݁   ݂   ፞   ֢  ݁   ݂   ፞  ֢  ݁   ݂   ፞  ֢  ݁      
 
-${usedPrefix + command} welcome
-${usedPrefix + command} detect
-${usedPrefix + command} antidelete
-${usedPrefix + command} antiBot
-${usedPrefix + command} antilink
-${usedPrefix + command} antilink2
-${usedPrefix + command} modohorny
-${usedPrefix + command} autolevelup
-${usedPrefix + command} autosticker
-${usedPrefix + command} reaction
-${usedPrefix + command} antitoxic
-${usedPrefix + command} audios
-${usedPrefix + command} modoadmin
-${usedPrefix + command} antifake
-${usedPrefix + command} antiperu
+ੴ̼͡${usedPrefix + command} welcome
+ੴ̼͡${usedPrefix + command} detect
+ੴ̼͡${usedPrefix + command} antidelete
+ੴ̼͡${usedPrefix + command} antiBot
+ੴ̼͡${usedPrefix + command} antilink
+ੴ̼͡${usedPrefix + command} antilink2
+ੴ̼͡${usedPrefix + command} modohorny
+ੴ̼͡${usedPrefix + command} autolevelup
+ੴ̼͡${usedPrefix + command} autosticker
+ੴ̼͡${usedPrefix + command} reaction
+ੴ̼͡${usedPrefix + command} antitoxic
+ੴ̼͡${usedPrefix + command} audios
+ੴ̼͡${usedPrefix + command} modoadmin
+ੴ̼͡${usedPrefix + command} antifake
+ੴ̼͡${usedPrefix + command} antiperu
 
 > ∙۬◌⃘࣭ٜ࣪࣪࣪۬፝͜🍿᪶۫۫྆•≭ *〃OPCIONES PARA MI PROPIETARIO ᭟*
-
-${usedPrefix + command} public
-${usedPrefix + command} status
-${usedPrefix + command} serbot
-${usedPrefix + command} restrict
-${usedPrefix + command} autoread
-${usedPrefix + command} antillamar
-${usedPrefix + command} antispam
-${usedPrefix + command} pconly
-${usedPrefix + command} gconly
-${usedPrefix + command} antiprivado`
+                                 ░░︭𝆬░ᅟׄ᧔ 👒᧓ᅟ░░︭𝆬░
+                               ֢  ݁   ݂   ፞  ֢  ݁   ݂   ፞   ֢  ݁   ݂   ፞  ֢  ݁   ݂   ፞  ֢  ݁      
+ੴ̼͡${usedPrefix + command} public
+ੴ̼͡${usedPrefix + command} status
+ੴ̼͡${usedPrefix + command} serbot
+ੴ̼͡${usedPrefix + command} restrict
+ੴ̼͡${usedPrefix + command} autoread
+ੴ̼͡${usedPrefix + command} antillamar
+ੴ̼͡${usedPrefix + command} antispam
+ੴ̼͡${usedPrefix + command} pconly
+ੴ̼͡${usedPrefix + command} gconly
+ੴ̼͡${usedPrefix + command} antiprivado`
 
 const isEnable = /true|enable|(turn)?on|1/i.test(command);
 const chat = global.db.data.chats[m.chat];
