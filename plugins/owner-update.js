@@ -35,7 +35,7 @@ let errorMessage2 = '⚠️ Ocurrió un error inesperado.'
 if (error.message) {
 errorMessage2 += '\n⚠️ Mensaje de error: ' + error.message;
 }
-await conn.reply(m.chat, errorMessage2, m, rcanal,)
+//await conn.reply(m.chat, errorMessage2, m, rcanal,)
 }
 }
 
